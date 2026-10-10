@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" role="img">
+<title>Regional map of the diary’s named places in Egypt and Palestine; later unrecorded movements are not connected.</title>
+<desc>Bernard Shambrook’s diary. Approximate reference places, not exact personal positions. Coastline: Natural Earth. No political boundaries. Dashed lines, where shown, are schematic sequence connections.</desc>
+<rect width="1000" height="630" fill="#f0f0f0"/>
+<style>text{font-family:Arial,sans-serif;fill:#222222}.place{font-size:21px;font-weight:600;paint-order:stroke;stroke:#fafafa;stroke-width:5px;stroke-linejoin:round}.sub{font-size:15px;fill:#666666}.region{font-size:21px;letter-spacing:4px;fill:#777777}.grid{fill:none;stroke:#dddddd;stroke-width:1}.coast{fill:#fafafa;stroke:#aaaaaa;stroke-width:.8}.route{fill:none;stroke:#666666;stroke-width:2.6;stroke-dasharray:6 8;stroke-linecap:round}</style>
+<path class="grid" d="M280.88,572.50 L280.88,37.50"/>
+<path class="grid" d="M406.09,572.50 L406.09,37.50"/>
+<path class="grid" d="M531.30,572.50 L531.30,37.50"/>
+<path class="grid" d="M656.51,572.50 L656.51,37.50"/>
+<path class="grid" d="M781.72,572.50 L781.72,37.50"/>
+<path class="grid" d="M168.20,499.21 L831.80,499.21"/>
+<path class="grid" d="M168.20,352.64 L831.80,352.64"/>
+<path class="grid" d="M168.20,206.06 L831.80,206.06"/>
+<path class="grid" d="M168.20,59.49 L831.80,59.49"/>
+<path class="coast" fill-rule="evenodd" d="M831.80,37.50 L831.80,572.50 L654.04,572.50 L653.19,564.43 L647.05,572.50 L372.94,572.50 L371.22,569.31 L361.92,528.76 L351.72,503.03 L340.11,510.14 L342.17,520.98 L332.04,535.96 L325.93,553.35 L330.63,567.55 L335.44,572.50 L168.20,572.50 L168.20,264.56 L179.96,266.51 L221.34,285.47 L231.62,285.83 L260.76,275.49 L266.98,273.28 L276.41,279.04 L297.92,302.65 L290.41,302.14 L267.38,281.92 L265.34,292.00 L252.22,309.75 L268.62,317.43 L281.95,320.32 L289.10,330.21 L293.62,339.03 L306.74,335.19 L316.17,323.19 L311.28,316.50 L307.96,309.58 L312.26,309.41 L321.39,315.11 L347.60,337.87 L356.42,342.56 L366.60,341.79 L387.87,335.38 L393.77,336.38 L422.36,327.99 L425.72,334.14 L430.43,340.25 L453.41,333.44 L489.55,333.52 L519.10,326.11 L553.37,308.09 L556.11,305.35 L579.80,281.73 L591.07,266.91 L591.90,265.82 L616.25,221.35 L631.95,177.28 L646.73,116.06 L657.25,84.90 L666.16,64.30 L670.11,47.22 L675.17,37.50 Z"/>
+<text class="region" x="356.0" y="140.1" text-anchor="middle">MEDITERRANEAN</text>
+<text class="region" x="356.0" y="176.7" text-anchor="middle">SEA</text>
+<text class="region" x="462.4" y="491.9" text-anchor="middle">SINAI</text>
+<circle cx="352.3" cy="508.0" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="352.3" y="512.0" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">5</text>
+<text class="place" x="377.3" y="516.0" text-anchor="start">Suez / Port Tewfik</text>
+<circle cx="321.0" cy="373.2" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="321.0" y="377.2" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">6</text>
+<text class="place" x="297.0" y="381.2" text-anchor="end">Kantara</text>
+<circle cx="506.3" cy="333.6" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="506.3" y="337.6" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">7</text>
+<text class="place" x="528.3" y="343.6" text-anchor="start">El Arish / “El Erich”</text>
+<circle cx="587.0" cy="275.0" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="587.0" y="279.0" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">8</text>
+<text class="place" x="565.0" y="308.0" text-anchor="end">Gaza</text>
+<rect x="672.4" y="228.5" width="20" height="20" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="682.4" y="242.5" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">◇</text>
+<text class="place" x="707.4" y="263.5" text-anchor="start">Jerusalem</text>
+<text class="sub" x="707.4" y="285.5" text-anchor="start">Undated drawing</text>
+<circle cx="612.7" cy="253.0" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="612.7" y="257.0" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">9</text>
+<text class="place" x="587.7" y="234.0" text-anchor="end">Julis locality</text>
+<path d="M632.7,222.2 L607.7,173.2" stroke="#999999" fill="none"/>
+<circle cx="632.7" cy="222.2" r="11" fill="#222222" stroke="#ffffff" stroke-width="2"/>
+<text x="632.7" y="226.2" style="font-size:12px;fill:white;font-weight:bold" text-anchor="middle">10</text>
+<text class="place" x="607.7" y="173.2" text-anchor="end">Rehovot</text>
+<text x="26" y="600" style="font-size:12px;fill:#666666">Approximate reference places · Modern coastline: Natural Earth · No political boundaries</text>
+<text x="26" y="619" style="font-size:12px;fill:#666666">Later gaps are unconnected. Kilo 89 and Romani are recorded in the timeline without precise pins.</text></svg>

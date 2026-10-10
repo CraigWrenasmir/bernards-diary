@@ -1,0 +1,155 @@
+{
+  "editionDate": "2026-10-10",
+  "summary": [
+    {
+      "text": "The Department of Veterans’ Affairs records Bernard Edward Shambrook, NX40242, as born on 1 September 1900 in Hertfordshire, England. He enlisted at Tamworth on 18 June 1940, from Wee Waa, with Winifred Shambrook as his next of kin. He was discharged on 23 October 1941 as a private in HQ Guard Battalion.",
+      "refs": [
+        "dva"
+      ]
+    },
+    {
+      "text": "His service number appears in the notebook’s Tent 17 roster beside “A/Sgt SHAMBROOK B.E.” — acting sergeant. The DVA index gives his substantive rank at discharge.",
+      "refs": [
+        "diary-roster",
+        "dva"
+      ]
+    },
+    {
+      "text": "An earlier AWM embarkation roll names Bernard Edward Shambrook, 2076, a 19-year-old butcher from Pimlico, Townsville, in the 5th Light Horse Regiment’s 14th Reinforcements. Virtual War Memorial Australia links both numbers. This is a strong lead; the two service files have not yet been compared.",
+      "refs": [
+        "awm-roll",
+        "awm-embark",
+        "vwma"
+      ]
+    }
+  ],
+  "birth": {
+    "text": "The birth details differ: DVA gives 1 September 1900 in Herts (Hertfordshire); the Virtual War Memorial profile gives 1 September 1896 in Herefordshire. The 1915 roll records age 19. The reason for the difference is unresolved.",
+    "refs": [
+      "dva",
+      "vwma",
+      "awm-roll"
+    ]
+  },
+  "context": [
+    {
+      "title": "Convoy US.10",
+      "text": "AWM photographs identify Queen Elizabeth and Mauretania leaving Sydney in April 1941 in convoy US.10, with Île de France and Nieuw Amsterdam also pictured. The official naval history lists those four transports and Queen Mary.",
+      "refs": [
+        "awm-queen",
+        "awm-mauretania",
+        "awm-us10"
+      ],
+      "diary": [
+        "IMG_0911"
+      ]
+    },
+    {
+      "title": "The canal transfer",
+      "text": "A 1982 Pioneer Battalions Association history names SS Ethiopia on the Port Tewfik–Kantara transfer in May 1941. It supports the spelling used in the reading copy of Bernard’s canal journey.",
+      "refs": [
+        "pioneer-ethiopia",
+        "diary-voyage"
+      ],
+      "diary": [
+        "IMG_0910",
+        "IMG_0911"
+      ]
+    },
+    {
+      "title": "7th Australian General Hospital",
+      "text": "AWM photograph 022693 places the 7th Australian General Hospital at Kafr Balu, near Rehovot, helping locate the notebook entry.",
+      "refs": [
+        "awm-hospital",
+        "diary-voyage"
+      ],
+      "diary": [
+        "IMG_0911"
+      ]
+    },
+    {
+      "title": "Guard Battalion",
+      "text": "The AWM holds a unit history for August 1940–October 1941 and a May–June 1941 diary under AWM52 8/4/1. The catalogue entries have been checked; the document pages remain to be examined for Bernard.",
+      "refs": [
+        "awm-guard-history",
+        "awm-guard-may-june",
+        "diary-unit"
+      ],
+      "diary": [
+        "IMG_0913"
+      ]
+    },
+    {
+      "title": "Cemetery notes",
+      "text": "The Gaza pages bring together a 1941 heading, soldiers’ names and dates from 1917–18, and a sketch of the LIV East Anglian Division memorial. The heading’s month could be June or September.",
+      "refs": [
+        "diary-cemetery"
+      ],
+      "diary": [
+        "IMG_0915",
+        "IMG_0916"
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "diary-roster": "Undated Tent 17 list; the opening row joins NX40242, A/Sgt and Shambrook B.E.",
+    "diary-owner": "Ownership inscription: Sgt Shambrook.",
+    "diary-voyage": "Ink voyage account beginning with Sydney, 11 April 1941.",
+    "diary-unit": "Transfer and service notes; the June 12 date’s relationship to the battalion order remains uncertain.",
+    "diary-cemetery": "Names, dates and a memorial sketch; the Gaza heading’s month is disputed.",
+    "dva": "Official service index. HERTS is expanded to Hertfordshire in the reading text.",
+    "awm-embark": "Catalogue entry: 2076, 5th Light Horse reinforcement roll; Brisbane and HMAT Wandilla A62.",
+    "awm-roll": "Printed page 33, row 2076: age 19, butcher, Pimlico, Townsville, mother Elizabeth, joined 18 October 1915. The date 30 January 1916 appears in the pay column.",
+    "vwma": "Secondary profile linking 2076 and NX40242. Its birth details differ from DVA, and its WWI discharge row uses the WWII number.",
+    "awm-queen": "Photograph 303826: Queen Elizabeth departing Sydney for the Middle East, April 1941, convoy US.10.",
+    "awm-hospital": "Photograph 022693: 7th Australian General Hospital at Kafr Balu near Rehovot.",
+    "awm-guard-history": "Catalogue checked; 102 digitised pages remain to be examined for Bernard.",
+    "awm-guard-may-june": "Catalogue checked; document pages remain to be examined.",
+    "naa-ww1": "Collection guide to First AIF personnel files, series B2455.",
+    "naa-ww2": "Collection guide to Second AIF and CMF personnel files, series B883 and B884.",
+    "naa-search": "NameSearch instructions. Bernard’s individual catalogue item identifiers have not yet been retrieved.",
+    "family-portrait": "Family photograph supplied by Craig; date unknown.",
+    "awm-mauretania": "Photograph 302831: Mauretania departing Sydney in US.10, with Île de France and Nieuw Amsterdam.",
+    "awm-us10": "Chapter 12, printed page 434, footnote 5 lists US.10’s five troop transports. The page also describes the convoy route via Ceylon to Suez.",
+    "pioneer-ethiopia": "Retrospective association history: SS Ethiopia carried the 2/2 Pioneers from Port Tewfik to Kantara in May 1941. It corroborates a ship and route, rather than Bernard’s personal embarkation."
+  },
+  "additionalSources": [
+    {
+      "id": "awm-mauretania",
+      "title": "Mauretania departing Sydney in convoy US.10, April 1941",
+      "institution": "Australian War Memorial; Department of Information",
+      "url": "https://www.awm.gov.au/collection/C241824",
+      "recordIds": [
+        "C241824",
+        "Photograph 302831"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Photograph catalogue examined"
+    },
+    {
+      "id": "awm-us10",
+      "title": "Royal Australian Navy, 1939–1942: The Australia Station—1941",
+      "institution": "Australian War Memorial, official history",
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070347/document/5519635.PDF#page=27",
+      "recordIds": [
+        "Chapter 12",
+        "p. 434, footnote 5",
+        "RCDIG1070347"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Digitised page examined"
+    },
+    {
+      "id": "pioneer-ethiopia",
+      "title": "Pioneer News: 2/2 Australian Pioneer Battalion (Part 1)",
+      "institution": "2/1 and 2/2 Pioneer Battalions Association",
+      "url": "https://www.pioneerbattalion.com.au/styled-3/styled-15/files/pioneerstory002317-history-2003a2.pdf#page=1",
+      "recordIds": [
+        "March 1982",
+        "p. 1, “Arrived on foreign soil”"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Association history examined"
+    }
+  ]
+}

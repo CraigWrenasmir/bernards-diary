@@ -1,0 +1,1897 @@
+{
+  "schemaVersion": 1,
+  "sourceFile": "outputs/bernards-diary/data/diary.json",
+  "sourceSHA256": "41c2e69294ed513b0200d4c9ef11b9db0e4b12db2ad5dd3c3cc6c7f0631eb71f",
+  "author": "Bernard Shambrook (family attribution)",
+  "auditScope": "All 28 pages of the completed transcription, faithful text and editorial qualifications. This is a textual evidence audit, not external geographical identification or new handwriting transcription.",
+  "datePolicy": [
+    "ISO dates are supplied only for legible day/month/year dates or dates securely anchored in the contiguous 1941 voyage account. Contextual year/day derivations are noted.",
+    "Tentative manuscript dates, ambiguous date associations, broad intervals and undated sketches have null dateISO.",
+    "Place spellings and question marks are retained; no coordinates are invented."
+  ],
+  "mapPolicy": [
+    "Separate confirmed movements, tentative destinations, dated place notes and undated/tentatively dated sketches.",
+    "Passing a port does not establish docking or shore leave.",
+    "A line between points is at most a schematic sequence, never a reconstructed exact route.",
+    "Do not draw a continuous route across chronology gaps; incomplete or hypothetical links must be absent or explicitly labelled.",
+    "Address-book entries, grave/memorial dates, other people’s places, historical events and shipboard locations are not itinerary stops."
+  ],
+  "journeyEvents": [
+    {
+      "id": "embark-sydney",
+      "kind": "embarkation",
+      "dateDisplay": "9/4/41",
+      "dateISO": "1941-04-09",
+      "placeAsWritten": [
+        "Sydney"
+      ],
+      "summary": "Embarked at Sydney; the pencil account names Q E.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Embarked Sydney 9/4/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Embarked Q E 9/4/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": []
+    },
+    {
+      "id": "depart-sydney",
+      "kind": "departure",
+      "dateDisplay": "11/4/41 (Good Friday)",
+      "dateISO": "1941-04-11",
+      "placeAsWritten": [
+        "Sydney"
+      ],
+      "summary": "Left Sydney aboard Queen Elizabeth.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Left Sydney on Queen Elizabeth 11/4/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Left Sydney Good Friday 11/4/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": []
+    },
+    {
+      "id": "arrive-fremantle",
+      "kind": "arrival",
+      "dateDisplay": "16/4/41",
+      "dateISO": "1941-04-16",
+      "placeAsWritten": [
+        "Fremantle"
+      ],
+      "summary": "Arrived at Fremantle.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Arrived Fremantle 16/4/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Arrived Fremantle 16/4/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": []
+    },
+    {
+      "id": "depart-fremantle",
+      "kind": "departure",
+      "dateDisplay": "19/4/41",
+      "dateISO": "1941-04-19",
+      "placeAsWritten": [
+        "Fremantle"
+      ],
+      "summary": "Left Fremantle.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "left Fremantle\n19/4/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "left Fremantle\n19/4/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [],
+      "inferredStay": {
+        "from": "1941-04-16",
+        "to": "1941-04-19",
+        "qualification": "Arrival and departure bound a port interval; continuous presence ashore is not recorded."
+      }
+    },
+    {
+      "id": "arrive-trincomilee",
+      "kind": "arrival",
+      "dateDisplay": "26/4/41 (Saturday), 6/30 am",
+      "dateISO": "1941-04-26",
+      "placeAsWritten": [
+        "TRINCOMILEE",
+        "Ceylon"
+      ],
+      "summary": "Arrived at the port named TRINCOMILEE in Ceylon.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Arrived TRINCOMILEE [inserted: 6/30 am] Ceylon 26/4/41 (Sat)",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Arrived TRINCOMILEE\nCeylon Saturday 26/4/41 @ 6/30 am",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "A modern place-name identification and map coordinate require separate geographical verification; preserve TRINCOMILEE as the source spelling."
+      ],
+      "timeAsWritten": "6/30 am"
+    },
+    {
+      "id": "stay-trincomilee",
+      "kind": "stay_aboard",
+      "dateDisplay": "Sunday, 27/4/41",
+      "dateISO": "1941-04-27",
+      "placeAsWritten": [
+        "Trincomilee"
+      ],
+      "summary": "Remained at the port on Sunday; shore access was not allowed.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Not allowed on\nshore. Remained at this place all day Sunday.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "at Trincomilee Sunday [inserted: 27/4/41]",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "Do not present this port call as a visit ashore."
+      ]
+    },
+    {
+      "id": "depart-trincomilee",
+      "kind": "departure",
+      "dateDisplay": "27/4/41, 4 pm",
+      "dateISO": "1941-04-27",
+      "placeAsWritten": [
+        "Trincomilee"
+      ],
+      "summary": "Departed the port at 4 pm; HMAS Canberra is recorded escorting Q E and Q M.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "left Trincomilee 4 pm 27/4/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Hmas Canberra, Escorts Q E & Q M\nout of port. for Sea at. 4 pm. 27/4/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [],
+      "timeAsWritten": "4 pm"
+    },
+    {
+      "id": "at-sea-april28",
+      "kind": "sea_transit",
+      "dateDisplay": "28/4/41",
+      "dateISO": "1941-04-28",
+      "placeAsWritten": [],
+      "summary": "Travelling at sea; speed and sea wording remain uncertain.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Q E & Q M. 28/4/41 Travelling at\n[30?] K [Sea?] [swelly?].",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "unlocated"
+      },
+      "mapStatus": "unlocated_between_port_calls",
+      "ambiguities": [
+        "No position or named landfall is recorded; do not assign an interpolated coordinate."
+      ]
+    },
+    {
+      "id": "sighting-may1",
+      "kind": "sighting",
+      "dateDisplay": "1st May (1941 from voyage sequence)",
+      "dateISO": "1941-05-01",
+      "placeAsWritten": [],
+      "summary": "Sighted unnamed land to starboard and a strange ship.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "1st May sighted land on starboard side a\nstrange ship.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "unlocated"
+      },
+      "mapStatus": "no_point",
+      "ambiguities": [
+        "The land is unnamed. Do not identify it from a plausible shipping route."
+      ],
+      "dateBasis": "Day and month are explicit; year is securely supplied by the contiguous April–May 1941 voyage record."
+    },
+    {
+      "id": "pass-aden",
+      "kind": "passing",
+      "dateDisplay": "2/5/41, about 9 pm (local time)",
+      "dateISO": "1941-05-02",
+      "placeAsWritten": [
+        "Aden"
+      ],
+      "summary": "Passed Aden at about 9 pm local time.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "2/5/41 Passed Aden at about\n9 pm (local time)",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "passing_reference_not_docking",
+      "ambiguities": [
+        "The text says Passed, not arrived or landed; an Aden marker must be labelled as a passing reference."
+      ],
+      "timeAsWritten": "about 9 pm (local time)"
+    },
+    {
+      "id": "red-sea-coast",
+      "kind": "sea_transit",
+      "dateDisplay": "Before or by the 3 May arrival; exact date not stated",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Arabian side",
+        "Red Sea"
+      ],
+      "summary": "Described passing desolated shores along the Arabian side of the Red Sea.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "We pass desolated shores\nup coast on opposite Arabian side\nof Red Sea.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "relative_only",
+        "place": "broad_region"
+      },
+      "mapStatus": "regional_annotation_no_precise_point",
+      "ambiguities": [
+        "No specific coastal position or complete sailing track is supplied."
+      ],
+      "dateBounds": {
+        "notAfter": "1941-05-03"
+      }
+    },
+    {
+      "id": "arrive-suez",
+      "kind": "arrival",
+      "dateDisplay": "May 3rd, Saturday, 4 pm (1941 from voyage sequence)",
+      "dateISO": "1941-05-03",
+      "placeAsWritten": [
+        "Port Suez",
+        "Port Tewfic",
+        "Suez"
+      ],
+      "summary": "Arrival described as Port Suez in pencil and Port Tewfic in ink.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "May 3rd Saturday 4 pm arrived\nPort Suez.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "May 3rd Saturday. arrived\nPort Tewfic",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "IMG_0904 has a much fainter tentative Suez date [7/5/41?], which must not override these accounts.",
+        "The day/time discussion and inserted 4th in IMG_0910 remain internally unclear; preserve the manuscript account rather than silently correcting it."
+      ],
+      "timeAsWritten": "4 pm",
+      "dateBasis": "Day and month explicit; 1941 is established by the surrounding dated entries."
+    },
+    {
+      "id": "anchor-suez",
+      "kind": "anchorage_stay",
+      "dateDisplay": "Saturday night till Monday; disembarkation recorded 6/5/41",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Suez"
+      ],
+      "summary": "At anchor at Suez over the weekend, with disembarkation from Q E recorded on 6 May.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "(Saturday night till Monday) at\nanchor in Suez.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "Saturday [inserted: 4th] Sunday we are anchored in\nSuez.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "range_and_wording_uncertain",
+        "place": "high"
+      },
+      "mapStatus": "same_port_stay",
+      "ambiguities": [
+        "Saturday/Sunday and inserted 4th are not resolved in the transcription.",
+        "The start and end of this stay should be shown as a source-described interval; do not turn Monday into the author’s own disembarkation date."
+      ],
+      "dateBounds": {
+        "from": "1941-05-03",
+        "through": "1941-05-05",
+        "departureRecorded": "1941-05-06"
+      }
+    },
+    {
+      "id": "transfer-suez-may6",
+      "kind": "disembarkation_and_reembarkation",
+      "dateDisplay": "Tuesday 6/5/41, 6 am",
+      "dateISO": "1941-05-06",
+      "placeAsWritten": [
+        "Suez"
+      ],
+      "summary": "Transferred from Q E to a smaller vessel at Suez.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "Tuesday 6/5/41 we\nDisembark from Q E. @ 6 am & re-embark\non small ship [Euphthopea?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "on 6/5/41 we disembarked\nfrom Q.E. to small ship [Euthopea?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0912",
+          "section": "Left page",
+          "excerpt": "Tuesday 6.5.41\nDisembarking",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "The vessel is tentatively transcribed [Euphthopea?] in one account and [Euthopea?] in the other.",
+        "IMG_0912 is a timetable corroborating the date, without independently naming the port."
+      ],
+      "timeAsWritten": "6 am",
+      "placeBasis": "Suez is carried forward from the immediately preceding anchorage account; not restated in the disembarkation sentence."
+    },
+    {
+      "id": "canal-transit-may6",
+      "kind": "waterway_transit",
+      "dateDisplay": "6/5/41 (from the contiguous transfer account)",
+      "dateISO": "1941-05-06",
+      "placeAsWritten": [
+        "Suez Canal"
+      ],
+      "summary": "Travelled by the smaller vessel along the Suez Canal to Kantara.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "we came down Suez Canal to\nKantara",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "along Canal. Arrived at El Kantara",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "waterway_connection_only",
+      "ambiguities": [
+        "The phrase down Suez Canal is preserved as written; it does not supply an exact track or intermediate stops."
+      ]
+    },
+    {
+      "id": "arrive-kantara",
+      "kind": "arrival_and_disembarkation",
+      "dateDisplay": "6/5/41, about 4 pm; receiving depot that night",
+      "dateISO": "1941-05-06",
+      "placeAsWritten": [
+        "El Kantara",
+        "Kantara",
+        "Kantara East"
+      ],
+      "summary": "Disembarked at Kantara about 4 pm and went to a receiving depot that night.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "Arrived at El Kantara\nabout 4 pm disembarked",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Kantara, we disembark & are\ntaken to receiving depo that night.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "the lads will be Entrained\nat Kantara East.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "The preceding sentence names Kantara East as the intended entraining point; the actual arrival sentences say El Kantara/Kantara. Keep this distinction in detailed evidence."
+      ],
+      "timeAsWritten": "about 4 pm",
+      "dateBasis": "Date carried forward within the 6/5/41 entry."
+    },
+    {
+      "id": "entrain-kantara",
+      "kind": "rail_departure",
+      "dateDisplay": "7/5/41, 5·30 am",
+      "dateISO": "1941-05-07",
+      "placeAsWritten": [
+        "Kantara"
+      ],
+      "summary": "Entrained for Gaza at 5:30 am after the Kantara overnight stop.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "Entrained\nat 5·30 am on 7/5/41 Wednesday.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Early on 7/5/41 we are Entrained\nfor Gaza",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [],
+      "timeAsWritten": "5·30 am",
+      "placeBasis": "Departure location is carried forward from the immediately preceding Kantara arrival/depot account."
+    },
+    {
+      "id": "pass-romani",
+      "kind": "rail_passing",
+      "dateDisplay": "7/5/41 (from the rail journey context)",
+      "dateISO": "1941-05-07",
+      "placeAsWritten": [
+        "Romani"
+      ],
+      "summary": "Passed through Romani on the rail journey.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "passed through Romani. El Erich.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Passed through Romani & El Erich",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "passing_reference",
+      "ambiguities": [
+        "No stop duration is recorded."
+      ],
+      "dateBasis": "Day assigned from the immediately preceding 7/5/41 entraining account, not independently written beside the place."
+    },
+    {
+      "id": "pass-el-erich",
+      "kind": "rail_passing",
+      "dateDisplay": "7/5/41 (from the rail journey context)",
+      "dateISO": "1941-05-07",
+      "placeAsWritten": [
+        "El Erich"
+      ],
+      "summary": "Passed through the place written El Erich on the rail journey.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "passed through Romani. El Erich.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Passed through Romani & El Erich",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "passing_reference",
+      "ambiguities": [
+        "Modern identification must be separately verified; retain El Erich as written.",
+        "No stop duration is recorded."
+      ],
+      "dateBasis": "Day assigned from the immediately preceding 7/5/41 entraining account, not independently written beside the place."
+    },
+    {
+      "id": "arrive-gaza-may7",
+      "kind": "arrival",
+      "dateDisplay": "7/5/41, about 3 pm",
+      "dateISO": "1941-05-07",
+      "placeAsWritten": [
+        "Gaza"
+      ],
+      "summary": "Arrived at Gaza about 3 pm after the rail journey.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Early on 7/5/41 we are Entrained\nfor Gaza, arriving about. 3 pm",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "candidate_place_point",
+      "ambiguities": [
+        "Kilo 89 is separately recorded on the same date; the text does not state a timed leg from Gaza to that camp."
+      ],
+      "timeAsWritten": "about. 3 pm"
+    },
+    {
+      "id": "arrive-kilo89",
+      "kind": "arrival",
+      "dateDisplay": "7/5/41",
+      "dateISO": "1941-05-07",
+      "placeAsWritten": [
+        "Kilo 89"
+      ],
+      "summary": "Arrival at Kilo 89.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "Arrived Kilo 89 7/5/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "unlocated_until_historical_identification",
+      "ambiguities": [
+        "The notebook gives no coordinates or explicit geographical equivalence for Kilo 89.",
+        "Do not merge this place with Gaza or fabricate the distance/route between the two; both arrival dates are 7 May."
+      ]
+    },
+    {
+      "id": "depart-kilo89",
+      "kind": "departure",
+      "dateDisplay": "17/5/41",
+      "dateISO": "1941-05-17",
+      "placeAsWritten": [
+        "Kilo 89"
+      ],
+      "summary": "Left Kilo 89 to join 3rd Btn at the place written JULIUS.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "left Kilo 89 on 17/5/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0913",
+          "section": "Left page",
+          "excerpt": "left Kilo 89 on 17/5/41 to\nJOIN 3RD BTN AT JULIUS.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "unlocated_until_historical_identification",
+      "ambiguities": [],
+      "inferredStay": {
+        "from": "1941-05-07",
+        "to": "1941-05-17",
+        "qualification": "Arrival and departure bound this camp interval; the notebook does not document every intervening movement."
+      }
+    },
+    {
+      "id": "arrive-julis",
+      "kind": "arrival",
+      "dateDisplay": "17/5/41",
+      "dateISO": "1941-05-17",
+      "placeAsWritten": [
+        "Julis",
+        "JULIUS",
+        "[Gellibrand?] lines"
+      ],
+      "summary": "Arrived at the unit at Julis, with lines tentatively read [Gellibrand?].",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "Arrived unit Julis. [Gellibrand?] lines\n17/5/41",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0913",
+          "section": "Left page",
+          "excerpt": "JOIN 3RD BTN AT JULIUS.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "historical_place_identification_needed",
+      "ambiguities": [
+        "Two accounts spell the destination Julis and JULIUS. Do not silently choose a modern place solely from spelling.",
+        "The lines name remains uncertain and is not a second independently located destination."
+      ]
+    },
+    {
+      "id": "depart-for-rehovoth",
+      "kind": "departure_for_named_destination",
+      "dateDisplay": "25/5/41",
+      "dateISO": "1941-05-25",
+      "placeAsWritten": [
+        "[Rehovoth?]"
+      ],
+      "summary": "Left for the destination tentatively read [Rehovoth?].",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "left for [Rehovoth?] [7 AGH?]\n25/5/41",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "tentative_reading"
+      },
+      "mapStatus": "tentative_destination_only",
+      "ambiguities": [
+        "The source says left for; arrival is not explicitly recorded.",
+        "The departure point is not restated; do not assert Julis as a separately attested origin for this leg.",
+        "The following abbreviation is tentatively [7 AGH?]. A possible hospital reference is not evidence that Bernard was admitted or was a patient."
+      ]
+    },
+    {
+      "id": "depart-port-tewfic-aug4",
+      "kind": "departure",
+      "dateDisplay": "4/8/41",
+      "dateISO": "1941-08-04",
+      "placeAsWritten": [
+        "port [Tewfic?]"
+      ],
+      "summary": "Left the port tentatively read [Tewfic?]; HMT PP follows the date.",
+      "sources": [
+        {
+          "pageId": "IMG_0913",
+          "section": "Left page",
+          "excerpt": "Left port [Tewfic?] 4/8/41 [Per?]\nHMT PP",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "tentative_reading"
+      },
+      "mapStatus": "tentative_place_point",
+      "ambiguities": [
+        "No destination or arrival is recorded in this entry.",
+        "The text between the date and HMT PP is tentatively [Per?]; do not silently expand the ship initials or infer a route.",
+        "The preceding return journey to this port is not supplied."
+      ]
+    }
+  ],
+  "contextualRecords": [
+    {
+      "id": "anzac-observance",
+      "kind": "aboard_ship_observance",
+      "dateDisplay": "Anzac day (no numerical date beside the observance)",
+      "dateISO": null,
+      "placeAsWritten": [],
+      "summary": "Observance and burial at sea, between Fremantle departure and the Ceylon arrival in the narrative.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "excerpt": "Anzac day 10 min silence\nBurial of member of crew",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Right page—journey record",
+          "excerpt": "Anzac day. 10 Min silence. Burial\nat sea. member of crew.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "not_precisely_dated",
+        "place": "unlocated"
+      },
+      "mapStatus": "not_geolocatable",
+      "ambiguities": [
+        "A precise numerical date is not supplied in this extraction from the notebook; no at-sea position is given."
+      ],
+      "dateBounds": {
+        "after": "1941-04-19",
+        "before": "1941-04-26"
+      }
+    },
+    {
+      "id": "suez-other-troops",
+      "kind": "other_people_movement",
+      "dateDisplay": "5/5/41; preceding disembarkation passage not separately dated",
+      "dateISO": "1941-05-05",
+      "placeAsWritten": [
+        "Suez"
+      ],
+      "summary": "Other troops disembarked before the author’s group.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "5/5/41 Monday. [about 500?] are to disembark\nthis morning. 2/9th have already pulled",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0910",
+          "section": "Right page",
+          "excerpt": "I understand\nwe are going off tomorrow.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "high",
+        "place": "high"
+      },
+      "mapStatus": "context_only",
+      "ambiguities": [
+        "These troop movements must not become a separate 5 May departure for Bernard.",
+        "The 1/30 pm disembarkation earlier on the page lacks a separately secure date."
+      ]
+    },
+    {
+      "id": "service-transfer-june12",
+      "kind": "unit_transfer_record",
+      "dateDisplay": "June 12 (year from surrounding 1941 notes)",
+      "dateISO": null,
+      "placeAsWritten": [],
+      "summary": "Record of marching into 1st Aust Corps Guard Btn from 16 ITB Special wing; June 12 and an order citation follow.",
+      "sources": [
+        {
+          "pageId": "IMG_0913",
+          "section": "Left page",
+          "excerpt": "Marched in 1st Aust Corps Guard Btn\nfrom 16 ITB Special wing\nJune 12\nB/O [158?] of 12 Ju",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "high",
+        "date": "association_uncertain",
+        "place": "unlocated"
+      },
+      "mapStatus": "no_geographical_location",
+      "ambiguities": [
+        "June 12 may date the transfer or its cited B/O; the line association is not independently established.",
+        "No geographical place is named; unit titles do not establish a stop."
+      ]
+    },
+    {
+      "id": "unresolved-july20",
+      "kind": "unresolved_dated_note",
+      "dateDisplay": "20/7/41",
+      "dateISO": "1941-07-20",
+      "placeAsWritten": [
+        "[Gaza Ridge?]",
+        "[Said?]"
+      ],
+      "summary": "A dated pencil line may begin Gaza Ridge; other wording remains unresolved.",
+      "sources": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "[Gaza Ridge?] [illegible] 20/7/41 [Said?]",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "unresolved",
+        "date": "high",
+        "place": "unresolved"
+      },
+      "mapStatus": "exclude_from_map",
+      "ambiguities": [
+        "No secure movement verb. Gaza Ridge is a tentative reading, not a confirmed dated arrival or stay.",
+        "The intervening abbreviation remains unreadable; A.A.P.D. has been proposed without secure letterforms.",
+        "The final [Said?] does not establish Port Said."
+      ]
+    },
+    {
+      "id": "funeral-july21",
+      "kind": "funeral_note",
+      "dateDisplay": "21/7/41",
+      "dateISO": "1941-07-21",
+      "placeAsWritten": [
+        "[Eya?] hosp[ital?]"
+      ],
+      "summary": "A funeral/cortege note associated with an unresolved hospital name.",
+      "sources": [
+        {
+          "pageId": "IMG_0913",
+          "section": "Left page",
+          "excerpt": "Funeral [cortage?] from [Eya?] hosp[ital?] of 9th\nBatt 21/7/41.",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "partly_legible",
+        "date": "high",
+        "place": "unresolved"
+      },
+      "mapStatus": "exclude_from_map",
+      "ambiguities": [
+        "The entry does not explicitly say Bernard attended or travelled with the cortege.",
+        "The hospital cannot be securely identified; do not geocode by a plausible nearby hospital."
+      ]
+    },
+    {
+      "id": "august9-10-note",
+      "kind": "ambiguous_dated_note",
+      "dateDisplay": "Saturday / Sunday, 9/10 Aug 1941",
+      "dateISO": null,
+      "placeAsWritten": [
+        "[rom Catholic?]"
+      ],
+      "summary": "A date pair followed by an unresolved At phrase.",
+      "sources": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "[inserted: Saturday]\nSunday 9/10 Aug 1941\nAt [rom Catholic?]",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "unresolved",
+        "date": "two_dates_unresolved",
+        "place": "unresolved"
+      },
+      "mapStatus": "exclude_from_map",
+      "ambiguities": [
+        "The date relationship and meaning of At [rom Catholic?] are not settled.",
+        "Do not identify a church, service, town or personal visit from this line."
+      ]
+    },
+    {
+      "id": "gaza-september23-heading",
+      "kind": "dated_place_record",
+      "dateDisplay": "23 June or September 1941 (month disputed)",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Gaza"
+      ],
+      "summary": "Gaza heading with disputed month above an apparent memorial or grave-information list.",
+      "sources": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "excerpt": "Gaza [23/9/41?]",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "dated_heading_only",
+        "date": "disputed_month",
+        "place": "high"
+      },
+      "mapStatus": "separate_date_uncertain_record_layer",
+      "ambiguities": [
+        "The faithful date is [23/9/41?], with 23/6/41 a plausible alternative. Neither month is secure.",
+        "A heading suggests association with Gaza but does not explicitly state arrival, departure or a visit.",
+        "The 1917–1918 dates concern the listed names and are not Bernard’s journey dates.",
+        "This record cannot establish a September return journey or be sorted as a securely dated September event."
+      ],
+      "possibleDates": [
+        "1941-06-23",
+        "1941-09-23"
+      ]
+    },
+    {
+      "id": "gaza-cemetery-sketch",
+      "kind": "dated_sketch_tentative",
+      "dateDisplay": "[22/6/41?]",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Gaza Cemetry",
+        "Gaza war cemetry"
+      ],
+      "summary": "Gaza cemetery memorial and plan sketches, with a tentatively read date.",
+      "sources": [
+        {
+          "pageId": "IMG_0916",
+          "section": "Upper sketch and inscription",
+          "excerpt": "Gaza Cemetry",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0916",
+          "section": "Lower plan and caption",
+          "excerpt": "[22/6/41?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0916",
+          "section": "Lower plan and caption",
+          "excerpt": "Gaza\nwar\ncemetry",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "sketch_not_explicit_visit",
+        "date": "tentative_reading",
+        "place": "high"
+      },
+      "mapStatus": "separate_sketch_layer",
+      "ambiguities": [
+        "The date, especially its year, is uncertain; do not sort it as a confirmed 22 June 1941 visit.",
+        "A drawing does not establish that it was made on site or on the date written."
+      ]
+    },
+    {
+      "id": "jerusalem-cemetery-sketch",
+      "kind": "undated_sketch",
+      "dateDisplay": "Undated",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Jerusalem War Cemetery"
+      ],
+      "summary": "Undated entrance sketch and cemetery inscription.",
+      "sources": [
+        {
+          "pageId": "IMG_0917",
+          "section": "Inscription above the drawing",
+          "excerpt": "Jerusalem War Cemetery",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "sketch_not_explicit_visit",
+        "date": "undated",
+        "place": "high"
+      },
+      "mapStatus": "separate_sketch_layer",
+      "ambiguities": [
+        "No dated visit or journey to Jerusalem is stated.",
+        "1914–1918 in the inscription is the commemorated war, not Bernard’s travel period."
+      ]
+    },
+    {
+      "id": "suez-tewfic-sketch",
+      "kind": "undated_sketch",
+      "dateDisplay": "Undated",
+      "dateISO": null,
+      "placeAsWritten": [
+        "SUEZ",
+        "Port Tewfic"
+      ],
+      "summary": "Undated outline sketch labelled SUEZ and Port Tewfic.",
+      "sources": [
+        {
+          "pageId": "IMG_0922",
+          "section": "Sketch and labels",
+          "excerpt": "SUEZ\nPort Tewfic",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "sketch_not_explicit_visit",
+        "date": "undated",
+        "place": "high"
+      },
+      "mapStatus": "separate_sketch_layer",
+      "ambiguities": [
+        "This supports place-related notebook material but adds no new date or journey leg."
+      ]
+    },
+    {
+      "id": "faint-cover-movement-note",
+      "kind": "unresolved_movement_note",
+      "dateDisplay": "[17/5/41?]",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Tell",
+        "Kilo 89",
+        "Suez"
+      ],
+      "summary": "Faint cover note mentions Tell, Kilo 89 and from Suez, without securely legible connecting wording.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Left inside cover",
+          "excerpt": "[17/5/41?] Tell [illegible] [in camp?] Kilo 89\nfrom Suez",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "unresolved",
+        "date": "tentative_reading",
+        "place": "partly_legible"
+      },
+      "mapStatus": "exclude_as_independent_leg",
+      "ambiguities": [
+        "Tell may be a partial place name or part of unclear wording; do not invent a complete place.",
+        "The note cannot securely establish a separate 17 May transfer from Suez to Kilo 89; the clearer 17 May records instead say Bernard left Kilo 89 for Julis/JULIUS."
+      ]
+    },
+    {
+      "id": "reported-palestine-destination",
+      "kind": "reported_plan",
+      "dateDisplay": "During Suez anchorage, early May 1941",
+      "dateISO": null,
+      "placeAsWritten": [
+        "Palestine"
+      ],
+      "summary": "Told that the troops were going to Palestine; this sentence records a reported destination.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "We are told we are going to Palestine",
+          "copy": "faithful"
+        }
+      ],
+      "confidence": {
+        "event": "reported_plan",
+        "date": "contextual_interval",
+        "place": "broad_region"
+      },
+      "mapStatus": "regional_context_only",
+      "ambiguities": [
+        "Do not create a separate arrival in an unspecified place called Palestine from this forward-looking sentence; later actual places are documented separately."
+      ]
+    }
+  ],
+  "excludedFromJourney": [
+    {
+      "id": "addresses-0914",
+      "category": "personal_and_commercial_addresses",
+      "reason": "Addresses, names and business labels do not establish that Bernard visited these places. MALOUF / DOUMAR and AUSTIN REED / REGENT ST. lack a dated movement statement.",
+      "sources": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "excerpt": "upper Manilla\nNSW",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "excerpt": "512 Peel St\nTamworth",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "69 Canberra St\nRandwick\nSydney NSW",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "MALOUF\nDOUMAR",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "AUSTIN REED\nREGENT ST.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "8 Laing St\nMont Albert.\nE10 Vic",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "excerpt": "Bompa\n[Carrabubula?]\nNSW",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "excerpt": "[Wallnut?] Creek\n[Arumnda?]",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "addresses-0925",
+      "category": "addresses_and_possible_appointment",
+      "reason": "Neither city nor month/year nor a completed visit is supplied; Wednesday 14 / Thursday 15 cannot be made into travel dates.",
+      "sources": [
+        {
+          "pageId": "IMG_0925",
+          "section": "Right page, upper note",
+          "excerpt": "Montefiore str 27\n2 floor. [M. L.?]\n[inserted: 15]\nThursday or Wednesday.\n[inserted: 14]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0925",
+          "section": "Right page, lower note",
+          "excerpt": "Café Al-[Razon?],\n98 Allenby Rd.\nfor Max Walfish.",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "addresses-0927",
+      "category": "personal_addresses",
+      "reason": "Contact addresses do not establish personal travel to New Farm or Tenterfield.",
+      "sources": [
+        {
+          "pageId": "IMG_0927",
+          "section": "Right page, upper note",
+          "excerpt": "[Jim Gore?]\n[c/o.?] Cooper\n[New Farm?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0927",
+          "section": "Right page, lower address",
+          "excerpt": "Mrs H. Davidson\nLogan St\nTenterfield\nN.S.W.",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "address-0928",
+      "category": "personal_address",
+      "reason": "The Fred Green address is not evidence that Bernard visited Floreat/WA. General voyage notes above it have no geographic location or dated journey.",
+      "sources": [
+        {
+          "pageId": "IMG_0928",
+          "section": "Left page, lower address",
+          "excerpt": "Fred Green\n[Floreat?], Pk\n[S/Branch?] WA",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "addresses-0934",
+      "category": "personal_addresses",
+      "reason": "Upper Manilla and Concord West entries are contact addresses, not journey stops.",
+      "sources": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, first address",
+          "excerpt": "Upper Manilla\nNSW\nAUSTRALIA",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, second address and final note",
+          "excerpt": "[299?] Queen St\nConcord West\nNSW",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "historical-list-dates-0914-0915",
+      "category": "historical_or_memorial_dates",
+      "reason": "The 1917/1918 dates alongside names are not dates of Bernard’s journey. Family places such as Branxton, Yass and Warwick are not his stops.",
+      "sources": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "excerpt": "19 April\n1917",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "excerpt": "Son of E M Fairhall\nBranxton NSW.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "excerpt": "R M Harney (Yass) NSW.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "excerpt": "Son of O & A Chambers\nWarwick Qld",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "memorial-war-dates",
+      "category": "commemorated_dates",
+      "reason": "1914–1918 in the cemetery inscriptions records the commemorated war and cannot be used to date the drawings or visits.",
+      "sources": [
+        {
+          "pageId": "IMG_0916",
+          "section": "Upper sketch and inscription",
+          "excerpt": "1914–1918",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0917",
+          "section": "Inscription above the drawing",
+          "excerpt": "who fell in the war of 1914 1918",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "other-events-0913",
+      "category": "death_and_historical_event",
+      "reason": "Owen’s death and the Syrian armistice are recorded events, not evidence Bernard travelled to Syria or the place of death.",
+      "sources": [
+        {
+          "pageId": "IMG_0913",
+          "section": "Right page",
+          "excerpt": "Owen [Leathers?]. Killed\n21/June/1941",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0913",
+          "section": "Right page",
+          "excerpt": "Syrian armistice [concluded?] July 11th\n@ [2100?] hrs",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "rosters-and-routines",
+      "category": "rosters_times_and_instructions",
+      "reason": "Numbered duty columns, tent numbers, daily clock times and parade/move instructions do not supply dated geographic journeys.",
+      "sources": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—pencil column headings and entries",
+          "excerpt": "15 16 17 18 19 20 [21?] [22?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0906",
+          "section": "Right page—pencil notes",
+          "excerpt": "[21?] [22?] 23 24 25 26",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "excerpt": "Pioneer 7 am",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "excerpt": "TENT 17",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "excerpt": "Guard Company parade ground at\n17.15 = 5.15 Move 1800 hrs.",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "shipboard-detail",
+      "category": "onboard_locations_and_tasks",
+      "reason": "Shipboard decks, saloons, cabins, stores and a dated blanket detail are internal locations/tasks; they do not identify a geographical position.",
+      "sources": [
+        {
+          "pageId": "IMG_0930",
+          "section": "Left page",
+          "excerpt": "1100 hrs on 1.5.1941",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0933",
+          "section": "Left page",
+          "excerpt": "A Deck Saloon - mid",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "excerpt": "Starboard Side - Berthing deck",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, upper location note",
+          "excerpt": "A deck 110 Cabin\nord. Room 2 doors aft",
+          "copy": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "currency-and-calculations",
+      "category": "reference_notes",
+      "reason": "Egypt in currency figures is a reference, not another visit. Month/day totals and the faint 14 8 line are calculations without an identified movement.",
+      "sources": [
+        {
+          "pageId": "IMG_0932",
+          "section": "Right page, currency notes",
+          "excerpt": "100 piast: £1 in Egypt",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, upper calculation",
+          "excerpt": "Ap 21\nMay 31\nJune 30\nJuly 31\nAug 31",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, inverted calculation",
+          "excerpt": "14 8 [illegible]",
+          "copy": "faithful"
+        }
+      ]
+    }
+  ],
+  "conflictsAndAmbiguities": [
+    {
+      "id": "suez-date-conflict",
+      "type": "uncertain_place_and_date_vs_clear_accounts",
+      "description": "IMG_0904 faintly reads Arrived [Suez?] [7/5/41?], with Gaza another possible place reading. IMG_0910/0911 clearly record arrival at Suez on May 3. The cover entry may not be a conflicting Suez date at all; May 7 is clearly recorded for Gaza and Kilo 89 elsewhere.",
+      "sources": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Left inside cover",
+          "excerpt": "Arrived [Suez?] [7/5/41?]",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "May 3rd Saturday 4 pm arrived\nPort Suez.",
+          "copy": "faithful"
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "excerpt": "Arrived Kilo 89 7/5/41",
+          "copy": "faithful"
+        }
+      ],
+      "displayRule": "Use the clearer May 3 arrival as the main dated event and surface the uncertain alternative as a note; do not silently emend the transcription."
+    },
+    {
+      "id": "suez-weekday-insertion",
+      "type": "internal_calendar_wording",
+      "description": "Saturday, inserted 4th, Sunday and a partly illegible time-difference discussion coexist in IMG_0910. The editor cannot determine their intended correction from the text.",
+      "sources": [
+        {
+          "pageId": "IMG_0910",
+          "section": "Left page",
+          "excerpt": "3rd - owing to time difference. So on\nSaturday [inserted: 4th] Sunday we are anchored in\nSuez.",
+          "copy": "faithful"
+        }
+      ],
+      "displayRule": "Show a stay interval with original wording available rather than assign each action to a forced date."
+    },
+    {
+      "id": "gaza-kilo-same-day",
+      "type": "same_day_distinct_places",
+      "description": "Gaza arrival about 3 pm and Kilo 89 arrival are both dated 7 May, but there is no explicit timed connecting leg or statement that they are the same place.",
+      "relatedEventIds": [
+        "arrive-gaza-may7",
+        "arrive-kilo89"
+      ],
+      "displayRule": "Retain separate records; do not merge their coordinates or claim a precise same-day route."
+    },
+    {
+      "id": "julis-spelling",
+      "type": "variant_place_spelling",
+      "description": "Julis and JULIUS occur in the two 17 May movement notes.",
+      "relatedEventIds": [
+        "arrive-julis"
+      ],
+      "displayRule": "Use both source spellings in the evidence; any modern identification must be explicitly editorial and independently checked."
+    },
+    {
+      "id": "gaza-sketch-date-vs-heading",
+      "type": "different_records_not_established_conflict",
+      "description": "The heading on IMG_0915 may be 23 September or 23 June 1941. The adjacent cemetery sketch has its own tentative [22/6/41?]. Photographic order does not resolve either date or establish one shared visit.",
+      "relatedRecordIds": [
+        "gaza-september23-heading",
+        "gaza-cemetery-sketch"
+      ],
+      "displayRule": "Keep the disputed heading date and tentative sketch date separate. Neither proves a dated visit; do not force either into the other’s chronology."
+    }
+  ],
+  "chronologyGaps": [
+    "The notebook does not document every day or every stop; chronological and photographic order are different.",
+    "The Sydney–Fremantle–Ceylon sea legs give endpoints, not exact sailing tracks or positions.",
+    "Land sighted on 1 May is unnamed; no extra waypoint can be recovered from that sentence.",
+    "Kilo 89 requires historical location work; the notebook itself does not geolocate it or connect it precisely to Gaza.",
+    "The 25 May note records departure for [Rehovoth?], without an explicit arrival, restated origin or subsequent travel itinerary.",
+    "The June unit transfer has no geographic location; the 20 July note and 21 July hospital reference cannot securely fill the gap.",
+    "No route back to Port [Tewfic?] before 4 August is supplied; that departure has no destination in this notebook.",
+    "The 9/10 August note has no established location; it cannot supply the destination of the 4 August departure.",
+    "The Gaza heading has a disputed June/September date and cannot establish a route from the August departure.",
+    "Jerusalem War Cemetery and the Suez/Port Tewfic sketch have no dates and do not independently establish visits."
+  ],
+  "pageCoverage": [
+    {
+      "pageId": "IMG_0903",
+      "title": "Front cover",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0904",
+      "title": "Ownership inscription and faded voyage notes",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "embark-sydney",
+        "depart-sydney",
+        "arrive-fremantle",
+        "depart-fremantle",
+        "arrive-trincomilee",
+        "stay-trincomilee",
+        "depart-trincomilee",
+        "at-sea-april28",
+        "anzac-observance",
+        "faint-cover-movement-note"
+      ],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0905",
+      "title": "Personnel roster and Bren gun notes",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "rosters-and-routines"
+      ]
+    },
+    {
+      "pageId": "IMG_0906",
+      "title": "Personnel roster and short weapon notes",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "rosters-and-routines"
+      ]
+    },
+    {
+      "pageId": "IMG_0907",
+      "title": "Field communication and daily routine notes",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0908",
+      "title": "Names, units and pencil diagrams",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0910",
+      "title": "Arrival at Suez and passage to Kantara",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "red-sea-coast",
+        "arrive-suez",
+        "anchor-suez",
+        "transfer-suez-may6",
+        "canal-transit-may6",
+        "arrive-kantara",
+        "entrain-kantara",
+        "pass-romani",
+        "pass-el-erich",
+        "suez-other-troops",
+        "reported-palestine-destination"
+      ],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0911",
+      "title": "Tent list and ink journey record",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "embark-sydney",
+        "depart-sydney",
+        "arrive-fremantle",
+        "depart-fremantle",
+        "arrive-trincomilee",
+        "stay-trincomilee",
+        "depart-trincomilee",
+        "sighting-may1",
+        "pass-aden",
+        "arrive-suez",
+        "anchor-suez",
+        "transfer-suez-may6",
+        "canal-transit-may6",
+        "arrive-kantara",
+        "entrain-kantara",
+        "pass-romani",
+        "pass-el-erich",
+        "arrive-gaza-may7",
+        "arrive-kilo89",
+        "depart-kilo89",
+        "arrive-julis",
+        "depart-for-rehovoth",
+        "anzac-observance",
+        "unresolved-july20"
+      ],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0912",
+      "title": "Disembarking, 6 May 1941; names",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "transfer-suez-may6"
+      ],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0913",
+      "title": "Movements and service notes, May–August 1941",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "depart-kilo89",
+        "arrive-julis",
+        "depart-port-tewfic-aug4",
+        "service-transfer-june12",
+        "funeral-july21"
+      ],
+      "exclusionIds": [
+        "other-events-0913"
+      ]
+    },
+    {
+      "pageId": "IMG_0914",
+      "title": "Names, addresses and an August 1941 note",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "august9-10-note"
+      ],
+      "exclusionIds": [
+        "addresses-0914",
+        "historical-list-dates-0914-0915"
+      ]
+    },
+    {
+      "pageId": "IMG_0915",
+      "title": "Gaza: names, units and 1917–1918 dates",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "gaza-september23-heading"
+      ],
+      "exclusionIds": [
+        "historical-list-dates-0914-0915"
+      ]
+    },
+    {
+      "pageId": "IMG_0916",
+      "title": "Gaza cemetery: memorial and plan sketches",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "gaza-cemetery-sketch"
+      ],
+      "exclusionIds": [
+        "memorial-war-dates"
+      ]
+    },
+    {
+      "pageId": "IMG_0917",
+      "title": "Jerusalem War Cemetery: entrance sketch",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "jerusalem-cemetery-sketch"
+      ],
+      "exclusionIds": [
+        "memorial-war-dates"
+      ]
+    },
+    {
+      "pageId": "IMG_0922",
+      "title": "Suez and Port Tewfic: outline sketch",
+      "assessment": "Journey or contextual place/date evidence extracted; see records.",
+      "recordIds": [
+        "suez-tewfic-sketch"
+      ],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0923",
+      "title": "Vocabulary and short phrases",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0924",
+      "title": "Pioneer list for 7 am",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "rosters-and-routines"
+      ]
+    },
+    {
+      "pageId": "IMG_0925",
+      "title": "Addresses and appointment days",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "addresses-0925"
+      ]
+    },
+    {
+      "pageId": "IMG_0926",
+      "title": "Tent 17: personnel and rifle list",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "rosters-and-routines"
+      ]
+    },
+    {
+      "pageId": "IMG_0927",
+      "title": "Personal addresses",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "addresses-0927"
+      ]
+    },
+    {
+      "pageId": "IMG_0928",
+      "title": "Notes on men, a voyage, and an address",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "address-0928"
+      ]
+    },
+    {
+      "pageId": "IMG_0929",
+      "title": "Brigade guard: instructions, roster and duty times",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "rosters-and-routines"
+      ]
+    },
+    {
+      "pageId": "IMG_0930",
+      "title": "Blanket detail, 1 May 1941",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "shipboard-detail"
+      ]
+    },
+    {
+      "pageId": "IMG_0931",
+      "title": "Definition of a knot and sea mile",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    },
+    {
+      "pageId": "IMG_0932",
+      "title": "Currency figures and blanket times",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "currency-and-calculations"
+      ]
+    },
+    {
+      "pageId": "IMG_0933",
+      "title": "Shipboard locations, names and runners",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "shipboard-detail"
+      ]
+    },
+    {
+      "pageId": "IMG_0934",
+      "title": "Names, calculations, ship location and addresses",
+      "assessment": "Relevant apparent place/date material reviewed and excluded from personal itinerary where unsupported.",
+      "recordIds": [],
+      "exclusionIds": [
+        "addresses-0934",
+        "shipboard-detail",
+        "currency-and-calculations"
+      ]
+    },
+    {
+      "pageId": "IMG_0935",
+      "title": "Back cover",
+      "assessment": "No actual geographical movement, dated stay or explicit visit found.",
+      "recordIds": [],
+      "exclusionIds": []
+    }
+  ],
+  "validation": {
+    "pagesAudited": 28,
+    "journeyEvents": 25,
+    "contextualRecords": 12,
+    "allExcerptsAreExactFaithfulSubstrings": true,
+    "externalSourcesUsed": false,
+    "coordinatesAssigned": false,
+    "reconciledDate": "2026-10-10",
+    "disputedGazaMonthExcludedFromExactDating": true
+  }
+}

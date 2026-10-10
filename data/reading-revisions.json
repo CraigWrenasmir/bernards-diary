@@ -1,0 +1,600 @@
+{
+  "title": "Reading-copy revisions",
+  "editionDate": "2026-10-10",
+  "scope": "These changes affect the reading copy only. The faithful transcription and its uncertainty records are unchanged. Published name identifications and visual resolutions are explained individually.",
+  "revisions": [
+    {
+      "id": "reading-001",
+      "date": "2026-10-10",
+      "pageId": "IMG_0904",
+      "section": "Right page",
+      "sectionIndex": 1,
+      "kind": "reading normalisation",
+      "old": "Ships: [illegible], [Mauretania?], [New amsterdam?], Ile de France and [Queen Mary?].",
+      "new": "Ships: Australia, Mauretania, Nieuw Amsterdam, Ile de France and Queen Mary.",
+      "occurrences": 1,
+      "reason": "The parallel ink account names the same ships in the same order. The reading copy uses those legible names and the established spelling Nieuw Amsterdam.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0904",
+          "url": "assets/photos/IMG_0904.jpg",
+          "note": "Faint pencil ship list."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Clearer ink ship list at the top of the right page; Australia is readable on renewed enlargement."
+        },
+        {
+          "kind": "published source",
+          "title": "Australian War Memorial: Mauretania leaving Sydney in convoy US.10 (302831)",
+          "url": "https://www.awm.gov.au/collection/C241824",
+          "note": "Catalogue identifies Mauretania, Ile de France and Nieuw Amsterdam in the April 1941 convoy; corroborates the names visible in the parallel ink account."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Mauretania?]",
+        "[New amsterdam?]",
+        "[Queen Mary?]"
+      ]
+    },
+    {
+      "id": "reading-002",
+      "date": "2026-10-10",
+      "pageId": "IMG_0904",
+      "section": "Right page",
+      "sectionIndex": 1,
+      "kind": "reading normalisation",
+      "old": "Trincomilee",
+      "new": "Trincomalee",
+      "occurrences": 3,
+      "reason": "Modern spelling of the securely identified harbour.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0904",
+          "url": "assets/photos/IMG_0904.jpg",
+          "note": "The harbour is named three times and identified as Ceylon."
+        },
+        {
+          "kind": "published source",
+          "title": "Sri Lanka Ports Authority: Trincomalee terminal information",
+          "url": "https://www.slpa.lk/port-colombo/terminal-info/1000",
+          "note": "Modern name of the harbour written Trincomilee in the notebook; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-003",
+      "date": "2026-10-10",
+      "pageId": "IMG_0910",
+      "section": "Left page",
+      "sectionIndex": 0,
+      "kind": "reading normalisation",
+      "old": "arrived at Port Suez.",
+      "new": "arrived at Port Tewfik.",
+      "occurrences": 1,
+      "reason": "The parallel ink account gives Port Tewfic for the same 3 May arrival. This is an explicit reading-copy place harmonisation; the faithful version retains Port Suez.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0910",
+          "url": "assets/photos/IMG_0910.jpg",
+          "note": "The pencil account says Port Suez."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "The ink account says May 3rd, arrived Port Tewfic."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0922",
+          "url": "assets/photos/IMG_0922.jpg",
+          "note": "The sketch also labels Port Tewfic."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Port Tewfik",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Modern transliteration of the diary spelling Tewfic; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-004",
+      "date": "2026-10-10",
+      "pageId": "IMG_0910",
+      "section": "Right page",
+      "sectionIndex": 1,
+      "kind": "reading normalisation",
+      "old": "[Euphthopea?]",
+      "new": "Ethiopia",
+      "occurrences": 1,
+      "reason": "The two phonetic spellings in the notebook refer to the small ship used for the Suez–Kantara transfer. Ethiopia is adopted as the reading-copy identification, corroborated by the Pioneer Battalions Association’s account of the same canal transfer in May 1941.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0910",
+          "url": "assets/photos/IMG_0910.jpg",
+          "note": "Pencil spelling of the small ship’s name on the 6 May transfer."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Parallel ink spelling Euthopea."
+        },
+        {
+          "kind": "published source",
+          "title": "2/1 and 2/2 Pioneer Battalions Association, Pioneer News, Vol.17 No.1, March 1982, page 1",
+          "url": "https://www.pioneerbattalion.com.au/styled-3/styled-15/files/pioneerstory002317-history-2003a2.pdf",
+          "note": "The unit history records transhipment to S.S. Ethiopia at Port Tewfick and passage to El Kantara in May 1941. This retrospective association history supports the ship identification; it is not Bernard’s passenger record."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Euphthopea?]"
+      ]
+    },
+    {
+      "id": "reading-005",
+      "date": "2026-10-10",
+      "pageId": "IMG_0910",
+      "section": "Right page",
+      "sectionIndex": 1,
+      "kind": "reading normalisation",
+      "old": "El Erich",
+      "new": "El Arish",
+      "occurrences": 1,
+      "reason": "Modern spelling of the town on the recorded Kantara–Gaza railway journey.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0910",
+          "url": "assets/photos/IMG_0910.jpg",
+          "note": "The town follows Romani in the journey note."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Al Arish",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-289771&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Existing geographical identification of El Erich on the Kantara–Gaza journey."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-006",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Left page—tent list and movements",
+      "sectionIndex": 0,
+      "kind": "renewed visual reading and name normalisation",
+      "old": "[Rehovoth?] [7 AGH?]",
+      "new": "Rehovot, 7 AGH",
+      "occurrences": 1,
+      "reason": "Renewed native-resolution and contrast-assisted inspection supports Rehovoth and 7 AGH. The reading copy uses the modern place spelling. The AWM photograph independently places the 7th Australian General Hospital near Rehovot.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Pencil movement line immediately beneath the ink 17 May Julis entry, before 25/5/41."
+        },
+        {
+          "kind": "published source",
+          "title": "Australian War Memorial: 7th Australian General Hospital at Kafr Balu, near Rehovot (022693)",
+          "url": "https://www.awm.gov.au/collection/C6754",
+          "note": "Hospital location corroborates the place and abbreviation; no personal admission record is claimed."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[7 AGH?]",
+        "[Rehovoth?]"
+      ]
+    },
+    {
+      "id": "reading-007",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Left page—tent list and movements",
+      "sectionIndex": 0,
+      "kind": "renewed visual reading",
+      "old": "[Gaza Ridge?] [illegible] 20/7/41 [Said?]",
+      "new": "Gaza Ridge, A.A.P.D., 20/7/41 [Said?]",
+      "occurrences": 1,
+      "reason": "The place and four-capital abbreviation are recoverable on renewed enlargement. The final word remains doubtful and is retained; the brief’s suggested line omitted it.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Last pencil line on the left page, inspected at native resolution and with deterministic greyscale/contrast adjustment."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Gaza Ridge?]"
+      ]
+    },
+    {
+      "id": "reading-008",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Right page—journey record",
+      "sectionIndex": 2,
+      "kind": "reading normalisation",
+      "old": "[Australia?], Mauretania, New Amsterdam, Ile de France, Queen Mary.",
+      "new": "Australia, Mauretania, Nieuw Amsterdam, Ile de France, Queen Mary.",
+      "occurrences": 1,
+      "reason": "Australia is legible in the ink account. Nieuw Amsterdam is the established ship spelling, supported by the contemporary convoy photograph catalogue.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Ship list across the third and fourth ink lines of the right page."
+        },
+        {
+          "kind": "published source",
+          "title": "Australian War Memorial: Mauretania leaving Sydney in convoy US.10 (302831)",
+          "url": "https://www.awm.gov.au/collection/C241824",
+          "note": "Catalogue identifies Mauretania, Ile de France and Nieuw Amsterdam in the April 1941 convoy; corroborates the names visible in the parallel ink account."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Australia?]"
+      ]
+    },
+    {
+      "id": "reading-009",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Right page—journey record",
+      "sectionIndex": 2,
+      "kind": "reading normalisation",
+      "old": "Trincomilee",
+      "new": "Trincomalee",
+      "occurrences": 1,
+      "reason": "Modern spelling of the securely identified harbour.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Ink harbour entry on the right page."
+        },
+        {
+          "kind": "published source",
+          "title": "Sri Lanka Ports Authority: Trincomalee terminal information",
+          "url": "https://www.slpa.lk/port-colombo/terminal-info/1000",
+          "note": "Modern name of the harbour written Trincomilee in the notebook; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-010",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Right page—journey record",
+      "sectionIndex": 2,
+      "kind": "reading normalisation",
+      "old": "Port Tewfic",
+      "new": "Port Tewfik",
+      "occurrences": 1,
+      "reason": "Standardised transliteration in the reading copy.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Ink entry names Port Tewfic."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Port Tewfik",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Modern transliteration of the diary spelling Tewfic; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-011",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Right page—journey record",
+      "sectionIndex": 2,
+      "kind": "reading normalisation",
+      "old": "[Euthopea?]",
+      "new": "Ethiopia",
+      "occurrences": 1,
+      "reason": "Reading-copy identification of the small transfer ship, supported by the paired pencil entry and the Pioneer Battalions Association’s canal-transfer account.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Ink spelling of the small ship’s name."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0910",
+          "url": "assets/photos/IMG_0910.jpg",
+          "note": "Parallel pencil account of the 6 May transfer."
+        },
+        {
+          "kind": "published source",
+          "title": "2/1 and 2/2 Pioneer Battalions Association, Pioneer News, Vol.17 No.1, March 1982, page 1",
+          "url": "https://www.pioneerbattalion.com.au/styled-3/styled-15/files/pioneerstory002317-history-2003a2.pdf",
+          "note": "The unit history records transhipment to S.S. Ethiopia at Port Tewfick and passage to El Kantara in May 1941. This retrospective association history supports the ship identification; it is not Bernard’s passenger record."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Euthopea?]"
+      ]
+    },
+    {
+      "id": "reading-012",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Right page—journey record",
+      "sectionIndex": 2,
+      "kind": "reading normalisation",
+      "old": "El Erich",
+      "new": "El Arish",
+      "occurrences": 1,
+      "reason": "Modern spelling of the town on the recorded Kantara–Gaza railway journey.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Final line pairs Romani and El Erich."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Al Arish",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-289771&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Existing geographical identification of El Erich on the Kantara–Gaza journey."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-013",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Left page",
+      "sectionIndex": 0,
+      "kind": "reading normalisation",
+      "old": "at Julius.",
+      "new": "at Julis.",
+      "occurrences": 1,
+      "reason": "The same 17 May movement is recorded as Julis on IMG_0911; AWM records corroborate Julis Camp.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0913",
+          "url": "assets/photos/IMG_0913.jpg",
+          "note": "JULIUS in the 17 May movement note."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Parallel ink entry writes Julis."
+        },
+        {
+          "kind": "published source",
+          "title": "Australian War Memorial: Main Tel Aviv–Gaza road through Julis Camp (023609)",
+          "url": "https://www.awm.gov.au/collection/C7504",
+          "note": "Documents Julis Camp; IMG_0911 also writes Julis for the same 17 May movement."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    },
+    {
+      "id": "reading-014",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Left page",
+      "sectionIndex": 0,
+      "kind": "renewed visual reading and spelling normalisation",
+      "old": "Funeral [cortage?] from [Eya?] hosp[ital?], of 9th Batt, 21 July 1941.",
+      "new": "Funeral cortege from Gaza hospital, of 9th Batt, 21 July 1941.",
+      "occurrences": 1,
+      "reason": "Renewed enlargement supports Gaza: the opening looped capital and connected following letters are comparable with Gaza elsewhere in the notebook. Cortege is a spelling normalisation and hospital expands the legible abbreviation; the source’s of is retained.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0913",
+          "url": "assets/photos/IMG_0913.jpg",
+          "note": "Funeral line on the left page, inspected in natural and contrast-adjusted crops."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Gaza in the ink arrival note provides a handwriting comparison."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Eya?]",
+        "[cortage?]",
+        "[ital?]"
+      ]
+    },
+    {
+      "id": "reading-015",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Left page",
+      "sectionIndex": 0,
+      "kind": "reading normalisation",
+      "old": "Port [Tewfic?]",
+      "new": "Port Tewfik",
+      "occurrences": 1,
+      "reason": "The renewed enlarged reading agrees with the clear ink account and labelled sketch; the reading copy standardises Tewfic to Tewfik.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0913",
+          "url": "assets/photos/IMG_0913.jpg",
+          "note": "Port name in the final left-page entry."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0911",
+          "url": "assets/photos/IMG_0911.jpg",
+          "note": "Clear Port Tewfic in ink."
+        },
+        {
+          "kind": "photograph",
+          "reference": "IMG_0922",
+          "url": "assets/photos/IMG_0922.jpg",
+          "note": "Port Tewfic label."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Port Tewfik",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Modern transliteration of the diary spelling Tewfic; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Tewfic?]"
+      ]
+    },
+    {
+      "id": "reading-016",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Left page",
+      "sectionIndex": 0,
+      "kind": "renewed visual reading",
+      "old": "[Per?] HMT",
+      "new": "per HMT",
+      "occurrences": 1,
+      "reason": "Per is readable on the enlarged final left-page entry and continues into HMT PP on the next line.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0913",
+          "url": "assets/photos/IMG_0913.jpg",
+          "note": "Final entry, after the 4/8/41 date and above HMT PP."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Per?]"
+      ]
+    },
+    {
+      "id": "reading-017",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Right page",
+      "sectionIndex": 1,
+      "kind": "renewed visual reading",
+      "old": "Owen [Leathers?]",
+      "new": "Owen Leathers",
+      "occurrences": 1,
+      "reason": "The surname is readable on renewed natural and contrast-adjusted enlargement. This resolves the reading of the handwriting only; an independently matching casualty record has not been found.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0913",
+          "url": "assets/photos/IMG_0913.jpg",
+          "note": "Right page, first dated note: Owen Leathers, Killed, 21 June 1941."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": [
+        "[Leathers?]"
+      ]
+    },
+    {
+      "id": "reading-018",
+      "date": "2026-10-10",
+      "pageId": "IMG_0922",
+      "section": "Sketch and labels",
+      "sectionIndex": 0,
+      "kind": "reading normalisation",
+      "old": "Port Tewfic",
+      "new": "Port Tewfik",
+      "occurrences": 1,
+      "reason": "Standardised transliteration of the sketch label in the reading copy.",
+      "evidence": [
+        {
+          "kind": "photograph",
+          "reference": "IMG_0922",
+          "url": "assets/photos/IMG_0922.jpg",
+          "note": "Lower-right place label."
+        },
+        {
+          "kind": "published source",
+          "title": "NGA Geographic Names Server: Port Tewfik",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "note": "Modern transliteration of the diary spelling Tewfic; geographic reference already documented in JOURNEY-SOURCES.md."
+        }
+      ],
+      "faithfulChanged": false,
+      "resolvedUncertaintyMarkers": []
+    }
+  ],
+  "reviewedAndRetained": [
+    {
+      "pageId": "IMG_0910",
+      "reading": "will not come until 9 am",
+      "reason": "Supported by the photograph and retained."
+    },
+    {
+      "pageId": "IMG_0911",
+      "reading": "[Gellibrand?] lines",
+      "reason": "Likely identification retained as uncertain; no new certainty supplied."
+    },
+    {
+      "pageId": "IMG_0911",
+      "reading": "[Said?]",
+      "reason": "The last pencil word is still open and cannot be omitted simply because the proposed line ends earlier."
+    },
+    {
+      "pageId": "IMG_0913",
+      "reading": "Syrian armistice [concluded?], July 11th, at [2100?] hrs.",
+      "reason": "Kept as the notebook wording; not replaced by the externally established armistice date."
+    },
+    {
+      "pageId": "IMG_0915",
+      "reading": "Gaza, [23/9/41?]",
+      "reason": "23/6/41 remains a plausible alternative; the photograph does not securely resolve the month."
+    },
+    {
+      "pageId": "IMG_0923",
+      "reading": "Bint — girl",
+      "reason": "Clear in the photograph; retained."
+    }
+  ],
+  "faithfulTextSha256Before": "e7beb88ac3d269f066a4b2032485b6abedfa282d979c4b5d0f8fca77a531849a",
+  "faithfulTextSha256After": "e7beb88ac3d269f066a4b2032485b6abedfa282d979c4b5d0f8fca77a531849a"
+}

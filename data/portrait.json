@@ -1,0 +1,23 @@
+{
+  "subject": "Bernard Shambrook",
+  "identification": "Identified by Craig as Bernard; photograph supplied by Craig.",
+  "date": null,
+  "dateNote": "Date and location of the portrait were not supplied.",
+  "sourceFile": "IMG_0569.heic",
+  "sourceBytes": 646776,
+  "sourceSHA256": "a0b1253da76de2e913ffec0ce684afb9c4dfb39a5c86a63ace2035a081d7d5b1",
+  "originalDownload": "assets/originals/IMG_0569.heic",
+  "fullImage": "assets/portrait/bernard-shambrook-full.jpg",
+  "fullWidth": 3024,
+  "fullHeight": 4032,
+  "fullSHA256": "6cb8059b675c16b340da392b50e23f473f614460f229077ec3c88bbb23bbd84b",
+  "heroImage": "assets/portrait/bernard-shambrook.jpg",
+  "heroWidth": 840,
+  "heroHeight": 1120,
+  "heroSHA256": "5f725a8fb54e3c0086f13d6e0444567db3eb42a70533dec9030b88e0119af0ea",
+  "derivativeMethod": "HEIC decoded with macOS sips to PNG. Embedded orientation normalised; full-resolution RGB JPEG saved at quality 96 without chroma subsampling. A separate uncropped 1120-pixel maximum hero derivative is saved at quality 94. No restoration, retouching, colourisation or generative alteration.",
+  "originalDownloadSHA256": "0b91366b41565f552f1a570467be9cb5c15dd5a423c7f8ccad8a438f7b9c237a",
+  "originalDownloadBytes": 646458,
+  "publicCopyMethod": "GPS/location metadata removed with ExifTool; no image recompression. Decoded pixels verified identical to the supplied original.",
+  "publicCopyPixelSHA256": "9cb532897336e5fde26627d5d760ee61d8cc1d1b8754bf3a76ba5d6ff33a3494"
+}

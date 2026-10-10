@@ -1,0 +1,481 @@
+{
+  "title": "Records",
+  "editionDate": "2026-10-10",
+  "intro": "Service numbers, dates and archival references.",
+  "overview": [
+    {
+      "text": "Craig identifies this as his great-grandfather Bernard Shambrook’s notebook. Its ownership inscription names Sgt Shambrook, and the Tent 17 roster gives NX40242, A/Sgt Shambrook B.E. The number matches the official WWII nominal-roll entry for Bernard Edward Shambrook.",
+      "refs": [
+        "diary-owner",
+        "diary-roster",
+        "dva"
+      ]
+    },
+    {
+      "text": "The First World War connection remains provisional: the names and secondary cross-reference are strong leads, but the two complete service files have not yet been compared.",
+      "refs": [
+        "awm-embark",
+        "vwma"
+      ]
+    }
+  ],
+  "identity": {
+    "title": "Identity",
+    "quote": "NX40242 A/Sgt SHAMBROOK B.E.",
+    "quoteRef": "diary-roster",
+    "text": "The expanded name comes from the index; the acting-rank notation comes from the notebook.",
+    "refs": [
+      "diary-roster",
+      "dva"
+    ],
+    "facts": [
+      {
+        "label": "Recorded home locality, 1940",
+        "value": "Wee Waa, NSW",
+        "refs": [
+          "dva"
+        ]
+      },
+      {
+        "label": "Recorded next of kin",
+        "value": "Winifred Shambrook",
+        "refs": [
+          "dva"
+        ]
+      },
+      {
+        "label": "Portrait",
+        "value": "Date not supplied",
+        "refs": [
+          "family-portrait"
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "18 October 1915",
+      "title": "2076 · Private · 14th Reinforcements",
+      "text": "The digitised 5th Light Horse roll gives this joining date for Bernard Edward Shambrook: aged 19, a butcher from Pimlico, Townsville, with his mother Elizabeth as next of kin.",
+      "refs": [
+        "awm-roll"
+      ],
+      "status": "WWI record; link to diarist provisional"
+    },
+    {
+      "date": "18 June 1940",
+      "title": "NX40242 · Army enlistment",
+      "text": "The WWII roll records enlistment at Tamworth, NSW.",
+      "refs": [
+        "dva"
+      ],
+      "status": "Official index"
+    },
+    {
+      "date": "11 April 1941",
+      "title": "Queen Elizabeth voyage",
+      "text": "The notebook records leaving Sydney aboard Queen Elizabeth. Its account continues through Fremantle and Trincomalee to Suez.",
+      "refs": [
+        "diary-voyage"
+      ],
+      "status": "Personal record"
+    },
+    {
+      "date": "June 12 · year inferred as 1941",
+      "title": "Guard Battalion entry",
+      "text": "The notebook records marching into “1st Aust Corps Guard Btn” from “16 ITB Special wing”. The date follows alongside a tentative battalion-order reference; it is not securely established as the day of transfer.",
+      "refs": [
+        "diary-unit"
+      ],
+      "status": "Personal record; date interpretation open"
+    },
+    {
+      "date": "Undated notebook roster",
+      "title": "A/Sgt Shambrook B.E.",
+      "text": "The Tent 17 list uses the acting-sergeant abbreviation. The ownership inscription elsewhere says Sgt. Neither supplies an appointment date.",
+      "refs": [
+        "diary-roster",
+        "diary-owner"
+      ],
+      "status": "Personal record"
+    },
+    {
+      "date": "23 October 1941",
+      "title": "Private · HQ Guard Battalion",
+      "text": "DVA records discharge on this date and this final posting. Its rank field means substantive rank at discharge, excluding acting or temporary rank.",
+      "refs": [
+        "dva"
+      ],
+      "status": "Official index"
+    }
+  ],
+  "rankNote": {
+    "text": "The two rank descriptions can therefore coexist. They do not, on their own, prove a promotion, demotion or administrative error; the personnel file would be needed to reconstruct appointments.",
+    "refs": [
+      "diary-roster",
+      "dva"
+    ]
+  },
+  "questions": [
+    {
+      "title": "WWI service number 2076",
+      "text": "Virtual War Memorial Australia explicitly links 2076 and NX40242. AWM confirms the full name and 2076 in the 5th Light Horse embarkation roll, with Brisbane and HMAT Wandilla A62 in its catalogue. This is persuasive corroboration, but a primary document connecting the two numbers has not been seen.",
+      "refs": [
+        "vwma",
+        "awm-embark",
+        "awm-roll"
+      ],
+      "note": "This edition does not yet attribute the whole 5th Light Horse campaign history to the diarist."
+    },
+    {
+      "title": "Birth details",
+      "text": "DVA records 1 September 1900, Herts, England. VWMA gives 1 September 1896, Herefordshire. The WWI roll records age 19 in 1915, without a complete birth date.",
+      "refs": [
+        "dva",
+        "vwma",
+        "awm-roll"
+      ],
+      "note": "Both the year and place wording differ. The reason remains unresolved; no explanation about age declaration or enlistment motives is inferred."
+    },
+    {
+      "title": "Portrait date",
+      "text": "The supplied portrait has no established date. It is presented as a family photograph without assigning it to either service period.",
+      "refs": [
+        "family-portrait"
+      ],
+      "note": "A dated original, studio imprint or family annotation could help."
+    }
+  ],
+  "context": [
+    {
+      "title": "Queen Elizabeth, April 1941",
+      "text": "AWM photograph 303826 is catalogued as Queen Elizabeth departing Sydney in April 1941 with Australian troops for the Middle East in convoy US.10. This fits the voyage setting named in the notebook.",
+      "refs": [
+        "awm-queen",
+        "diary-voyage"
+      ],
+      "limitation": "The collection caption is corroborating context, not evidence of Bernard’s place on an official passenger manifest.",
+      "diary": [
+        "IMG_0911"
+      ]
+    },
+    {
+      "title": "7th Australian General Hospital",
+      "text": "AWM photograph 022693 identifies the 7th Australian General Hospital at Kafr Balu, near Rehovot. This helps situate the notebook’s tentative Rehovoth place-name.",
+      "refs": [
+        "awm-hospital",
+        "diary-voyage"
+      ],
+      "limitation": "The handwriting and the hospital’s location do not establish that Bernard was a patient. The nearby unclear initials have not been expanded into a hospital admission.",
+      "diary": [
+        "IMG_0911"
+      ]
+    },
+    {
+      "title": "Guard Battalion records",
+      "text": "The AWM holds a unit history covering August 1940–October 1941 and a May–June 1941 diary under AWM52 8/4/1. These are useful primary records for checking the notebook’s unit wording and order reference.",
+      "refs": [
+        "awm-guard-history",
+        "awm-guard-may-june",
+        "diary-unit"
+      ],
+      "limitation": "The catalogue entries were examined; the document pages have not been audited for Bernard. A unit’s movements cannot automatically be made his itinerary.",
+      "diary": [
+        "IMG_0913"
+      ]
+    },
+    {
+      "title": "Cemetery notes",
+      "text": "The Gaza pages set a 1941 heading beside names and dates from 1917–18. A separate sketch records a memorial to the LIV East Anglian Division. These pages preserve an interest in earlier soldiers and their commemoration.",
+      "refs": [
+        "diary-cemetery"
+      ],
+      "limitation": "They do not tell us why he copied those names, whether he knew the men, or which earlier battles he personally experienced.",
+      "diary": [
+        "IMG_0915",
+        "IMG_0916"
+      ]
+    }
+  ],
+  "archives": {
+    "title": "Service files",
+    "intro": "The full personnel dossiers are the next step in resolving the birth details, the First World War connection and the rank history. RecordSearch returned session and access errors during this research on 10 October 2026. No personal item identifier has been guessed.",
+    "records": [
+      {
+        "title": "First World War dossier",
+        "query": "SHAMBROOK, Bernard Edward · 2076",
+        "series": "B2455 — First Australian Imperial Force personnel dossiers",
+        "status": "Individual catalogue item and digital file not yet retrieved",
+        "url": "https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=NS",
+        "refs": [
+          "naa-ww1",
+          "naa-search"
+        ]
+      },
+      {
+        "title": "Second World War dossier",
+        "query": "SHAMBROOK, Bernard Edward · NX40242",
+        "series": "B883 — Second Australian Imperial Force personnel dossiers; series to search",
+        "status": "Individual catalogue item and digital file not yet retrieved",
+        "url": "https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=NS",
+        "refs": [
+          "naa-ww2",
+          "naa-search"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "In NameSearch, search Shambrook under Australian Defence Forces personnel records; refine by Bernard or the relevant service number.",
+        "refs": [
+          "naa-search"
+        ]
+      },
+      {
+        "text": "Compare the attestation details and service/casualty forms across both periods. Record the item IDs, page numbers, signatures, next-of-kin details and any previous-service declaration before resolving the identity link.",
+        "refs": [
+          "naa-ww1",
+          "naa-ww2"
+        ]
+      }
+    ]
+  },
+  "method": "This is a referenced companion to the diary, not a replacement for it. An official catalogue describes a source; it does not mean every linked document image has been read. Secondary leads and unresolved conflicts remain labelled. No remote photographs or archival images have been copied into this page.",
+  "sources": [
+    {
+      "id": "diary-roster",
+      "title": "Tent 17: personnel and rifle list",
+      "institution": "Bernard Shambrook family collection",
+      "url": "index.html#IMG_0926",
+      "recordIds": [
+        "IMG_0926"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Original photograph examined",
+      "supports": "The first roster row joins NX40242, A/Sgt and Shambrook B.E.",
+      "limitation": "The page is undated; it does not document a promotion or its effective date."
+    },
+    {
+      "id": "diary-owner",
+      "title": "Ownership inscription and faded voyage notes",
+      "institution": "Bernard Shambrook family collection",
+      "url": "index.html#IMG_0904",
+      "recordIds": [
+        "IMG_0904"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Original photograph examined",
+      "supports": "The ownership inscription reads Sgt Shambrook.",
+      "limitation": "The title does not by itself establish substantive rank or appointment dates."
+    },
+    {
+      "id": "diary-voyage",
+      "title": "Tent list and ink journey record",
+      "institution": "Bernard Shambrook family collection",
+      "url": "index.html#IMG_0911",
+      "recordIds": [
+        "IMG_0911"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Original photograph examined",
+      "supports": "Names Queen Elizabeth, Sydney departure on 11 April 1941 and later movements; contains a tentative Rehovoth reading.",
+      "limitation": "Some words remain uncertain. This personal account is not an official passenger manifest or hospital record."
+    },
+    {
+      "id": "diary-unit",
+      "title": "Movements and service notes, May–August 1941",
+      "institution": "Bernard Shambrook family collection",
+      "url": "index.html#IMG_0913",
+      "recordIds": [
+        "IMG_0913"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Original photograph examined",
+      "supports": "Records marching into 1st Aust Corps Guard Btn from 16 ITB Special wing; June 12 and a battalion-order reference follow.",
+      "limitation": "The year is inferred from neighbouring entries. June 12 may relate to the order; the precise reporting date is not resolved."
+    },
+    {
+      "id": "diary-cemetery",
+      "title": "Gaza names and cemetery sketches",
+      "institution": "Bernard Shambrook family collection",
+      "url": "index.html#IMG_0915",
+      "recordIds": [
+        "IMG_0915",
+        "IMG_0916"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Original photographs examined",
+      "supports": "A Gaza heading with a disputed 1941 date, names with 1917–18 dates, and a separate Gaza cemetery memorial sketch.",
+      "limitation": "The heading’s month is disputed between June and September. These entries do not state a reason for copying the names or prove personal acquaintance; the sketch date is also tentative."
+    },
+    {
+      "id": "dva",
+      "title": "World War Two Service: Shambrook, Bernard Edward",
+      "institution": "Australian Government, Department of Veterans’ Affairs",
+      "url": "https://nominal-rolls.dva.gov.au/veteran?id=158138&c=WW2",
+      "recordIds": [
+        "Veteran ID 158138",
+        "NX40242"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Official service index examined",
+      "supports": "Full name and number; selected personal and service details.",
+      "limitation": "A compiled index rather than the complete dossier; limited to its selected service fields."
+    },
+    {
+      "id": "awm-embark",
+      "title": "First World War Embarkation Roll: Bernard Edward Shambrook",
+      "institution": "Australian War Memorial",
+      "url": "https://www.awm.gov.au/collection/R2030001",
+      "recordIds": [
+        "R2030001",
+        "AWM8 10/10/3",
+        "2076"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Official roll catalogue examined",
+      "supports": "Names Private Bernard Edward Shambrook, 2076, in the 5th Light Horse reinforcement roll, embarking at Brisbane on HMAT Wandilla A62.",
+      "limitation": "Catalogue fields and the linked page were checked separately; the full roll and service dossier were not reviewed. This catalogue alone does not connect 2076 with NX40242."
+    },
+    {
+      "id": "awm-roll",
+      "title": "Australian Imperial Force nominal roll: 5th Light Horse Regiment, 14th Reinforcements, printed page 33",
+      "institution": "Australian War Memorial; Australian Imperial Force",
+      "url": "https://www.awm.gov.au/collection/R2030001",
+      "documentUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1067869/large/5377003.JPG",
+      "recordIds": [
+        "AWM8 10/10/3",
+        "RCDIG1067869",
+        "image 5377003",
+        "printed p. 33, row 2076"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Digitised primary roll examined",
+      "supports": "The individual row records age 19, a butcher at Pimlico, Townsville; mother Elizabeth as next of kin; and joining on 18 October 1915. The page heading identifies the 14th Reinforcements.",
+      "limitation": "This continued page has no embarkation date. The 30 January 1916 date belongs to the pay column. Neither a complete birth date nor a WWII service number appears in the row."
+    },
+    {
+      "id": "vwma",
+      "title": "Bernard Edward Shambrook",
+      "institution": "Virtual War Memorial Australia",
+      "url": "https://vwma.org.au/explore/people/171079",
+      "recordIds": [
+        "Person 171079",
+        "2076",
+        "NX40242"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Secondary profile examined",
+      "supports": "Explicitly groups both service numbers under one name and gives birth information different from DVA.",
+      "limitation": "A contributed profile, not a service dossier. Its WWI discharge row carries NX40242, an internal inconsistency requiring verification; family dates are not adopted as proven here."
+    },
+    {
+      "id": "awm-queen",
+      "title": "Queen Elizabeth departing Sydney with Australian troops, April 1941",
+      "institution": "Australian War Memorial; photograph made by the Department of Information",
+      "url": "https://www.awm.gov.au/collection/C250262",
+      "recordIds": [
+        "C250262",
+        "Photograph 303826"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Photograph catalogue examined",
+      "supports": "The catalogue identifies Queen Elizabeth leaving Sydney for the Middle East in convoy US.10 during April 1941.",
+      "limitation": "Context for the voyage; the catalogue does not identify Bernard or provide a passenger list. The photograph is not reproduced here."
+    },
+    {
+      "id": "awm-hospital",
+      "title": "Aerial view of the 7th Australian General Hospital near Rehovot",
+      "institution": "Australian War Memorial",
+      "url": "https://www.awm.gov.au/collection/C6754",
+      "recordIds": [
+        "C6754",
+        "Photograph 022693"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Photograph catalogue examined",
+      "supports": "Locates the hospital at Kafr Balu near Rehovot in wartime Palestine.",
+      "limitation": "This establishes a hospital location, not Bernard’s admission, employment or reason for travelling. The catalogue gives no precise photograph date."
+    },
+    {
+      "id": "awm-guard-history",
+      "title": "2/1 Australian Headquarters Guard Regiment Battalion: War History, August 1940–October 1941",
+      "institution": "Australian War Memorial; Department of Defence",
+      "url": "https://www.awm.gov.au/collection/C2758296",
+      "recordIds": [
+        "C2758296",
+        "AWM52 8/4/1/2",
+        "AWM2020.71.8688"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Official-record catalogue examined",
+      "supports": "Identifies a digitised unit history covering the period of the notebook.",
+      "limitation": "The catalogue, not all 102 document images, was examined. No personal posting or participation is inferred from this unit record."
+    },
+    {
+      "id": "awm-guard-may-june",
+      "title": "2/1 Australian Headquarters Guard Regiment Battalion: May–June 1941",
+      "institution": "Australian War Memorial; Department of Defence",
+      "url": "https://www.awm.gov.au/collection/C2758297",
+      "recordIds": [
+        "C2758297",
+        "AWM52 8/4/1/3"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Official-record catalogue examined",
+      "supports": "Provides a direct route to the unit diary for the months of the notebook’s transfer notes.",
+      "limitation": "A research reference only: its document pages have not been checked for Shambrook or the tentative battalion-order number."
+    },
+    {
+      "id": "naa-ww1",
+      "title": "Army – First World War: 1914–18",
+      "institution": "National Archives of Australia",
+      "url": "https://www.naa.gov.au/explore-collection/defence-and-war-service-records/army-first-world-war-1914-18",
+      "recordIds": [
+        "Series B2455 (general collection guide)"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Archive research guide examined",
+      "supports": "Explains the First AIF collection and the kinds of enlistment and service documents it holds.",
+      "limitation": "A collection guide, not an identified Shambrook item. The individual item number and digital dossier remain unverified."
+    },
+    {
+      "id": "naa-ww2",
+      "title": "Army – Second World War: 1939–45",
+      "institution": "National Archives of Australia",
+      "url": "https://www.naa.gov.au/explore-collection/defence-and-war-service-records/army-second-world-war-1939-45",
+      "recordIds": [
+        "Series B883 (Second AIF)",
+        "Series B884 (CMF)"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Archive research guide examined",
+      "supports": "Identifies the WWII personnel series and explains attestation and service/casualty forms.",
+      "limitation": "Series references are confirmed; no individual Shambrook catalogue entry was successfully retrieved in this research."
+    },
+    {
+      "id": "naa-search",
+      "title": "NameSearch",
+      "institution": "National Archives of Australia",
+      "url": "https://www.naa.gov.au/help-your-research/getting-started/recordsearch-overview/namesearch",
+      "recordIds": [],
+      "accessed": "2026-10-10",
+      "status": "Archive research guide examined",
+      "supports": "Describes surname searching and refinement by given name or service number.",
+      "limitation": "The linked RecordSearch session returned errors during this research; this is an access route, not a verified personal record."
+    },
+    {
+      "id": "family-portrait",
+      "title": "Portrait of Bernard Shambrook, supplied by Craig",
+      "institution": "Bernard Shambrook family collection",
+      "url": "assets/portrait/bernard-shambrook-full.jpg",
+      "recordIds": [
+        "IMG_0569.HEIC"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Family photograph examined",
+      "supports": "A family-supplied portrait associated with Bernard.",
+      "limitation": "No date was supplied. Uniform appearance has not been used here to assign a war, unit or year."
+    }
+  ]
+}

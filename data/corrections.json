@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "title": "Transcription reconciliation record",
+  "editionDate": "2026-10-10",
+  "scope": "All 28 supplied photographs compared against the alternate transcription; substantive differences reviewed against local source images. This is an audit, not a claim of perfect decipherment.",
+  "method": "Image evidence determines text. Historical matches are separate context and do not erase source spelling, crossed-out text or unresolved readings. Changes marked tentative retain bracketed uncertainty in both copies.",
+  "comparisonSource": "https://craigwrenasmir.github.io/bernards-diary/",
+  "corrections": [
+    {
+      "id": "correction-001",
+      "date": "2026-10-10",
+      "pageId": "IMG_0904",
+      "section": "Left inside cover",
+      "title": "Left inside cover",
+      "old": "Arrived Suez [7/5/41?]",
+      "new": "Arrived [Suez?] [7/5/41?]",
+      "reason": "The place on the faded inside cover is not as secure as the earlier transcription implied. Gaza is another proposed reading; the photograph does not settle it. The clearer 3 May Suez arrival elsewhere remains unchanged.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0904.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Arrived Suez [7/5/41?]",
+        "new": "Arrived [Suez?] [7/5/41?]"
+      }
+    },
+    {
+      "id": "correction-002",
+      "date": "2026-10-10",
+      "pageId": "IMG_0904",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "[slightly?]",
+      "new": "[swelly?]",
+      "reason": "The final pencil word has the shape of swelly more plausibly than slightly. It remains a tentative source spelling; no sea conditions are supplied from context.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0904.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[slightly?]",
+        "new": "[swelly?]"
+      }
+    },
+    {
+      "id": "correction-003",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Left page—ink personnel roster",
+      "title": "Left page—ink personnel roster",
+      "old": "55798",
+      "new": "55298",
+      "reason": "Arnold’s middle digit has the writer’s angular 2 form, not 7.",
+      "confidence": "high",
+      "decision": "corrected",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "55798",
+        "new": "55298"
+      }
+    },
+    {
+      "id": "correction-004",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Left page—ink personnel roster",
+      "title": "Left page—ink personnel roster",
+      "old": "41740",
+      "new": "41340",
+      "reason": "Reeves’s third digit is 3, not 7.",
+      "confidence": "high",
+      "decision": "corrected",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "41740",
+        "new": "41340"
+      }
+    },
+    {
+      "id": "correction-005",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Left page—ink personnel roster",
+      "title": "Left page—ink personnel roster",
+      "old": "41746",
+      "new": "41246",
+      "reason": "Wheeler’s third digit is the angular 2 form, not 7.",
+      "confidence": "high",
+      "decision": "corrected",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "41746",
+        "new": "41246"
+      }
+    },
+    {
+      "id": "correction-006",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Left page—ink personnel roster",
+      "title": "Left page—ink personnel roster",
+      "old": "Tidyman K M",
+      "new": "Tidyman [R M?]",
+      "reason": "The first initial has a loop and diagonal more consistent with R than K; the initials remain marked because the letter is compressed.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Tidyman K M",
+        "new": "Tidyman [R M?]"
+      }
+    },
+    {
+      "id": "correction-007",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Left page—pencil column headings and entries",
+      "title": "Left page—pencil column headings and entries",
+      "old": "Guard night",
+      "new": "[Evacuated?]",
+      "reason": "The pencil annotation across Arnold’s row appears to form a single word, plausibly Evacuated. Guard night does not fit the visible letter sequence. This does not establish a medical history.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Guard night",
+        "new": "[Evacuated?]"
+      }
+    },
+    {
+      "id": "correction-008",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Right page—guard and Bren gun notes",
+      "title": "Right page—guard and Bren gun notes",
+      "old": "Fire Officers",
+      "new": "[Field?] Officers",
+      "reason": "The word appears longer than Fire and supports Field; the final letters remain faint.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "fire Officers",
+        "new": "[Field?] Officers"
+      }
+    },
+    {
+      "id": "correction-009",
+      "date": "2026-10-10",
+      "pageId": "IMG_0905",
+      "section": "Right page—guard and Bren gun notes",
+      "title": "Right page—guard and Bren gun notes",
+      "old": "Rear Drum Sight. [illegible]",
+      "new": "Rear Drum Sight. [Magazine?]",
+      "reason": "A closer comparison supports Magazine after Rear Drum Sight, but the pencil is too faint to remove the uncertainty.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0905.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Rear drum sight. [illegible]",
+        "new": "Rear drum sight. [Magazine?]"
+      }
+    },
+    {
+      "id": "correction-010",
+      "date": "2026-10-10",
+      "pageId": "IMG_0910",
+      "section": "Left page",
+      "title": "Left page",
+      "old": "another [Bn?] are to disembark",
+      "new": "[about 500?] are to disembark",
+      "reason": "The small group of strokes can be read as about followed by 500, more plausibly than another Bn. The count is not secure, so the entire phrase remains tentative.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0910.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Another [Bn?] are to disembark",
+        "new": "[About 500?] are to disembark"
+      }
+    },
+    {
+      "id": "correction-011",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Left page—tent list and movements",
+      "title": "Left page—tent list and movements",
+      "old": "[A S A?]",
+      "new": "[7 AGH?]",
+      "reason": "The strokes following Rehovoth better support 7 AGH. This remains a tentative abbreviation reading. The sentence records leaving for a destination and does not say Bernard was admitted as a patient.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0911.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[A S A?]",
+        "new": "[7 AGH?]"
+      }
+    },
+    {
+      "id": "correction-012",
+      "date": "2026-10-10",
+      "pageId": "IMG_0911",
+      "section": "Left page—tent list and movements",
+      "title": "Left page—tent list and movements",
+      "old": "[Sig?] [illegible] [H.Q.?] [illegible] 20/7/41 [Said?]",
+      "new": "[Gaza Ridge?] [illegible] 20/7/41 [Said?]",
+      "reason": "Gaza Ridge is a plausible reading of the initial pencil words. The intervening abbreviation and last word remain unresolved; no arrival, departure or stay is asserted.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0911.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[Sig?] [illegible] [H.Q.?] [illegible] 20/7/41 [Said?]",
+        "new": "[Gaza Ridge?] [illegible] 20/7/41 [Said?]"
+      }
+    },
+    {
+      "id": "correction-013",
+      "date": "2026-10-10",
+      "pageId": "IMG_0912",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "[Walford?]",
+      "new": "[Walker?]",
+      "reason": "The second surname’s ending looks like ker rather than ford. Walker is preferred, still tentative.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0912.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[Walford?]",
+        "new": "[Walker?]"
+      }
+    },
+    {
+      "id": "correction-014",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "[Watkins?]",
+      "new": "[Leathers?]",
+      "reason": "The initial and following eathers-like strokes favour Leathers. The faded name remains explicitly tentative; historical identity is treated separately.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0913.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[Watkins?]",
+        "new": "[Leathers?]"
+      }
+    },
+    {
+      "id": "correction-015",
+      "date": "2026-10-10",
+      "pageId": "IMG_0913",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "@ 2100 hrs",
+      "new": "@ [2100?] hrs",
+      "reason": "The last digit could be 0 or 1. The prior unqualified 2100 was too confident; 2101 remains an alternative reading.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0913.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "at 2100 hrs.",
+        "new": "at [2100?] hrs."
+      }
+    },
+    {
+      "id": "correction-016",
+      "date": "2026-10-10",
+      "pageId": "IMG_0915",
+      "section": "Left page",
+      "title": "Left page",
+      "old": "Gaza 23/9/41",
+      "new": "Gaza [23/9/41?]",
+      "reason": "The month digit is faded. September remains a possible visual reading, but June (23/6/41) cannot be excluded. Neither month is now treated as a secure journey date.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0915.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "Gaza, 23 September 1941",
+        "new": "Gaza, [23/9/41?]"
+      }
+    },
+    {
+      "id": "correction-017",
+      "date": "2026-10-10",
+      "pageId": "IMG_0915",
+      "section": "Left page",
+      "title": "Left page",
+      "old": "C.T. Love",
+      "new": "C.T. [Grove?]",
+      "reason": "The initial has a loop and the surname appears to include Gr before ove. Grove is preferred tentatively to Love.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0915.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "C. T. Love",
+        "new": "C. T. [Grove?]"
+      }
+    },
+    {
+      "id": "correction-018",
+      "date": "2026-10-10",
+      "pageId": "IMG_0915",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "108 Cpl R S. Edgar",
+      "new": "108 [Sgt?] R S. Edgar",
+      "reason": "The rank’s initial loop and descending middle stroke resemble Sgt more than Cpl. It remains tentative.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0915.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "108 Cpl R. S. Edgar",
+        "new": "108 [Sgt?] R. S. Edgar"
+      }
+    },
+    {
+      "id": "correction-019",
+      "date": "2026-10-10",
+      "pageId": "IMG_0915",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "1041A",
+      "new": "[104/A?]",
+      "reason": "The stroke between 104 and A may be a slash rather than the numeral 1; the entire identifier is now marked tentative.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0915.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "1041A",
+        "new": "[104/A?]"
+      }
+    },
+    {
+      "id": "correction-020",
+      "date": "2026-10-10",
+      "pageId": "IMG_0915",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "2806 F S [Knowling?]",
+      "new": "2806 [F P?] [Knowling?]",
+      "reason": "The second initial has a stem and upper loop more consistent with P than S; it remains tentative.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0915.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "2806 F. S. [Knowling?]",
+        "new": "2806 [F P?] [Knowling?]"
+      }
+    },
+    {
+      "id": "correction-021",
+      "date": "2026-10-10",
+      "pageId": "IMG_0923",
+      "section": "Vocabulary list",
+      "title": "Vocabulary list",
+      "old": "[Zereefa?] Lady",
+      "new": "[Tereefa?] half",
+      "reason": "The English gloss has clear h, a, tall l and descending f: half, not Lady. The phonetic word’s initial also favours T; its full spelling remains tentative.",
+      "confidence": "high",
+      "decision": "corrected",
+      "evidence": {
+        "sourceImage": "IMG_0923.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "[Zereefa?] — lady",
+        "new": "[Tereefa?] — half"
+      }
+    },
+    {
+      "id": "correction-022",
+      "date": "2026-10-10",
+      "pageId": "IMG_0933",
+      "section": "Right page",
+      "title": "Right page",
+      "old": "L/Cpl Pate E L.",
+      "new": "L/Cpl [Rabe?] [G L?].",
+      "reason": "The surname has an R-like leading loop and a possible b; the first initial resembles G. Pate E L was too confident. The number is damaged and this is not a confirmed identification.",
+      "confidence": "tentative",
+      "decision": "revised_with_uncertainty",
+      "evidence": {
+        "sourceImage": "IMG_0933.HEIC",
+        "inspection": "Local original conversion and enlarged natural/contrast crop; no reconstructed pixels"
+      },
+      "readingChange": {
+        "old": "L/Cpl Pate E.L.",
+        "new": "L/Cpl [Rabe?] [G L?]."
+      }
+    }
+  ],
+  "pageAudit": [
+    {
+      "pageId": "IMG_0903",
+      "assessment": "Cover comparison agrees: no legible writing."
+    },
+    {
+      "pageId": "IMG_0904",
+      "assessment": "Faded cover and voyage account reviewed; place and date uncertainty retained. Swelly preferred tentatively. Longer reconstructed passages and a rifle-number reading were not adopted without clear strokes."
+    },
+    {
+      "pageId": "IMG_0905",
+      "assessment": "Three ink service numbers corrected; pencil annotation and guard/weapon terms improved tentatively. Ritter 41220, McCormack 41125, Luxford T and the explicit not in Holds 28 but not 30 retained from the image."
+    },
+    {
+      "pageId": "IMG_0906",
+      "assessment": "Retained uncertain Mather rather than substituting Walker; Obstruction is supported over Extraction. Other roster initials remain source-specific."
+    },
+    {
+      "pageId": "IMG_0907",
+      "assessment": "Retained Telephone & Small Exchange, Aeroplane bag, and 70 OR 2 Cpls where supported. Faint lecture fragments remain uncertain instead of adopting reconstructed prose."
+    },
+    {
+      "pageId": "IMG_0908",
+      "assessment": "Kept the faint measurement and diagrams, omitted in the comparison version. Tentative names, numbers and phrase retain markers."
+    },
+    {
+      "pageId": "IMG_0910",
+      "assessment": "Kept time difference, Port Suez, Troop orderly Sergeant, Cabin Comfort & Messing Excellence and source-specific place/ship spellings. About 500 is now tentative. Train difficulties and rewritten disembarkation prose were not supported."
+    },
+    {
+      "pageId": "IMG_0911",
+      "assessment": "Possible 7 AGH and Gaza Ridge recovered tentatively. No patient claim, forced arrival or map point added. Ambiguous ship name, oppressive/dive-bomber line and differing pencil initials remain unresolved."
+    },
+    {
+      "pageId": "IMG_0912",
+      "assessment": "Walker preferred tentatively; kept 0545, Boat Station No 2, meal bearers, Irvine/Lowther candidates and deleted Arnold. Neither more confident rank/name substitutions nor omissions adopted."
+    },
+    {
+      "pageId": "IMG_0913",
+      "assessment": "Leathers preferred tentatively; armistice time now uncertain between 2100/2101. HMT PP retained; hospital word remains unresolved rather than supplying Gaza. 4 August is not called the notebook’s last date."
+    },
+    {
+      "pageId": "IMG_0914",
+      "assessment": "Retained Austin REED, S R CANDY, Creek and uncertainty in the August location. No Iron Camel establishment, Lebanese-shopkeeper identity or visit inferred."
+    },
+    {
+      "pageId": "IMG_0915",
+      "assessment": "Heading month explicitly disputed. Grove, possible Sgt, identifier punctuation and Knowling initial revised with markers. Brown, detailed early dates, Harney, 4202 and numerous source-specific numbers/units retained; grave identities are separate research candidates."
+    },
+    {
+      "pageId": "IMG_0916",
+      "assessment": "Retained full inscription, drawings and tentative sketch date. Neither date nor sketch establishes a personal visit."
+    },
+    {
+      "pageId": "IMG_0917",
+      "assessment": "Full inscription and sketch retained. The undated drawing is not made into a dated visit."
+    },
+    {
+      "pageId": "IMG_0922",
+      "assessment": "Retained neutral drawing description and Suez/Port Tewfic labels; hills, anchorage viewpoint and date are not supplied as facts."
+    },
+    {
+      "pageId": "IMG_0923",
+      "assessment": "Half corrected; phonetic word remains tentative. Bint Girl, Anna I or you, boys, bread candidate and the final Estani line retained rather than Qwis good or a claim that the ending is cut off."
+    },
+    {
+      "pageId": "IMG_0924",
+      "assessment": "Kept Pioneer 7 am, Cunningham, C Konza candidate, Dillon L G, Waite, F F Jackson and F J Brennan where supported. Pencil E/F and other initials stay uncertain."
+    },
+    {
+      "pageId": "IMG_0925",
+      "assessment": "Addresses and appointment weekdays/numbers retained. Tel Aviv may be historical context but May 1941 is not inserted as an explicit diary date."
+    },
+    {
+      "pageId": "IMG_0926",
+      "assessment": "Clear ink Brennan F J, Burns F, Dale L C and Waite retained. No silent harmonisation to Claude’s E J, E, J E or White. Rifle/number uncertainty remains where appropriate."
+    },
+    {
+      "pageId": "IMG_0927",
+      "assessment": "Image favours tentative Jim Gore / c/o Cooper / New Farm structure; not three confident names. Address retained."
+    },
+    {
+      "pageId": "IMG_0928",
+      "assessment": "Retained the whole page of general-base/voyage notes and Fred Green address. Comparison article labelled IMG_0928 actually transcribes IMG_0929; it cannot replace this page."
+    },
+    {
+      "pageId": "IMG_0929",
+      "assessment": "Retained complete guard instructions, roster, groups and both duty lists. Image supports Move, containing, Gilles 47640, Kelly L, Ford, Philip R C and first lower shift Rose. Ambiguous post numbers stay marked."
+    },
+    {
+      "pageId": "IMG_0930",
+      "assessment": "Retained in 10’s and receipt instruction. Buddie/Biddle and final notation remain unresolved; no time At 10 is supplied."
+    },
+    {
+      "pageId": "IMG_0931",
+      "assessment": "Same definition of knot; faithful preserves the unlabelled 2026 figure rather than inserting yards."
+    },
+    {
+      "pageId": "IMG_0932",
+      "assessment": "Retained complete spread: 800 Mils to Aust £1, currency line, circled 184, blanket times and Capt Blair. 18 1/4 and split-page fragments are not supported."
+    },
+    {
+      "pageId": "IMG_0933",
+      "assessment": "First ink surname/initials revised tentatively to Rabe G L. Reay and O’Kain remain source-supported candidates over Kelly/Aitken. Runner marks and abbreviated company/emergency word remain uncertain."
+    },
+    {
+      "pageId": "IMG_0934",
+      "assessment": "Kept full calculations and clear two doors aft. Conflicting faded heading, Sansom/Jensen, Bentley/Brady and Robinson/Robertson remain documented alternatives; no forced identification."
+    },
+    {
+      "pageId": "IMG_0935",
+      "assessment": "Cover comparison agrees: no legible writing."
+    }
+  ],
+  "validation": {
+    "pagesAudited": 28,
+    "corrections": 22,
+    "journeyExcerptsMatchFaithful": true,
+    "generatedFilesEdited": false,
+    "originalImagesModified": false
+  }
+}

@@ -1,0 +1,2476 @@
+{
+  "description": "Finding terms for names in the faithful transcription. Surname headings group occurrences for discovery; they do not assert that similar names identify one person. Exact source lines are generated from diary.json, not maintained separately.",
+  "groups": [
+    {
+      "name": "Allen",
+      "id": "allen",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, second address and final note",
+          "sectionIndex": 6,
+          "quote": "Mrs M. Allen",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Allison",
+      "id": "allison",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[104/A?] L/Cpl [D C?] ALLISON Machine Gun",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Alves",
+      "id": "alves",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Mrs E W. [Alves?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Arnold",
+      "id": "arnold",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "55298 Pte Arnold B.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[deleted: Arnold?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Auger",
+      "id": "auger",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[L?] Auger 8th Reg [Oct?]. 1918.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Barron / Barrow",
+      "id": "barron-barrow",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "229 Sgt [Barron?] P C.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Baxter",
+      "id": "baxter",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1429 A. Baxter 7th ALH May/1917",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Bentley",
+      "id": "bentley",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "[Bentley?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Birmingham",
+      "id": "birmingham",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "51713 Pte Birmingham W",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Blair",
+      "id": "blair",
+      "occurrences": [
+        {
+          "pageId": "IMG_0932",
+          "section": "Right page, lower notes",
+          "sectionIndex": 1,
+          "quote": "Capt Blair.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Brennan",
+      "id": "brennan",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Brennan [F J?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "LT [Brennan?] W K 12 Reg. 20 ap 1917",
+          "uncertainName": true
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "F J Brennan ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "Brennan F J",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47889 Pte BRENNAN F.J. C23496",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "17 { Burns [F?] ✓     Brennan.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Broughton",
+      "id": "broughton",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Broughton [Sp?]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Brown",
+      "id": "brown",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "3021 〃 Neville Murray Brown 6th ALH",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Buddie",
+      "id": "buddie",
+      "occurrences": [
+        {
+          "pageId": "IMG_0930",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "18 OR Cpl [Buddie?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Buller",
+      "id": "buller",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Buller?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Burns",
+      "id": "burns",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Burns [E?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "[E?] Burns ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "[E?] Burns",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47703 \" BURNS F. Z7285",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "17 { Burns [F?] ✓     Brennan.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Callow",
+      "id": "callow",
+      "occurrences": [
+        {
+          "pageId": "IMG_0908",
+          "section": "Right page—names and notes",
+          "sectionIndex": 1,
+          "quote": "Sgt T.L. CALLOW",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Cameron",
+      "id": "cameron",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40234 Cpl Cameron E E",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Campbell",
+      "id": "campbell",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "2323 J T Campbell 7th",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "Campbell",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Candy",
+      "id": "candy",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "S R CANDY",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Carey",
+      "id": "carey",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "A/Cpl CAREY LV. 41304 ✓",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Casey",
+      "id": "casey",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "56059 〃 Casey J.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Casey?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Chambers",
+      "id": "chambers",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Chambers [G?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Major A [T?] Chambers 2nd Reg. 20 april",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Son of O & A Chambers",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Clements",
+      "id": "clements",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[499?] E J [Clements?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Cole",
+      "id": "cole",
+      "occurrences": [
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "[deleted: N K. Maloney?] [inserted: Cole]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     COLE            Costello",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Cooper",
+      "id": "cooper",
+      "occurrences": [
+        {
+          "pageId": "IMG_0927",
+          "section": "Right page, upper note",
+          "sectionIndex": 0,
+          "quote": "[c/o.?] Cooper",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Costello",
+      "id": "costello",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     COLE            Costello",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Coyne",
+      "id": "coyne",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40628 〃 Coyne F R.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Crittenden",
+      "id": "crittenden",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "501 C. Crittenden 12 Regt.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Cunningham",
+      "id": "cunningham",
+      "occurrences": [
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "S. Cunningham ✓",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dale",
+      "id": "dale",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Dale [L E?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "[L C?] Dale ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX41379 \" DALE L.C. Q5741",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Davidson",
+      "id": "davidson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0927",
+          "section": "Right page, lower address",
+          "sectionIndex": 1,
+          "quote": "Mrs H. Davidson",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dempsey",
+      "id": "dempsey",
+      "occurrences": [
+        {
+          "pageId": "IMG_0908",
+          "section": "Right page—names and notes",
+          "sectionIndex": 1,
+          "quote": "Sgt J. Dempsey",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dillon",
+      "id": "dillon",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Dillon L",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "L G Dillon ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "L. Dillon",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47772 \" DILLON L.G. O3554",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Donaldson",
+      "id": "donaldson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "15 { [Donaldson?]    Williams",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Doumar",
+      "id": "doumar",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "DOUMAR",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dovey",
+      "id": "dovey",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "50512 Dovey J.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dunbar",
+      "id": "dunbar",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "C. Mrs C [J?] S. Dunbar",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Dunn",
+      "id": "dunn",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40196 Dunn A W.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Duroux",
+      "id": "duroux",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Duroux C A",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "C A Duroux ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "C A Duroux",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47704 \" DUROUX CA. O5991",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "[deleted: Duroux]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Easton",
+      "id": "easton",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "2467 [Easton?] T 7 Regt. Nov 17.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Edgar",
+      "id": "edgar",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "108 [Sgt?] R S. Edgar 19 April 1917",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Evans",
+      "id": "evans",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, upper names",
+          "sectionIndex": 0,
+          "quote": "Evans AC",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Faddy",
+      "id": "faddy",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Faddy C J",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX41285 \" FADDY C.J. W40410",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Fairhall",
+      "id": "fairhall",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "4202 L A FAIRHALL 12 Reg. augus 25.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "Son of E M Fairhall",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Ford",
+      "id": "ford",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" FORD J 47786 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "6 To 8 No1 Roe & Ford ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "         1 Ford",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Freestone",
+      "id": "freestone",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[357?] Freestone A W M G Squad",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Gilles",
+      "id": "gilles",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" GILLES D. 47640 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       [No3?]. Paget & Gilles ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "         1 Gilles",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Gillespie",
+      "id": "gillespie",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "46785 \" Gillespie M P",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Godwin",
+      "id": "godwin",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Godwin H V",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "H V Godwin ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "H V Godwin",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47813 \" GODWIN HV. {135688",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     Godwin HV ✓     Strong.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Gordon",
+      "id": "gordon",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40467 Cpl Gordon J M",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "Gordon",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Gore",
+      "id": "gore",
+      "occurrences": [
+        {
+          "pageId": "IMG_0927",
+          "section": "Right page, upper note",
+          "sectionIndex": 0,
+          "quote": "[Jim Gore?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Green, Fred",
+      "id": "green-fred",
+      "occurrences": [
+        {
+          "pageId": "IMG_0928",
+          "section": "Left page, lower address",
+          "sectionIndex": 1,
+          "quote": "Fred Green",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Grove",
+      "id": "grove",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1291 [T?] C.T. [Grove?] 11th. 23/May 1918",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Gwynne",
+      "id": "gwynne",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1241 Gwynne T K 2nd Reg.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Harney",
+      "id": "harney",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1169 Thomas M. Harney 7 ALH (May 17)",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "R M Harney (Yass) NSW.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Hayes",
+      "id": "hayes",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "Hayes",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Holden",
+      "id": "holden",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[831?] [Holden?] H R 8th Reg Nov 17",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Hollingsworth",
+      "id": "hollingsworth",
+      "occurrences": [
+        {
+          "pageId": "IMG_0930",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "      \" Hollingsworth.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Hourigan",
+      "id": "hourigan",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "34596 Hourigan",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Ingleman",
+      "id": "ingleman",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" INGLEMAN F.M 47767 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "8 To10. Ingleman Philip",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "        Ingleman ✓",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Jackson",
+      "id": "jackson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41330 Jackson G",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Jackson F F",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "F F. Jackson ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "Jackson F F",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX41371 \" JACKSON [F.F.?] C3224",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Johnson",
+      "id": "johnson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" JOHNSON R W. 41345 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     Manusu.         Johnson",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       [No4?] Johnson Kennedy ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "       JOHNSON",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Keleher",
+      "id": "keleher",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "A Mrs G E [J?]. [Keleher?]",
+          "uncertainName": true
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, first address",
+          "sectionIndex": 5,
+          "quote": "Mrs J. [Keleher?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Kelly",
+      "id": "kelly",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "58789 Pte Kelly J J.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" KELLY L 47491 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       No2. Watts & Kelly ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "       Kelly",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Kennedy",
+      "id": "kennedy",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" KENNEDY J.M. 41406 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       [No4?] Johnson Kennedy ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "       KENNEDY",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Kenny",
+      "id": "kenny",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1893 J J Kenny 11th",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Knowling",
+      "id": "knowling",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "2806 [F P?] [Knowling?] 〃",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Konza",
+      "id": "konza",
+      "occurrences": [
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "C. [Konza?] ✓",
+          "uncertainName": true
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "16 { Watts TA.       [Konza?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Lardner",
+      "id": "lardner",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1100 Sgt [Lardner?] S C. 2nd Reg 28/10/18",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Leathers",
+      "id": "leathers",
+      "occurrences": [
+        {
+          "pageId": "IMG_0913",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Owen [Leathers?]. Killed",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Lemming",
+      "id": "lemming",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "58321 L/Cpl Lemming R A",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Lewis",
+      "id": "lewis",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "Pte Lewis",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Longbottom",
+      "id": "longbottom",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, upper names",
+          "sectionIndex": 0,
+          "quote": "[Longbottom?] [Sg?] No 3",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Lowey",
+      "id": "lowey",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Lowey?].",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Lowther",
+      "id": "lowther",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "4th Batt. To See Cpl. [Lowther?].",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Luxford",
+      "id": "luxford",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41121 Luxford T.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Maloney",
+      "id": "maloney",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Maloney N K",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "[deleted: N K. Maloney?] [inserted: Cole]",
+          "uncertainName": true
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX41401 \" MALONEY NK. T6622",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Malouf",
+      "id": "malouf",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "MALOUF",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Manusu",
+      "id": "manusu",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" MANUSU PB 47689 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     Manusu.         Johnson",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "10 To12 Wright & Manusu ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "       MANUSU",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Marshall",
+      "id": "marshall",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[635?] Marshall J. Nov 17.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Mather",
+      "id": "mather",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40676 Pte [Mather?] C",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Mc Innes",
+      "id": "mc-innes",
+      "occurrences": [
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "B Mrs C Mc Innes",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "McCann",
+      "id": "mccann",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40741 · McCann G",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "McCormack",
+      "id": "mccormack",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41125 McCormack R V.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "McKay",
+      "id": "mckay",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "McKay [St?]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "McNamara",
+      "id": "mcnamara",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1654 R A McNamara 10th Regt ap 1917",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Mell",
+      "id": "mell",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "3867 G. F. [Mell?] 1st batt. Camel Cps",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Moylan",
+      "id": "moylan",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "Capt Qm J B [Moylan?] MC 15 ALH.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Norcott",
+      "id": "norcott",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, upper names",
+          "sectionIndex": 0,
+          "quote": "[Norcott?] HE",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "O’Kain / O’Kane",
+      "id": "okain-okane",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "41347 \" [O’Kain?] J.F",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "O’Neill",
+      "id": "oneill",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[3040?] W J ONeill 5th Reg",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Paget",
+      "id": "paget",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" PAGET F.G. 41308 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       [No3?]. Paget & Gilles ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "7.½ To9 Paget",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Parker",
+      "id": "parker",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1026 L/Cpl PARKER C J. 7th. 1917",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Parkins",
+      "id": "parkins",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "708 Cpl [Parkins?] H J.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Pearson",
+      "id": "pearson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Pearson C R",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX47817 \" PEARSON CR. R2885",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Philip",
+      "id": "philip",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" PHILIP RC. 41335 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "8 To10. Ingleman Philip",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "        Philip",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Prideaux",
+      "id": "prideaux",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "2375 P. [Prideaux?] 〃",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Rabe",
+      "id": "rabe",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "51879 L/Cpl Rabe G K.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[45784?] L/Cpl [Rabe?] [G L?].",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Rathjen",
+      "id": "rathjen",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1102 G F [RathJen?] 11th Reg.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Reay",
+      "id": "reay",
+      "occurrences": [
+        {
+          "pageId": "IMG_0933",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "51879 Pte [Reay?] A.J.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Reeves",
+      "id": "reeves",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41340 Reeves H.",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0914",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "D. Mrs J E M Reeves",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Richardson",
+      "id": "richardson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[Irvine?] Richardson",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Ritter",
+      "id": "ritter",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41220 Ritter R D.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Robinson",
+      "id": "robinson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Right page, upper location note",
+          "sectionIndex": 4,
+          "quote": "Sgt Robinson [illegible: approximately 3 words]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Roe",
+      "id": "roe",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "6 To 8 No1 Roe & Ford ✓",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Rose",
+      "id": "rose",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" ROSE F. 47831 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "6 to 7½ 1 Rose -",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Rowland",
+      "id": "rowland",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1152 Sgt F. A. [Rowland?] 4th Reg Nov 1917.",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Rutherford",
+      "id": "rutherford",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "53436 Rutherford E S.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Ryan",
+      "id": "ryan",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1352 Cpl Ryan J P 〃",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Sansom",
+      "id": "sansom",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "Cpl [Sansom?] -",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Searle",
+      "id": "searle",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1529 Trooper A C. [Searle?] 7th ALH 21/10/18",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Shambrook",
+      "id": "shambrook",
+      "occurrences": [
+        {
+          "pageId": "IMG_0904",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Sgt Shambrook",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Shambrook B E",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "Shambrook ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX40242 A/Sgt SHAMBROOK B.E. [D75270?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "A/Sgt Shambrook BE NX40242",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, upper names",
+          "sectionIndex": 0,
+          "quote": "Shambrook BE.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Smith",
+      "id": "smith",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "59234 〃 Smith A G",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1847 W N. Smith 〃",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Spencer",
+      "id": "spencer",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41286 Spencer K B.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Stephenson",
+      "id": "stephenson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "50918 〃 Stephenson R J",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Strong",
+      "id": "strong",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "Strong [W?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "[N E?] Strong ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0924",
+          "section": "Right-hand list",
+          "sectionIndex": 1,
+          "quote": "[N E?] Strong",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "[NX47927?] \" STRONG NE. B7487",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "     Godwin HV ✓     Strong.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Taylor",
+      "id": "taylor",
+      "occurrences": [
+        {
+          "pageId": "IMG_0934",
+          "section": "Left page, central names and note",
+          "sectionIndex": 2,
+          "quote": "[Taylor?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Tidyman",
+      "id": "tidyman",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "40225 Tidyman [R M?]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Todd",
+      "id": "todd",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "495 Sgt TODD C J. 3rd ALH Ap. 1917",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Turner",
+      "id": "turner",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "Turner",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Veart",
+      "id": "veart",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Veart?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Waite",
+      "id": "waite",
+      "occurrences": [
+        {
+          "pageId": "IMG_0924",
+          "section": "Main list",
+          "sectionIndex": 0,
+          "quote": "A E Waite ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0926",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "NX41390 \" WAITE AE 61133",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Walfish",
+      "id": "walfish",
+      "occurrences": [
+        {
+          "pageId": "IMG_0925",
+          "section": "Right page, lower note",
+          "sectionIndex": 1,
+          "quote": "for Max Walfish.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Walker",
+      "id": "walker",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Walker?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Walters",
+      "id": "walters",
+      "occurrences": [
+        {
+          "pageId": "IMG_0906",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41316 Walters [O.?]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Watson",
+      "id": "watson",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "1344 R a Watson 〃",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Watt",
+      "id": "watt",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "2083 Tpr H B Watt 5 Reg. 28/10/[18?]",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Watts",
+      "id": "watts",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "\" WATTS T H [47849?] ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "16 { Watts TA.       [Konza?]",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "       No2. Watts & Kelly ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "9.10.½ Watts",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Wheeler",
+      "id": "wheeler",
+      "occurrences": [
+        {
+          "pageId": "IMG_0905",
+          "section": "Left page—ink personnel roster",
+          "sectionIndex": 0,
+          "quote": "41246 Wheeler L.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "White",
+      "id": "white",
+      "occurrences": [
+        {
+          "pageId": "IMG_0911",
+          "section": "Left page—tent list and movements",
+          "sectionIndex": 0,
+          "quote": "White A E",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Wilkie",
+      "id": "wilkie",
+      "occurrences": [
+        {
+          "pageId": "IMG_0912",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "[Wilkie?]",
+          "uncertainName": true
+        }
+      ],
+      "allTentative": true
+    },
+    {
+      "name": "Williams",
+      "id": "williams",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, upper groups",
+          "sectionIndex": 1,
+          "quote": "15 { [Donaldson?]    Williams",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Woods",
+      "id": "woods",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Right page",
+          "sectionIndex": 1,
+          "quote": "2817 Shoeing Smith Woods H V (M G",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Wright",
+      "id": "wright",
+      "occurrences": [
+        {
+          "pageId": "IMG_0929",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "Pte WRIGHT AJ 41356 ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, middle duty list",
+          "sectionIndex": 2,
+          "quote": "10 To12 Wright & Manusu ✓",
+          "uncertainName": false
+        },
+        {
+          "pageId": "IMG_0929",
+          "section": "Right page, lower duty list",
+          "sectionIndex": 3,
+          "quote": "       Wright",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    },
+    {
+      "name": "Young",
+      "id": "young",
+      "occurrences": [
+        {
+          "pageId": "IMG_0915",
+          "section": "Left page",
+          "sectionIndex": 0,
+          "quote": "1808 〃 G. Young 5th ALH 18/10/18.",
+          "uncertainName": false
+        }
+      ],
+      "allTentative": false
+    }
+  ]
+}

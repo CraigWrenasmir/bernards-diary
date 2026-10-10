@@ -1,0 +1,191 @@
+<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Sources — Bernard Shambrook’s diary</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="enhancements.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="monochrome.css"><script src="preferences.js" defer></script><script src="edition.js" defer></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="masthead"><a class="wordmark" href="index.html">Bernard Shambrook</a><nav aria-label="Main navigation"><a href="index.html">Diary</a><a href="reading.html">Reading</a><a href="index.html#scan-gallery">Photographs</a><a href="journey.html">Journey</a><a href="people.html">Names</a><a href="history.html">Records</a></nav></header><main id="main" class="edition-main" data-page="references.html"><h1>Sources</h1>
+<p class="edition-intro">The handwriting is the authority for the transcription. External records supply historical context and geographic reference points; they are not used to turn unreadable writing into certain text.</p><div class="edition-links"><a href="history.html#sources">Historical records</a><a href="corrections.html">Revisions</a><a href="SOURCE-NOTES.md">Transcription notes</a><a href="JOURNEY-SOURCES.md">Geographic sources</a></div><div class="reference-text">
+<h2>Source and editorial notes</h2>
+<h3>Scope and attribution</h3>
+<p>Craig supplied 28 HEIC photographs of a notebook and identifies the writer as his great-grandfather, <strong>Bernard Shambrook</strong>. He confirmed that he has permission to have it transcribed. His initial dating was the 1940s, probably in connection with the Second World War. The notebook itself contains explicitly dated 1941 entries, as well as names, numbers, addresses, practical notes and drawings. Some copied inscriptions contain earlier dates; those are retained in their photographed positions.</p>
+<p>The photographs run from <code>IMG_0903.HEIC</code> to <code>IMG_0935.HEIC</code>, with deliberate gaps at <code>IMG_0909</code> and <code>IMG_0918</code>–<code>IMG_0921</code>. Craig confirmed that the supplied set comprises all the intended photographs. The website preserves filename order. It does not claim that the physical notebook is paginated, chronologically arranged or free of missing original leaves.</p>
+<p>The front and back covers are included. Each photograph is treated as one navigation item, with left/right page or other section labels where appropriate. Website titles, photograph numbers, section labels, drawing descriptions and editorial notes are editorial additions.</p>
+<p>Craig separately supplied <code>IMG_0569.heic</code> and identified the pictured man as Bernard. This portrait accompanies the introduction and is not counted among the 28 diary photographs. Its date and location were not supplied. No military unit, rank or portrait date has been inferred from the photograph.</p>
+<h3>How the text was prepared</h3>
+<p>Full-resolution photographs were visually read, with enlarged crops and deterministic greyscale/contrast adjustments where useful. Each photograph received a first transcription and a separate second visual check. Disagreements were compared against the image; a reading was left tentative when the strokes did not resolve it. Repeated names and parallel passages elsewhere in the notebook helped comparison, but one entry was not silently replaced by another. Review status is recorded per photograph in <code>data/diary.json</code>.</p>
+<p>The photographs remain the source of record. Faded pencil, hurried abbreviations, small digits, overwritten text, damaged paper and show-through limit what can be recovered. Unresolved writing remains marked; gaps have not been filled from historical expectation.</p>
+<p>External military and genealogical records are documented separately in the Historical records page and <code>data/history.json</code>. They provide corroboration and context for selected names, numbers and events; the remaining names and numbers have not all been independently authenticated. External expectation is not used to fill unreadable writing. Official catalogue descriptions, inspected documents and secondary sources are explicitly distinguished. The GitHub documentation used for hosting instructions is unrelated to the interpretation of the notebook.</p>
+<h3>Faithful transcription</h3>
+<p>The faithful text retains the visible wording, spelling, capitals, abbreviations, numbers and line breaks as closely as they can be read. It is a visual text transcription, not a typographic facsimile: precise spacing, letter forms, baselines, underlining and placement remain visible in the photographs. Punctuation and word boundaries can themselves be uncertain.</p>
+<ul>
+<li><code>[word?]</code>: a tentative reading.</li>
+<li><code>[illegible]</code>, sometimes with an approximate extent: writing that could not be recovered securely.</li>
+<li><code>[deleted: text]</code>: readable cancelled wording; cancelled unreadable text is marked as such.</li>
+<li><code>[inserted: text]</code>: writing inserted above or between lines.</li>
+<li><code>[drawing: …]</code>, <code>[blank]</code> and other descriptive brackets: editorial observations, not words attributed to Bernard.</li>
+</ul>
+<p>Reverse-side show-through or mirrored transfer marks are not treated as new front-page text. Where text appears to be obscured by another object or damaged paper, it is not reconstructed. Dates, numbers, names and abbreviations are not silently harmonised across pages.</p>
+<h3>Reading copy</h3>
+<p>The reading copy lightly modernises spelling and punctuation, joins prose lines and clarifies the presentation of lists and dates. Securely identified names and places use their standard spelling; these changes, and readings clarified by parallel entries, are documented in <code>data/reading-revisions.json</code>. The faithful text remains unchanged by these reading-copy revisions. It keeps unresolved words and digits marked and preserves substantive information. Readable cancelled wording remains in the faithful copy and is normally omitted from the reading copy. Military abbreviations are generally retained rather than expanded from assumption.</p>
+<p>The reading copy is not a summary or historical retelling. Where a faded passage cannot be made into a complete sentence without invention, the gap remains visible.</p>
+<h3>Photographs and provenance</h3>
+<p>Original HEIC files were kept unchanged. Working PNG conversions and inspection crops are separate from the website. No generative restoration, invented lettering, retouching or inpainting was used.</p>
+<p>The website includes full-resolution JPEG conversions with embedded image orientation normalised, saved at quality 96 without chroma subsampling. These JPEGs are high-quality viewing derivatives, not byte-identical replacements for the original HEICs. Navigation thumbnails, a smaller cover image and uncropped gallery previews (at most 800 pixels on the longest side) are separate derivatives. The portrait has a full-resolution JPEG and an uncropped 840 × 1120 viewing copy. No restoration, retouching or colourisation was applied to the portrait. The on-screen contrast control applies a temporary display filter; it does not change the stored photograph.</p>
+<p><code>data/source-manifest.json</code> records each diary photograph’s original filename, original byte count and SHA-256 checksum, derivative dimensions, web-image path and derivative checksum. <code>data/portrait.json</code> separately records the portrait’s attribution, checksums, dimensions and conversion method. The website bundles copies of all 29 HEIC images in <code>assets/originals/</code>, linked from the gallery and portrait. GPS/location metadata was removed for publication, without recompressing the image data. The manifests record <code>originalDownloadSHA256</code> for these public copies separately from <code>sourceSHA256</code> for the supplied originals. The owner’s source files remain unchanged locally.</p>
+<h3>Comparison review and finding aids</h3>
+<p>The comparison edition adds a continuous reading page, editorial theme filters, a searchable surname finding aid, and a dated correction register. Independent readings were considered against the supplied photographs rather than adopted for fluency. The register includes corrected readings and disputes deliberately left open.</p>
+<p>The people index is generated from exact lines in the faithful master. Surname headings are search groups, not assertions that all occurrences identify one person. Different initials and spellings remain visible; uncertain name readings remain bracketed. The source order is retained in the continuous reader, including when a theme is selected.</p>
+<p>Light (the default), Dark and System appearance choices change the surrounding interface, never the stored photographs. The reader and continuous reading page share a saved text-version preference where local browser storage is available.</p>
+<h3>Review and future corrections</h3>
+<p>The scrolling archive and <code>journey.html</code> include a geographic map and dated entries. The archive also has selected lists, cemetery pages and the original-photo gallery. It draws on external geographic sources to locate names, separately from transcribing them. Those sources and the limits of each identification are documented in <code>JOURNEY-SOURCES.md</code>. Geographic identifications do not replace the wording of the notebook. During the comparison review, image-supported corrections were made to both text editions and their dependent journey excerpts; these changes are documented in <code>data/corrections.json</code> and the Editorial revisions page. Dates in memorial inscriptions, addresses and other people’s records are not treated as Bernard’s movements. Sketches and dated headings have distinct labels from arrivals and departures. Rehovot and 7 AGH have been identified in the reading-copy review; the entry records a departure for that destination. Unrecorded travel between later notes is not filled in. Gallery reproductions are reduced, uncropped versions of the supplied photographs. The reader also offers 28 deterministic left/right crops from 14 visually inspected spreads. These crops include a narrow overlap at the fold, use the existing upright JPEG derivatives, and do not change lettering or geometry. Their rectangles and source dimensions are recorded in <code>data/source-crops.json</code>; the complete photographs remain available beside them.</p>
+<p>The full text and uncertainty register are available as <code>faithful-transcription.txt</code>, <code>reading-copy.txt</code> and <code>uncertain-readings.tsv</code>. The register groups related uncertainties; it is not an error count or a numerical measure of accuracy. The inline brackets in the transcription are the more detailed record of unresolved text.</p>
+<p>To correct a reading, compare the word with the photograph and with other instances of the writer’s letter forms. Edit <code>data/diary.json</code>, retaining uncertainty when needed, and regenerate the readable files with <code>python3 build.py</code>. If later family knowledge or external historical evidence resolves a name, record that evidence separately from what is directly legible.</p>
+<p>Prepared 10 October 2026 for Craig. The public edition is hosted through the Bernard’s Diary GitHub Pages repository.</p>
+<h2>Journey: sources and editorial decisions</h2>
+<p>Prepared 10 October 2026. The journey companion is an interpretation of the photographed notebook, with external sources used for geographic identification. It does not change the faithful transcription or supply missing handwriting.</p>
+<h3>What the map means</h3>
+<ul>
+<li><strong>Recorded movement:</strong> a readable arrival, departure or passing statement in the notebook. This is diary evidence, not independent proof of every event.</li>
+<li><strong>Tentative destination:</strong> an uncertain reading such as [Rehovoth?], plotted conditionally. “Left for” does not establish arrival.</li>
+<li><strong>Drawing or note:</strong> a labelled sketch or dated heading, not proof of a visit. Jerusalem has no visit date; Gaza’s sketch date remains [22/6/41?].</li>
+<li><strong>No pin:</strong> Kilo 89 and Romani are retained in the chronology, but no trustworthy exact locality point was established here. Other unlocated notes remain unlocated.</li>
+</ul>
+<p>All pins indicate approximate port or town/locality areas, not Bernard’s exact position, berth, station, camp, cemetery or viewpoint. The distinction matters especially at Gaza, Julis and Jerusalem. The map uses rounded WGS84 coordinates. It is an illustrative archive guide, not a navigational map.</p>
+<p>The outward-voyage curves are drawn for legibility and sequence. Their control points are graphic choices, not evidence of a ship’s course. They must not be used for distance or speed calculations. No lines join the later gaps. The main regional map leaves the canal and railway positions as reference points rather than tracing infrastructure that was not reconstructed.</p>
+<p>“Palestine” follows the historical context of the notebook. Modern, generalised coastlines are used without political boundaries. Town and port identifications do not assert modern borders or sovereignty.</p>
+<h3>Chronology and omissions</h3>
+<p><code>data/journey-evidence.json</code> contains a full source-text audit with movement records, contextual records, exact excerpts, conflict notes and excluded categories. The 25 entries in <code>data/journey.json</code> group closely related arrivals/departures and incorporate selected contextual notes. <code>journey-record.html</code> exposes each included entry’s passages and photograph links without JavaScript.</p>
+<p>The displayed Suez arrival follows the repeated 3 May statements. The adjacent Saturday/Sunday wording, inserted 4th and much fainter [7/5/41?] inside-cover note remain unresolved. The 7 May Gaza arrival and the same-day Kilo 89 note are distinct; their connecting movement is not described. The 25 May destination remains tentative. The 4 August departure gives no destination. The Gaza heading has a disputed month: 23 June or 23 September 1941. It is retained as an uncertain dated heading, not an arrival statement, and is not made into a certain September journey stop.</p>
+<p>The June 12 service/order note has an inferred year and an uncertain date association. A 20 July pencil line, a 21 July funeral note and the 9/10 August note do not securely locate Bernard. News about the Syrian armistice, another man’s death date, memorial dates from 1917–1918, Australian addresses and personnel lists have not been converted into journey stops.</p>
+<p>The gallery uses reduced, uncropped versions of three supplied photographs. Its headings and captions are editorial. No lettering or missing drawing content was reconstructed.</p>
+<h3>Coastline and city reference data</h3>
+<p>The included <code>data/map-land.geojson</code> is Natural Earth’s 1:50m land data, obtained from the project author’s repository. The builder clips and projects these polygons to make the two SVG maps. Natural Earth makes this data public domain.</p>
+<ul>
+<li><a href="https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/">Natural Earth land dataset</a></li>
+<li><a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth terms of use</a></li>
+<li><a href="https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson">Source GeoJSON in the Natural Earth repository</a></li>
+<li><a href="https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places_simple.geojson">Natural Earth populated places</a>: general city references for Gaza (31.53 N, 34.445 E) and Jerusalem (31.778 N, 35.207 E). These do not locate their cemeteries.</li>
+</ul>
+<h3>Overview port references</h3>
+<ul>
+<li><strong>Sydney:</strong> <a href="https://wavewindtide.portauthoritynsw.com.au/default">Port Authority of NSW’s harbour measurements</a> locates Fort Denison at 33°51.31′ S, 151°13.52′ E. The map uses this as a rounded harbour reference, not an embarkation berth.</li>
+<li><strong>Fremantle:</strong> <a href="https://www.abf.gov.au/entering-leaving-australia/Pages/Ports-of-entry.aspx">Australian Border Force ports of entry</a> supplies 32°3.955′ S, 115°44.760′ E. The map uses the general port area, not that modern boarding facility as Bernard’s landing point.</li>
+<li><strong>Trincomalee:</strong> <a href="https://www.slpa.lk/port-colombo/terminal-info/1000">Sri Lanka Ports Authority terminal information</a> supplies 8°33′ N, 81°13′ E. This identifies the port called TRINCOMILEE in the diary.</li>
+<li><strong>Aden:</strong> <a href="https://www.portofaden.net/en/site/page/8/Navigation%20Data">Port of Aden navigation data</a> supplies a reference at 12°44′ N, 44°57′ E near the port approaches. The diary says he passed Aden; the pin is a port reference, not a recorded ship position.</li>
+</ul>
+<h3>Regional identifications</h3>
+<p>The structured research is retained in <code>data/journey-geography.json</code>, including NGA feature identifiers and queried records. NGA is the US National Geospatial-Intelligence Agency’s Geographic Names Server. A geographic name match supports identification; it does not independently establish Bernard’s presence.</p>
+<h4>Port Tewfic / Suez</h4>
+<p>Port Tewfik / Port Tawfiq (Bur Tawfiq), at Suez and the southern Suez Canal entrance.</p>
+<p>Approximate map reference: 29.94 N, 32.57 E. rounded settlement vicinity; not the ship anchorage, berth or 1941 landing point.</p>
+<ul>
+<li>Do not place the ship precisely at the modern shipyard. The date 4 August and place spelling remain as transcribed.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: Port Tewfik</a></li>
+<li><a href="https://www.suezcanal.gov.eg/English/Shipyards/PTShipyard/Documents/PORTAWFIQ%20ENGLISH.pdf">Suez Canal Authority: Port Tawfik Shipyard</a></li>
+</ul>
+<h4>El Kantara / Kantara East</h4>
+<p>Al Qantarah on the Suez Canal; the text explicitly mentions Kantara East.</p>
+<p>Approximate map reference: 30.86 N, 32.32 E. rounded locality point; not the receiving depot, landing or Kantara East station.</p>
+<ul>
+<li>NGA variants combine Kantara and Kantara East; its precise point must not be treated as a 1941 east-bank station location. Use rounded town vicinity only.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-290712&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: El Kantara</a></li>
+<li><a href="https://www.suezcanal.gov.eg/FlipPDFFiles/RulesOfNavigation/files/basic-html/page150.html">Suez Canal Authority: Rules of Navigation 2020, map page 150</a></li>
+</ul>
+<h4>Romani</h4>
+<p>Romani in northern Sinai, on the historic railway from Kantara towards El Arish.</p>
+<p>No precise site pin supplied. A broad city reference may appear only where explicitly labelled.</p>
+<ul>
+<li>NGA station UFI -301357 returns latitude 31.916667 and longitude 32.663889. This lies in the Mediterranean, inconsistent with the northern-Sinai railway; reject this coordinate instead of silently correcting it. No Romani pin recommended yet.</li>
+<li>The nearby salt-flat record is a different feature and is not a substitute station coordinate.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://anzacportal.dva.gov.au/resources/australian-light-horse-palestine-1916-1918">Australian Department of Veterans’ Affairs: Australian Light Horse—Palestine 1916–1918</a></li>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-301357&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: Romani</a></li>
+</ul>
+<h4>El Erich</h4>
+<p>Very likely El Arish (Al Arish) on the northern Sinai coast; this is an editorial identification, not a changed transcription.</p>
+<p>Approximate map reference: 31.13 N, 33.8 E. rounded modern town point; not a located rail station.</p>
+<ul>
+<li>Preserve El Erich in quotations; label El Arish as identification. Do not infer an extended stay from passed through.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-289771&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: Al ‘Arīsh</a></li>
+<li><a href="https://anzacportal.dva.gov.au/resources/australian-light-horse-palestine-1916-1918">Australian Department of Veterans’ Affairs: Australian Light Horse—Palestine 1916–1918</a></li>
+</ul>
+<h4>Kilo 89</h4>
+<p>Kilo 89 Camp, Gaza Ridge, Palestine.</p>
+<p>No precise site pin supplied. A broad city reference may appear only where explicitly labelled.</p>
+<ul>
+<li>No precise camp position established. Gaza city coordinates must not be labelled as Kilo 89 camp.</li>
+<li>An AWM graves-unit index labels Kilo 89 as Egypt; contemporaneous photo catalogues and diary route support the Palestine camp. The conflicting index is not a basis for moving the pin to Egypt.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://www.awm.gov.au/collection/C325901">Australian War Memorial: Kilo 89 Camp, Gaza Ridge, Palestine, c. December 1941 (P02480.002)</a></li>
+<li><a href="https://www.awm.gov.au/collection/C325908">Australian War Memorial: Kilo 89 camp, Gaza, Palestine, 1942 (P02480.009)</a></li>
+</ul>
+<h4>Julis / JULIUS; [Gellibrand?] lines</h4>
+<p>Southern Palestine Julis camp near Gaza, with Gellibrand one of its documented sections; locality corresponds to abandoned Julis/Julius rather than Galilee Julis.</p>
+<p>Approximate map reference: 31.68 N, 34.65 E. rounded NGA abandoned-settlement point, used only for the surrounding locality; camp perimeter and Gellibrand Lines are unlocated.</p>
+<ul>
+<li>Gellibrand remains bracketed in the transcription; external corroboration belongs in the map annotation.</li>
+<li>Do not use the present-day Galilee Julis at about 32.94N,35.18E.</li>
+<li>Pin represents historical locality, not the exact Australian camp or lines.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-780300&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: Julis</a></li>
+<li><a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070226/document/5519524.PDF">Australian War Memorial: To Benghazi, chapter 4</a> — Printed p. 72; PDF page 3</li>
+<li><a href="https://www.awm.gov.au/collection/C7504">Australian War Memorial: Main Tel Aviv–Gaza road through Julis Camp (023609)</a></li>
+<li><a href="https://www.awm.gov.au/collection/U56044">Australian War Memorial: 2/1st Australian Infantry Battalion</a></li>
+</ul>
+<h4>[Rehovoth?]</h4>
+<p>Probably Rehovot, with Rehovoth a documented variant; not securely identified from handwriting alone.</p>
+<p>Approximate map reference: 31.89 N, 34.81 E. rounded modern town point; conditional identification, no camp or hospital located.</p>
+<ul>
+<li>Use an uncertain/dashed marker if plotted. Departure for a destination is not independent evidence of arrival.</li>
+<li>The renewed image review tentatively reads [7 AGH?]. AWM records document the 7th Australian General Hospital near Rehovot, but neither the initials nor that contextual match establish Bernard’s admission as a patient. The proposed expansion remains editorial context, not a silent change to the faithful text.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-781210&amp;outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&amp;returnGeometry=false&amp;f=pjson">US National Geospatial-Intelligence Agency (NGA): Geographic Names Server: Reẖovot</a></li>
+<li><a href="https://www.awm.gov.au/collection/C6754">Australian War Memorial: 7th Australian General Hospital at Kafr Balu, near Rehovot (022693)</a> — Hospital location only; no personal admission claim.</li>
+<li><a href="https://collections.museumsvictoria.com.au/items/1918987">Museums Victoria: Main Street in Rehovot, 1941 (MM 129890)</a></li>
+<li><a href="https://postalmuseum.si.edu/object/npm_0.270209.52.11">Smithsonian National Postal Museum: Rehovoth cancelled postage stamps, 1939–1940</a></li>
+</ul>
+<h4>Gaza Cemetry / Gaza war cemetry</h4>
+<p>Gaza War Cemetery, supported by the explicit diary label; the specific LIV memorial identification has not been independently checked against an accessible primary image.</p>
+<p>No precise site pin supplied. A broad city reference may appear only where explicitly labelled.</p>
+<ul>
+<li>Do not connect a cemetery sketch with a solid dated journey segment.</li>
+<li>City-level Gaza coordinate may be used as a clearly labelled broad reference, not a cemetery pin.</li>
+<li>CWGC cemetery detail webpage could not be directly verified due to HTTP 403; no coordinate taken from mirrors.</li>
+<li>An October 2024 CWGC report hosted by Parliament was found in search, but its PDF could not be opened (HTTP 403), so no claim about its exact contents is relied on.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://www.awm.gov.au/collection/C28976">Australian War Memorial: Gaza War Cemetery dawn service, 25 April 1940 (007388)</a></li>
+</ul>
+<h4>Jerusalem War Cemetery</h4>
+<p>Jerusalem War Cemetery; archival photograph directly corroborates its land-gift entrance inscription.</p>
+<p>No precise site pin supplied. A broad city reference may appear only where explicitly labelled.</p>
+<ul>
+<li>Do not convert the sketch into a confirmed Jerusalem visit or assign a date from neighbouring photographs.</li>
+<li>CWGC direct page returned HTTP 403; a modern Jerusalem city point can be reference-only, not the precise cemetery.</li>
+</ul>
+<p>Sources:</p>
+<ul>
+<li><a href="https://www.awm.gov.au/collection/H12705">Australian War Memorial: Entrance to Jerusalem War Cemetery (H12705)</a></li>
+<li><a href="https://www.dva.gov.au/recognition-and-commemoration/memorials/memorials-africa-and-middle-east/israel">Australian Department of Veterans’ Affairs: Israel: Australian Memorial outside Jerusalem War Cemetery</a></li>
+</ul>
+<h3>Reproducibility</h3>
+<p>Run <code>python3 build.py</code> after editing the diary or companion masters. It rebuilds both readers, exports and SVG maps locally. Leaflet 1.9.4 is bundled locally. Online maps request standard raster tiles from OpenStreetMap and show its required attribution. No tiles are prefetched or bundled; local SVG maps provide the offline and no-JavaScript fallback. See the <a href="https://operations.osmfoundation.org/policies/tiles/">OSM tile policy</a> and <a href="https://leafletjs.com/reference.html">Leaflet documentation</a>.</p>
+<p>Natural Earth land source SHA-256: <code>e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b</code>.</p>
+<h3>Reading-copy and map review, 10 October 2026</h3>
+<p>The newer reading-copy review identifies Rehovot / 7 AGH, Gaza Ridge / A.A.P.D., Gaza hospital and Port Tewfik, while preserving the faithful text. The map uses the reading copy for these selected quotations and labels it accordingly; the chronology retains exact faithful excerpts. Details and evidence are in <code>data/reading-revisions.json</code>. Earlier uncertainty assessments above document the original review rather than overruling these revisions. Gaza’s June/September heading remains unresolved.</p>
+<p>The online map uses modern OpenStreetMap place labels. Dashed sea connections and solid Kantara–El Arish–Gaza connections show the sequence approximately, not a surveyed ship or railway track. Rehovot is a named destination; Jerusalem is an undated drawing. No land route to the Tel Aviv address has been inferred. The two local fallback maps use Natural Earth, as documented above.</p>
+</div>
+</main><footer class="edition-footer"><p><a href="references.html">Sources</a> · <a href="corrections.html">Revisions</a> · <a href="complete-transcription.html">Complete transcription</a> · <a href="index.html#scan-gallery">Original photographs</a></p></footer></body></html>

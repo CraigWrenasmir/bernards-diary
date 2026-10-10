@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bernard Shambrook’s family notebook, with page photographs, a faithful transcription and a lightly modernised reading copy.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Transcription — Bernard Shambrook’s diary</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="journey.css">
+  <link rel="stylesheet" href="portrait.css">
+  <link rel="stylesheet" href="gallery.css">
+  <script src="diary-data.js" defer></script>
+  <script src="crop-data.js" defer></script>
+  <script src="app.js" defer></script>
+  
+  <link rel="stylesheet" href="enhancements.css"><link rel="stylesheet" href="monochrome.css">
+  <script src="preferences.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#reader">Skip to the diary</a>
+  <header class="masthead"><a href="index.html" class="wordmark">Bernard Shambrook</a><nav aria-label="Main"><a href="index.html" aria-current="page">Diary</a><a href="reading.html">Reading</a><a href="index.html#scan-gallery">Photographs</a><a href="journey.html">Journey</a><a href="people.html">Names</a><a href="history.html">Records</a></nav></header>
+  <main>
+    <section class="introduction"><div class="intro-copy"><h1>Transcription</h1><p>Inspect one photograph at a time. <a href="index.html#diary">Read the diary</a>.</p></div></section>
+<section id="reader" class="reader" aria-labelledby="reader-title">
+      <div class="reader-heading"><h2 id="reader-title">Transcription</h2></div>
+      <div class="workspace">
+        <aside class="browse"><details id="browse-details" open><summary>Browse the photographs <span id="result-count">28</span></summary><label for="search">Search the transcription</label><input type="search" id="search" placeholder="A name, place or phrase…" autocomplete="off"><p class="search-note">Searches both versions and editorial notes.</p><nav id="page-list" aria-label="Photographs"></nav><p id="empty-search" hidden>No photographs match this search.</p></details></aside>
+        <div class="reading-area">
+          <div class="page-navigation"><button id="previous" type="button" aria-label="Previous photograph">← Previous</button><p id="position" aria-live="polite"></p><button id="next" type="button" aria-label="Next photograph">Next →</button></div>
+          <div class="page-heading"><div><p id="source-name" class="eyebrow"></p><h3 id="page-title" tabindex="-1"></h3></div><a id="permalink" href="#" aria-label="Link to this photograph">Link to photograph ↗</a></div>
+          <div class="comparison">
+            <figure class="source-panel"><div id="source-view-controls" class="source-view-controls" role="group" aria-label="Photograph view" hidden><button type="button" data-leaf="full" aria-pressed="true">Full photograph</button><button type="button" data-leaf="left" aria-pressed="false">Left page</button><button type="button" data-leaf="right" aria-pressed="false">Right page</button></div><div class="photo-frame"><img id="page-image" src="assets/photos/IMG_0903.jpg" alt="Front cover of the notebook"></div><figcaption><span id="image-caption"></span><p class="crop-note" id="crop-note" hidden>Page crop. Select “Full photograph” to see the complete image.</p><div class="image-actions"><button type="button" id="enlarge">Enlarge</button><button type="button" id="contrast" aria-pressed="false">Increase contrast</button><a id="image-link" href="assets/photos/IMG_0903.jpg" target="_blank" rel="noopener">Open full photograph ↗</a><a id="original-link" href="assets/originals/IMG_0903.HEIC" download>HEIC file ↓</a></div></figcaption></figure>
+            <div class="transcription-panel"><div class="mode-switch" role="tablist" aria-label="Transcription version"><button type="button" role="tab" id="mode-faithful" aria-selected="true" aria-controls="transcription" data-mode="faithful">Faithful</button><button type="button" role="tab" id="mode-reading" aria-selected="false" aria-controls="transcription" data-mode="reading" tabindex="-1">Reading copy</button></div><p id="mode-description" class="mode-description"></p><div id="transcription" role="tabpanel" aria-labelledby="mode-faithful"></div><div id="editorial-notes"></div><details id="uncertainty-panel"><summary id="uncertainty-summary">Uncertain readings</summary><ul id="uncertainties"></ul></details></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <noscript><p class="no-script">To use the side-by-side reader, enable JavaScript. The <a href="complete-transcription.html">complete transcription</a> is also available without JavaScript.</p></noscript>
+  </main>
+  <footer><p>Bernard Shambrook</p><a href="references.html">Sources</a><a href="corrections.html">Revisions</a><a href="index.html#about">About</a></footer>
+  <dialog id="image-dialog" aria-labelledby="zoom-title"><div class="dialog-toolbar"><h2 id="zoom-title">Photograph</h2><label for="zoom">Zoom</label><input type="range" id="zoom" min="100" max="250" value="100" step="25"><button id="close-dialog" type="button">Close ×</button></div><div class="zoom-scroll"><img id="zoom-image" src="assets/photos/IMG_0903.jpg" alt="Enlarged photograph"></div></dialog>
+</body>
+</html>

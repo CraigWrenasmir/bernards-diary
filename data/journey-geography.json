@@ -1,0 +1,409 @@
+{
+  "title": "Bernard diary: geographic identifications for map",
+  "researchedDate": "2026-10-10",
+  "sourceTranscription": "outputs/bernards-diary/data/diary.json",
+  "method": "Diary evidence and external geographical identification are kept separate. All pins are approximate locality points, not reconstructed 1941 ship, station, camp or personal positions. Uncertain readings stay uncertain. Addresses, drawings and external unit histories do not prove visits.",
+  "coordinateSystem": "WGS84 decimal degrees; pin fields lat/lon",
+  "coordinateAuthority": "NGA Geographic Names Server, queried 2026-10-10; raw responses in work/geography-nga-uppercase-queries.json. Rounded displayed pins intentionally reduce false precision.",
+  "places": [
+    {
+      "id": "port-tewfic",
+      "diaryName": "Port Tewfic / Suez",
+      "diaryReferences": [
+        "IMG_0910",
+        "IMG_0911",
+        "IMG_0913",
+        "IMG_0922"
+      ],
+      "diaryEvidence": "Arrived Port Tewfic 3 May 1941; anchored at Suez until disembarkation on 6 May; separate tentative departure note 4 August; labelled sketch.",
+      "evidenceStatus": "recorded arrival and disembarkation; later departure is tentative",
+      "identification": "Port Tewfik / Port Tawfiq (Bur Tawfiq), at Suez and the southern Suez Canal entrance",
+      "identificationConfidence": "high",
+      "pin": {
+        "lat": 29.94,
+        "lon": 32.57,
+        "label": "Port Tewfic / Suez — port vicinity",
+        "accuracy": "rounded settlement vicinity; not the ship anchorage, berth or 1941 landing point"
+      },
+      "sources": [
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: Port Tewfik",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-292713&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -292713; PPL; latitude 29.941667, longitude 32.565833. Name variants: N:1:BURTAWFIQ;||V:999:TAWFIQ;||V:999:TAUFIG;||V:999:PORTTWEFIK;||V:999:PORTTHEWFIK;||V:999:PORTTEWFIK;||V:999:PORTTEWFICK;||V:999:PORTTAWFIQ;||V:999:PORTTAUFIQ;||V:999:PORTTAUFIK;||V:999:PORTTAUFIG;||V:999:TEWFIK;||V:999:BURTAUFIQ;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -292713,
+            "full_name": "Port Tewfik",
+            "full_nm_nd": "Port Tewfik",
+            "lat_dd": 29.941667,
+            "long_dd": 32.565833,
+            "desig_cd": "PPL",
+            "all_names": "N:1:BURTAWFIQ;||V:999:TAWFIQ;||V:999:TAUFIG;||V:999:PORTTWEFIK;||V:999:PORTTHEWFIK;||V:999:PORTTEWFIK;||V:999:PORTTEWFICK;||V:999:PORTTAWFIQ;||V:999:PORTTAUFIQ;||V:999:PORTTAUFIK;||V:999:PORTTAUFIG;||V:999:TEWFIK;||V:999:BURTAUFIQ;",
+            "gis_notes": null
+          }
+        },
+        {
+          "organisation": "Suez Canal Authority",
+          "title": "Port Tawfik Shipyard",
+          "url": "https://www.suezcanal.gov.eg/English/Shipyards/PTShipyard/Documents/PORTAWFIQ%20ENGLISH.pdf",
+          "supportingText": "The authority places the shipyard at Suez city, by the southern entrance of the Suez Canal."
+        }
+      ],
+      "cautions": [
+        "Do not place the ship precisely at the modern shipyard. The date 4 August and place spelling remain as transcribed."
+      ]
+    },
+    {
+      "id": "kantara",
+      "diaryName": "El Kantara / Kantara East",
+      "diaryReferences": [
+        "IMG_0910",
+        "IMG_0911"
+      ],
+      "diaryEvidence": "Arrived at El Kantara about 4 pm on 6 May; receiving depot overnight; train departure 5:30 am 7 May 1941 for Gaza.",
+      "evidenceStatus": "recorded disembarkation and overnight stop",
+      "identification": "Al Qantarah on the Suez Canal; the text explicitly mentions Kantara East",
+      "identificationConfidence": "high for locality; exact depot and rail platform unresolved",
+      "pin": {
+        "lat": 30.86,
+        "lon": 32.32,
+        "label": "Kantara — town and canal vicinity",
+        "accuracy": "rounded locality point; not the receiving depot, landing or Kantara East station"
+      },
+      "sources": [
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: El Kantara",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-290712&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -290712; PPL; latitude 30.857106, longitude 32.311828. Name variants: N:1:ALQANTARAH;||V:999:KANTARAEAST;||V:999:ELQANTARAELSHARQIYA;||V:999:ELQANTARA;||V:999:ELKANTARA;||V:999:ALQANATARAHEAST;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -290712,
+            "full_name": "El Kantara",
+            "full_nm_nd": "El Kantara",
+            "lat_dd": 30.857106,
+            "long_dd": 32.311828,
+            "desig_cd": "PPL",
+            "all_names": "N:1:ALQANTARAH;||V:999:KANTARAEAST;||V:999:ELQANTARAELSHARQIYA;||V:999:ELQANTARA;||V:999:ELKANTARA;||V:999:ALQANATARAHEAST;",
+            "gis_notes": null
+          }
+        },
+        {
+          "organisation": "Suez Canal Authority",
+          "title": "Rules of Navigation 2020, map page 150",
+          "url": "https://www.suezcanal.gov.eg/FlipPDFFiles/RulesOfNavigation/files/basic-html/page150.html",
+          "supportingText": "Canal diagram labels Kantara Station at kilometre 45 and nearby ferry crossings."
+        }
+      ],
+      "cautions": [
+        "NGA variants combine Kantara and Kantara East; its precise point must not be treated as a 1941 east-bank station location. Use rounded town vicinity only."
+      ]
+    },
+    {
+      "id": "romani",
+      "diaryName": "Romani",
+      "diaryReferences": [
+        "IMG_0910",
+        "IMG_0911"
+      ],
+      "diaryEvidence": "Passed through Romani and El Erich by train on 7 May 1941.",
+      "evidenceStatus": "recorded rail transit",
+      "identification": "Romani in northern Sinai, on the historic railway from Kantara towards El Arish",
+      "identificationConfidence": "high for historical locality; no trustworthy pin obtained",
+      "pin": null,
+      "sources": [
+        {
+          "organisation": "Australian Department of Veterans’ Affairs",
+          "title": "Australian Light Horse—Palestine 1916–1918",
+          "url": "https://anzacportal.dva.gov.au/resources/australian-light-horse-palestine-1916-1918",
+          "supportingText": "The official history account connects Romani, Kantara and El Arish with the Sinai campaign and railway advance."
+        },
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: Romani",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-301357&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -301357; RSTN; latitude 31.916667, longitude 32.663889. Name variants: N:1:RUMMANAH;||V:999:RUMANI;||V:999:RUMANA;||V:999:ROMANISTATION;||V:999:ROMANI;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -301357,
+            "full_name": "Rumâna",
+            "full_nm_nd": "Rumana",
+            "lat_dd": 31.916667,
+            "long_dd": 32.663889,
+            "desig_cd": "RSTN",
+            "all_names": "N:1:RUMMANAH;||V:999:RUMANI;||V:999:RUMANA;||V:999:ROMANISTATION;||V:999:ROMANI;",
+            "gis_notes": null
+          }
+        }
+      ],
+      "cautions": [
+        "NGA station UFI -301357 returns latitude 31.916667 and longitude 32.663889. This lies in the Mediterranean, inconsistent with the northern-Sinai railway; reject this coordinate instead of silently correcting it. No Romani pin recommended yet.",
+        "The nearby salt-flat record is a different feature and is not a substitute station coordinate."
+      ]
+    },
+    {
+      "id": "el-erich",
+      "diaryName": "El Erich",
+      "diaryReferences": [
+        "IMG_0910",
+        "IMG_0911"
+      ],
+      "diaryEvidence": "Passed through Romani and El Erich by train on 7 May 1941.",
+      "evidenceStatus": "recorded rail transit",
+      "identification": "Very likely El Arish (Al Arish) on the northern Sinai coast; this is an editorial identification, not a changed transcription",
+      "identificationConfidence": "high contextual identification; diary spelling differs",
+      "pin": {
+        "lat": 31.13,
+        "lon": 33.8,
+        "label": "El Erich — likely El Arish, town vicinity",
+        "accuracy": "rounded modern town point; not a located rail station"
+      },
+      "sources": [
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: Al ‘Arīsh",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-289771&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -289771; PPLA; latitude 31.12866, longitude 33.797117. Name variants: N:1:ALARISH;||NS:999:العريش;||V:999:RHINOCOLURA;||V:999:RHINOCOLORUM;||V:999:RHINOKORURA;||V:999:CITYOFCUTNOSES;||V:999:ELARISH;||V:999:RHINOCORURA;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -289771,
+            "full_name": "Al ‘Arīsh",
+            "full_nm_nd": "Al `Arish",
+            "lat_dd": 31.12866,
+            "long_dd": 33.797117,
+            "desig_cd": "PPLA",
+            "all_names": "N:1:ALARISH;||NS:999:العريش;||V:999:RHINOCOLURA;||V:999:RHINOCOLORUM;||V:999:RHINOKORURA;||V:999:CITYOFCUTNOSES;||V:999:ELARISH;||V:999:RHINOCORURA;",
+            "gis_notes": null
+          }
+        },
+        {
+          "organisation": "Australian Department of Veterans’ Affairs",
+          "title": "Australian Light Horse—Palestine 1916–1918",
+          "url": "https://anzacportal.dva.gov.au/resources/australian-light-horse-palestine-1916-1918",
+          "supportingText": "El Arish is described on the coastal approaches to Palestine, east of Romani, with railway construction advancing towards it."
+        }
+      ],
+      "cautions": [
+        "Preserve El Erich in quotations; label El Arish as identification. Do not infer an extended stay from passed through."
+      ]
+    },
+    {
+      "id": "kilo89",
+      "diaryName": "Kilo 89",
+      "diaryReferences": [
+        "IMG_0904",
+        "IMG_0911",
+        "IMG_0913"
+      ],
+      "diaryEvidence": "Arrived 7 May and left 17 May 1941; movement onward to Julis.",
+      "evidenceStatus": "recorded camp stay",
+      "identification": "Kilo 89 Camp, Gaza Ridge, Palestine",
+      "identificationConfidence": "high for named camp and broad region",
+      "pin": null,
+      "sources": [
+        {
+          "organisation": "Australian War Memorial",
+          "title": "Kilo 89 Camp, Gaza Ridge, Palestine, c. December 1941 (P02480.002)",
+          "url": "https://www.awm.gov.au/collection/C325901",
+          "supportingText": "Kilo 89 Camp, Gaza Ridge, Palestine. c. December 1941."
+        },
+        {
+          "organisation": "Australian War Memorial",
+          "title": "Kilo 89 camp, Gaza, Palestine, 1942 (P02480.009)",
+          "url": "https://www.awm.gov.au/collection/C325908",
+          "supportingText": "Kilo 89 camp, Gaza, Palestine. 1942."
+        }
+      ],
+      "cautions": [
+        "No precise camp position established. Gaza city coordinates must not be labelled as Kilo 89 camp.",
+        "An AWM graves-unit index labels Kilo 89 as Egypt; contemporaneous photo catalogues and diary route support the Palestine camp. The conflicting index is not a basis for moving the pin to Egypt."
+      ]
+    },
+    {
+      "id": "julis",
+      "diaryName": "Julis / JULIUS; [Gellibrand?] lines",
+      "diaryReferences": [
+        "IMG_0911",
+        "IMG_0913"
+      ],
+      "diaryEvidence": "Arrived unit Julis, [Gellibrand?] lines on 17 May 1941; repeated as JOIN 3RD BTN AT JULIUS.",
+      "evidenceStatus": "recorded arrival at named camp; line-name transcription tentative",
+      "identification": "Southern Palestine Julis camp near Gaza, with Gellibrand one of its documented sections; locality corresponds to abandoned Julis/Julius rather than Galilee Julis",
+      "identificationConfidence": "high for camp identity; exact Gellibrand Lines location unresolved",
+      "pin": {
+        "lat": 31.68,
+        "lon": 34.65,
+        "label": "Julis — approximate historical locality",
+        "accuracy": "rounded NGA abandoned-settlement point, used only for the surrounding locality; camp perimeter and Gellibrand Lines are unlocated"
+      },
+      "sources": [
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: Julis",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-780300&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -780300; PPLQ; latitude 31.683333, longitude 34.65. Name variants: N:1:JULIS;||V:999:JULIUS;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -780300,
+            "full_name": "Julis",
+            "full_nm_nd": "Julis",
+            "lat_dd": 31.683333,
+            "long_dd": 34.65,
+            "desig_cd": "PPLQ",
+            "all_names": "N:1:JULIS;||V:999:JULIUS;",
+            "gis_notes": null
+          }
+        },
+        {
+          "organisation": "Australian War Memorial",
+          "title": "To Benghazi, chapter 4",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070226/document/5519524.PDF",
+          "supportingText": "The five sections at Julis were named Monash, Goddard, Gellibrand, Hobbs and Leane.",
+          "locator": "Printed p. 72; PDF page 3"
+        },
+        {
+          "organisation": "Australian War Memorial",
+          "title": "Main Tel Aviv–Gaza road through Julis Camp (023609)",
+          "url": "https://www.awm.gov.au/collection/C7504",
+          "supportingText": "The catalogue identifies the main Tel Aviv–Gaza road through Julis Camp, with the view towards Gaza."
+        },
+        {
+          "organisation": "Australian War Memorial",
+          "title": "2/1st Australian Infantry Battalion",
+          "url": "https://www.awm.gov.au/collection/U56044",
+          "supportingText": "Unit history locates the 16th Brigade concentration at Julis near Gaza."
+        }
+      ],
+      "cautions": [
+        "Gellibrand remains bracketed in the transcription; external corroboration belongs in the map annotation.",
+        "Do not use the present-day Galilee Julis at about 32.94N,35.18E.",
+        "Pin represents historical locality, not the exact Australian camp or lines."
+      ]
+    },
+    {
+      "id": "rehovoth",
+      "diaryName": "[Rehovoth?]",
+      "diaryReferences": [
+        "IMG_0911"
+      ],
+      "diaryEvidence": "left for [Rehovoth?] [7 AGH?] 25/5/41",
+      "evidenceStatus": "recorded intended destination; handwriting and following abbreviation uncertain",
+      "identification": "Probably Rehovot, with Rehovoth a documented variant; not securely identified from handwriting alone",
+      "identificationConfidence": "tentative",
+      "pin": {
+        "lat": 31.89,
+        "lon": 34.81,
+        "label": "[Rehovoth?] — possible Rehovot town",
+        "accuracy": "rounded modern town point; conditional identification, no camp or hospital located"
+      },
+      "sources": [
+        {
+          "organisation": "US National Geospatial-Intelligence Agency (NGA)",
+          "title": "Geographic Names Server: Reẖovot",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-781210&outFields=ufi%2Cfull_name%2Clat_dd%2Clong_dd%2Cdesig_cd%2Call_names&returnGeometry=false&f=pjson",
+          "supportingText": "NGA unique feature -781210; PPL; latitude 31.894206, longitude 34.811988. Name variants: N:1:REHOVOT;||NS:999:רחובות;||V:999:RUHAYBAH;||V:999:RHOVOT;||V:999:REHOVOTH;||V:999:KHIRBETDEIRAN;",
+          "evidenceType": "authoritative geographic feature database",
+          "record": {
+            "ufi": -781210,
+            "full_name": "Reẖovot",
+            "full_nm_nd": "Rehovot",
+            "lat_dd": 31.894206,
+            "long_dd": 34.811988,
+            "desig_cd": "PPL",
+            "all_names": "N:1:REHOVOT;||NS:999:רחובות;||V:999:RUHAYBAH;||V:999:RHOVOT;||V:999:REHOVOTH;||V:999:KHIRBETDEIRAN;",
+            "gis_notes": null
+          }
+        },
+        {
+          "organisation": "Museums Victoria",
+          "title": "Main Street in Rehovot, 1941 (MM 129890)",
+          "url": "https://collections.museumsvictoria.com.au/items/1918987",
+          "supportingText": "A 1941 photograph in nurse Isabel Plante’s album is catalogued as Rehovot; its original caption spells it REHAVOT."
+        },
+        {
+          "organisation": "Smithsonian National Postal Museum",
+          "title": "Rehovoth cancelled postage stamps, 1939–1940",
+          "url": "https://postalmuseum.si.edu/object/npm_0.270209.52.11",
+          "supportingText": "Catalogue records the place-name Rehovoth in British-mandate Palestine, 1939–1940."
+        }
+      ],
+      "cautions": [
+        "Use an uncertain/dashed marker if plotted. Departure for a destination is not independent evidence of arrival.",
+        "The revised initials [7 AGH?] remain tentative. AWM photograph 022693 places the 7th Australian General Hospital near Rehovot, but this does not establish Bernard’s admission or the reason for his journey."
+      ],
+      "reviewNote": "Handwriting rechecked 10 October 2026; [A S A?] replaced with tentative [7 AGH?]. Historical hospital context: https://www.awm.gov.au/collection/C6754."
+    },
+    {
+      "id": "gaza-cemetery",
+      "diaryName": "Gaza Cemetry / Gaza war cemetry",
+      "diaryReferences": [
+        "IMG_0915",
+        "IMG_0916"
+      ],
+      "diaryEvidence": "Gaza [23/9/41?] (23/6/41 is an alternative reading) heads names and 1917–1918 dates; cemetery monument and layout drawings include [22/6/41?].",
+      "evidenceStatus": "labelled cemetery notes and sketches; dated visit is not independently established",
+      "identification": "Gaza War Cemetery, supported by the explicit diary label; the specific LIV memorial identification has not been independently checked against an accessible primary image.",
+      "identificationConfidence": "high for site identity; uncertain visit chronology",
+      "pin": null,
+      "sources": [
+        {
+          "organisation": "Australian War Memorial",
+          "title": "Gaza War Cemetery dawn service, 25 April 1940 (007388)",
+          "url": "https://www.awm.gov.au/collection/C28976",
+          "supportingText": "The photo catalogue identifies Gaza War Cemetery and a dawn-service march past its memorial stone."
+        }
+      ],
+      "cautions": [
+        "Do not connect a cemetery sketch with a solid dated journey segment.",
+        "City-level Gaza coordinate may be used as a clearly labelled broad reference, not a cemetery pin.",
+        "CWGC cemetery detail webpage could not be directly verified due to HTTP 403; no coordinate taken from mirrors.",
+        "An October 2024 CWGC report hosted by Parliament was found in search, but its PDF could not be opened (HTTP 403), so no claim about its exact contents is relied on."
+      ]
+    },
+    {
+      "id": "jerusalem-cemetery",
+      "diaryName": "Jerusalem War Cemetery",
+      "diaryReferences": [
+        "IMG_0917"
+      ],
+      "diaryEvidence": "Gateway sketch and copied land-gift inscription; no date or travel statement.",
+      "evidenceStatus": "labelled drawing and inscription, not a proved visit",
+      "identification": "Jerusalem War Cemetery; archival photograph directly corroborates its land-gift entrance inscription",
+      "identificationConfidence": "high for named site; no visit date established",
+      "pin": null,
+      "sources": [
+        {
+          "organisation": "Australian War Memorial",
+          "title": "Entrance to Jerusalem War Cemetery (H12705)",
+          "url": "https://www.awm.gov.au/collection/H12705",
+          "supportingText": "The catalogue describes the cemetery entrance and its Palestine land-gift inscription, shown in English, Arabic and Hebrew, with the cross and chapel beyond."
+        },
+        {
+          "organisation": "Australian Department of Veterans’ Affairs",
+          "title": "Israel: Australian Memorial outside Jerusalem War Cemetery",
+          "url": "https://www.dva.gov.au/recognition-and-commemoration/memorials/memorials-africa-and-middle-east/israel",
+          "supportingText": "The Australian Memorial is outside the main cemetery entrance and is distinct from the Jerusalem Memorial within the cemetery."
+        }
+      ],
+      "cautions": [
+        "Do not convert the sketch into a confirmed Jerusalem visit or assign a date from neighbouring photographs.",
+        "CWGC direct page returned HTTP 403; a modern Jerusalem city point can be reference-only, not the precise cemetery."
+      ]
+    },
+    {
+      "id": "deir-suneid",
+      "diaryName": null,
+      "diaryReferences": [],
+      "diaryEvidence": "No Deir Suneid or equivalent explicit reading occurs in the compiled supplied-page transcription.",
+      "evidenceStatus": "not supported as a diary stop",
+      "identification": null,
+      "identificationConfidence": "not applicable",
+      "pin": null,
+      "sources": [],
+      "cautions": [
+        "Exclude from Bernard’s journey. Historical regional camp information does not establish his presence."
+      ]
+    }
+  ]
+}

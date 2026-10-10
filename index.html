@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bernard Shambrook's Notebook, 1941</title>
+<meta name="description" content="A reading transcription of the 1941 pocket notebook kept by Sgt Bernard Shambrook, 2nd AIF, from embarkation in Sydney to Palestine, with a map of the journey.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{
+  --paper:#f4efe4; --paper-2:#ebe4d4; --ink:#2b2520; --ink-soft:#5c5147; --rule:#d7cdb9;
+  --accent:#7a3b2e; --accent-2:#3f5a4a; --note:#fff8e6; --link:#5b3a8a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#1d1a16; --paper-2:#26221d; --ink:#e9e2d3; --ink-soft:#b8ae9c; --rule:#3d362d;
+    --accent:#d58b78; --accent-2:#9cc0a8; --note:#2a2519; --link:#c3a9e8;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#1d1a16; --paper-2:#26221d; --ink:#e9e2d3; --ink-soft:#b8ae9c; --rule:#3d362d;
+  --accent:#d58b78; --accent-2:#9cc0a8; --note:#2a2519; --link:#c3a9e8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;line-height:1.55;font-size:17px}
+a{color:var(--link)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header.hero{padding:56px 0 28px;border-bottom:1px solid var(--rule)}
+header.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 8px;line-height:1.1;font-weight:normal;letter-spacing:.3px}
+header.hero .sub{color:var(--ink-soft);font-size:1.05rem;margin:0}
+nav.toc{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--rule);z-index:50}
+nav.toc ul{list-style:none;margin:0;padding:10px 0;display:flex;gap:18px;flex-wrap:wrap;font-size:.95rem}
+nav.toc a{text-decoration:none;color:var(--ink)}
+nav.toc a:hover{color:var(--accent)}
+section{padding:40px 0;border-bottom:1px solid var(--rule)}
+h2{font-weight:normal;font-size:1.7rem;margin:0 0 14px;color:var(--accent)}
+h3{font-weight:normal;font-size:1.15rem;margin:22px 0 6px;color:var(--accent-2)}
+p{margin:0 0 12px}
+.lead{font-size:1.1rem;max-width:760px}
+.conv{background:var(--paper-2);border:1px solid var(--rule);border-radius:8px;padding:14px 18px;max-width:760px;font-size:.95rem}
+.conv dt{font-weight:bold;float:left;clear:left;width:110px}
+.conv dd{margin:0 0 6px 120px}
+/* map */
+#map{height:520px;border:1px solid var(--rule);border-radius:8px;margin:12px 0 18px;background:#dfe8ea}
+.timeline{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px;list-style:none;padding:0;margin:0}
+.timeline li{background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;cursor:pointer;font-size:.95rem}
+.timeline li:hover{border-color:var(--accent)}
+.timeline b{display:block;color:var(--accent)}
+.timeline small{color:var(--ink-soft)}
+/* pages */
+.page{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:28px;padding:28px 0;border-top:1px dashed var(--rule)}
+.page:first-of-type{border-top:0}
+.page figure{margin:0}
+.page figure a{display:block}
+.page img{width:100%;height:auto;border:1px solid var(--rule);border-radius:4px;background:#fff}
+.page figcaption{font-size:.82rem;color:var(--ink-soft);margin-top:6px}
+.page h3{margin-top:0;font-size:1.25rem}
+.t{white-space:pre-wrap;font-family:inherit;margin:0 0 12px}
+.t em,.note em{color:var(--ink-soft)}
+.note{background:var(--note);border-left:3px solid var(--accent-2);padding:8px 12px;font-size:.93rem;margin:10px 0 0;border-radius:0 6px 6px 0}
+.unc{color:var(--accent);font-size:.9em}
+.strike{text-decoration:line-through;color:var(--ink-soft)}
+table.roll{border-collapse:collapse;font-size:.95rem;margin:0 0 12px}
+table.roll td{padding:2px 12px 2px 0;vertical-align:top}
+table.roll td:first-child{font-variant-numeric:tabular-nums;color:var(--ink-soft)}
+.names{columns:2;column-gap:28px;font-size:.95rem}
+.names li{break-inside:avoid}
+footer{padding:36px 0 60px;color:var(--ink-soft);font-size:.9rem}
+@media (max-width:720px){
+  .page{grid-template-columns:1fr}
+  .page figure{max-width:420px}
+  .names{columns:1}
+  #map{height:380px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Bernard Shambrook's Notebook, 1941</h1>
+    <p class="sub">Sgt B. E. Shambrook, NX40242, 2nd Australian Imperial Force. Sydney to Palestine, April to August 1941. A reading transcription of his pocket notebook.</p>
+  </div>
+</header>
+
+<nav class="toc"><div class="wrap"><ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#journey">The journey</a></li>
+  <li><a href="#diary">The diary</a></li>
+  <li><a href="#lists">Lists and notes</a></li>
+  <li><a href="#cemeteries">The cemeteries</a></li>
+  <li><a href="#people">People</a></li>
+  <li><a href="#background">Background</a></li>
+</ul></div></nav>
+
+<section id="about"><div class="wrap">
+  <h2>About this notebook</h2>
+  <p class="lead">This is a small black cloth-bound pocket notebook, written mostly in pencil with a few pages in ink. Bernard carried it from the day he embarked on the <i>Queen Elizabeth</i> in Sydney, 9 April 1941, through the voyage to Suez and his first months in Palestine. It is not a daily diary. It mixes diary entries, nominal rolls, training notes, addresses, sketches, Arabic phrases and arithmetic, in the order a soldier's days threw them up.</p>
+  <p class="lead">The transcription below is a reading copy. Spelling and punctuation have been lightly regularised and abbreviations expanded where the meaning is clear. His own words and order are kept. Each page is shown beside its photograph so that any reading can be checked against the original.</p>
+  <dl class="conv">
+    <dt><span class="unc">[?]</span></dt><dd>the word before it is a best reading of doubtful handwriting</dd>
+    <dt><span class="unc">[illegible]</span></dt><dd>a word or passage that could not be read</dd>
+    <dt><span class="strike">struck</span></dt><dd>text Bernard crossed out</dd>
+    <dt><em>italic</em></dt><dd>editorial notes and expansions, not his words</dd>
+  </dl>
+</div></section>
+
+<section id="journey"><div class="wrap">
+  <h2>The journey</h2>
+  <p class="lead">Every place the notebook names, with the date Bernard gives for it. Click a card to go to it on the map. Click a marker to read what he wrote there.</p>
+  <div id="map"></div>
+  <ul class="timeline" id="timeline"></ul>
+</div></section>
+
+<section id="diary"><div class="wrap">
+  <h2>The diary</h2>
+  <p class="lead">The pages in the order they appear in the notebook. The faint pencil of the inside cover has been enhanced; a few words there are still beyond recovery.</p>
+
+  <article class="page" id="p01">
+    <figure><a href="pages/p01.jpg" target="_blank"><img src="thumbs/p01.jpg" alt="Front cover of the notebook" loading="lazy"></a><figcaption>Front cover (IMG_0903)</figcaption></figure>
+    <div><h3>Front cover</h3><p class="t">Black cloth pocket notebook, worn at the corners and spine. No writing on the cover.</p></div>
+  </article>
+
+  <article class="page" id="p02">
+    <figure><a href="pages/p02.jpg" target="_blank"><img src="thumbs/p02.jpg" alt="Inside front cover, very faint pencil" loading="lazy"></a><figcaption>Inside front cover (IMG_0904, left)</figcaption></figure>
+    <div><h3>Inside front cover</h3>
+<p class="t"><em>Very faint pencil, written over the paper lining. The first lines are mostly lost.</em>
+[illegible] <span class="unc">[?]</span> ... Sunday 27th <span class="unc">[?]</span> ... 1st May ... passed Aden ... 2/5/41 at about 9 pm. ... Port Tewfik ... Saturday <span class="unc">[?]</span> ... anchored ... Suez ...
+... disembark ... <span class="unc">[?]</span> on 6/5/41 ... small ship ... Kantara ... entrained ... 7/5/41 ...
+Arrived Gaza 7/5/41 <span class="unc">[?]</span>
+17/5/41 All units moved in Gaza, Kilo 89, from Suez <span class="unc">[?]</span>
+D 75270 <em>(his rifle number, see Tent 17 list below)</em></p>
+<p class="note"><em>These lines appear to be a first jotting of the voyage dates, repeated more fully on the next pages.</em></p></div>
+  </article>
+
+  <article class="page" id="p03">
+    <figure><a href="pages/p03.jpg" target="_blank"><img src="thumbs/p03.jpg" alt="First page: Sgt Shambrook, embarked Q.E. 9/4/41" loading="lazy"></a><figcaption>Page 1 (IMG_0904, right)</figcaption></figure>
+    <div><h3>Embarkation and the voyage out</h3>
+<p class="t">Sgt Shambrook.
+Embarked Q.E. 9/4/41.
+Left Sydney Good Friday 11/4/41.
+Convoy: <i>Australia</i> <span class="unc">[?]</span>, <i>Mauretania</i>, <i>New Amsterdam</i>, <i>Ile de France</i>, <i>Q. Mary</i>.
+Arrived Fremantle 16/4/41. Left Fremantle 19/4/41.
+Anzac Day. 10 min silence. Burial of member of crew.
+Arrived Trincomalee, Ceylon, 6.30 am 26/4/41 (Sat).
+Very pretty harbour, surrounded by green hills, inlets, bays. Large bay but very few ships. No shore leave.
+27/4/41 At Trincomalee Sunday. Very hot and depressing. Natives <span class="unc">[?]</span> on most buildings for dive-bombing <span class="unc">[?]</span>.
+HMAS <i>Canberra</i> steamed between Q.E. and Q. Mary, band playing. <span class="unc">[?]</span>
+Natives paddle out to the ship <span class="unc">[?]</span>.
+Left Trincomalee 4 pm 27/4/41.
+Q.E. and Q.M. 28/4/41 travelling about 30 knots. Seas swelly.</p>
+<p class="note"><em>Q.E. is the troopship <i>Queen Elizabeth</i>, on her first trooping voyage. The convoy was US.10. Bernard's fair copy on a later page names HMAS <i>Australia</i> as the escort out of Sydney.</em></p></div>
+  </article>
+
+  <article class="page" id="p12">
+    <figure><a href="pages/p12.jpg" target="_blank"><img src="thumbs/p12.jpg" alt="May 3rd Saturday 4 pm arrived Port Tewfik" loading="lazy"></a><figcaption>IMG_0910, left</figcaption></figure>
+    <div><h3>Arrival at Suez, 3 to 5 May 1941</h3>
+<p class="t">May 3rd Saturday 4 pm arrived Port Tewfik. We pass desolated, burnt-up country on approach, mountain, gulf of Red Sea. We are now embarked on 3rd and <span class="unc">[?]</span> owing to train difficulties. So on Saturday and Sunday we are anchored in Suez. The <i>Mary</i> is with us. She too is so packed with troops. A destroyer is parked between us. A whole nest of shipping is at anchor. Anchored apart. We are told we are going to Palestine. Can see the Suez Canal entrance, we may go down it some distance, 7 or 8 <span class="unc">[?]</span> on the Q.E. Suez is a burnt-up-looking port opposite us here. There is a long sandstone cliff or rock reaches almost up to the jetty. It is cool this morning, for different <span class="unc">[?]</span> what it will be during the day.
+The lads start disembarking about 1.30 pm down gangway into 3 large punts. Are pelting back hard-boiled eggs which had been included in their ration box.
+5/5/41 Monday. About 500 are to disembark this morning, 2/9th. Have already pulled up 2 large barges. Boats around the morning <em>(continues on the next page)</em></p></div>
+  </article>
+
+  <article class="page" id="p13">
+    <figure><a href="pages/p13.jpg" target="_blank"><img src="thumbs/p13.jpg" alt="Disembarking, Ethiopia, Kantara, Gaza" loading="lazy"></a><figcaption>IMG_0910, right</figcaption></figure>
+    <div><h3>Down the Canal to Kantara, then by train to Gaza</h3>
+<p class="t">Many more men are lined up on decks waiting to go down the gangway. I am Ship Orderly Sergeant. Breakfast time for those not getting off has been advanced slightly. Disembarking will continue until 9 am. I understand we are going off tomorrow. Not eager to leave the good ship. The voyage of course, comfort and messing excellences will live long in my memory.
+The lads are being unloaded onto punts, then transferred to smaller ships which I understand are to proceed down the Suez Canal some few miles, where the lads will be entrained at Kantara East.
+Tuesday 6/5/41 we disembark from Q.E. at 6 am and re-embark on small ship <i>Ethiopia</i> for the journey along canal. Arrived at El Kantara about 4 pm, disembarked, and had a feed of sausages, spuds and peas. Entrained at 5.30 am on 7/5/41 Wednesday. Passed through Romani, El Arish etc. Many old wire entanglements still visible.</p>
+<p class="note"><em>The wire at Romani and El Arish was left from the 1916 to 1917 Sinai campaign, which an older soldier of the Light Horse generation would have known of, and may have fought in.</em></p></div>
+  </article>
+
+  <article class="page" id="p16">
+    <figure><a href="pages/p16.jpg" target="_blank"><img src="thumbs/p16.jpg" alt="Tuesday 6.5.41 disembarkation timings" loading="lazy"></a><figcaption>IMG_0912, left</figcaption></figure>
+    <div><h3>Disembarkation orders, Tuesday 6 May 1941</h3>
+<p class="t">Tuesday 6.5.41. Disembarkation.
+Reveille 0400 <span class="strike">0445</span>
+Parade 0445
+Meal 0500. Meal water.
+Parade with full equipment at Boat Station <span class="strike">0600</span> 05<span class="unc">[?]</span>.
+Private Richardson, 4th Battalion, to see Cpl Lowe <span class="unc">[?]</span> re boot.</p></div>
+  </article>
+
+  <article class="page" id="p15">
+    <figure><a href="pages/p15.jpg" target="_blank"><img src="thumbs/p15.jpg" alt="Fair copy of the voyage, Sydney to Gaza" loading="lazy"></a><figcaption>IMG_0911, right</figcaption></figure>
+    <div><h3>The voyage, fair copy</h3>
+<p class="t">Embarked Sydney 9/4/41. Left Sydney on <i>Queen Elizabeth</i> 11/4/41. Accompanied by <i>Australia</i>, <i>Mauretania</i>, <i>New Amsterdam</i>, <i>Ile de France</i>, <i>Queen Mary</i>. Arrived Fremantle 16/4/41. Left Fremantle 19/4/41. Anzac Day. 10 min silence. Burial at sea, member of crew. Arrived Trincomalee, Ceylon, Saturday 26/4/41 at 6.30 am. Very pretty port, surrounded by green foliage, hills, palm avenues etc. Not allowed on shore. Remained at this place all day Sunday. Very hot and depressive. Natives <span class="unc">[?]</span> on most buildings for dive bombers. HMAS <i>Canberra</i> escorts Q.E. and Q.M. out of port for sea at 4 pm 27/4/41. 1st May sighted land on starboard side, also strange ship. 2/5/41 passed Aden at about 9 pm (lighthouse). May 3rd Saturday arrived Port Tewfik (Saturday night till Monday) at anchor in Suez. On 6/5/41 we disembark from Q.E. to small ship <i>Ethiopia</i>, are carried down Suez Canal to Kantara, we disembark and are taken to receiving depot that night. Early on 7/5/41 we are entrained for Gaza, arriving about 3 pm. Passed through Romani and El Arish.
+<em>In the margin:</em> 6 am. 6/2. 7.30.</p></div>
+  </article>
+
+  <article class="page" id="p14">
+    <figure><a href="pages/p14.jpg" target="_blank"><img src="thumbs/p14.jpg" alt="Tent No 17 and movements in Palestine" loading="lazy"></a><figcaption>IMG_0911, left</figcaption></figure>
+    <div><h3>Tent No. 17, and movements in Palestine</h3>
+<p class="t">Tent No. 17.
+Shambrook B.E. (Sgt), Faddy C.S., Pearson C.R., Maloney N.K., White A.E., Burns E., Duroux C.A., Godwin H.V., Brennan E.J., Strong H., Dillon L., Dale J.E., Jackson F.F.
+<em>In the margin:</em> Dinner <span class="unc">[?]</span>, lunch <span class="unc">[?]</span>.
+Arrived Kilo 89 7/5/41.
+Left Kilo 89 on 17/5/41.
+Arrived unit Julis 17/5/41.
+Left for Rehovoth, 7 AGH, 25/5/41.
+Gaza Ridge, A.A.P.D. <span class="unc">[?]</span>, 20/7/41.</p>
+<p class="note"><em>Kilo 89 was the big AIF staging camp near Gaza, named for its distance along the railway from Kantara. Julis was a camp a few miles north. 7 AGH is the 7th Australian General Hospital at Rehovot, so Bernard was a patient from 25 May. Gaza Ridge was the site of the AIF depots and the Australian hospital at Gaza.</em></p></div>
+  </article>
+
+  <article class="page" id="p18">
+    <figure><a href="pages/p18.jpg" target="_blank"><img src="thumbs/p18.jpg" alt="17/5/41 left Kilo 89 to join 3rd Btn at Julis" loading="lazy"></a><figcaption>IMG_0913, left</figcaption></figure>
+    <div><h3>Posting to the Corps Guard Battalion</h3>
+<p class="t">17/5/41. Left Kilo 89 on 17/5/41 to JOIN 3RD BTN AT JULIS.
+Marched in 1st Aust Corps Guard Btn from 16 ITB. Special wing June 12. B/O 15<span class="unc">[?]</span> of 12 June. Page <span class="unc">[?]</span>.
+Funeral cortege from Gaza hospital, 9 9<span class="unc">[?]</span> Batt, 21/7/41.
+Left Port Tewfik 4/8/41 pro<span class="unc">[?]</span> ... Am I <span class="unc">[?]</span></p>
+<p class="note"><em>16 ITB is the 16th Infantry Training Battalion, the reinforcement unit he arrived with. The 1st Australian Corps Guard Battalion was raised in Palestine in 1940 from older men judged unfit for the front line. They called themselves "the Old and the Bold". B/O is Battalion Orders. The last line, leaving Port Tewfik on 4 August 1941, is the latest dated entry in the notebook and may record his departure from the Middle East.</em></p></div>
+  </article>
+
+  <article class="page" id="p19">
+    <figure><a href="pages/p19.jpg" target="_blank"><img src="thumbs/p19.jpg" alt="Owen Leathers killed 21 June 1941; Syrian armistice" loading="lazy"></a><figcaption>IMG_0913, right</figcaption></figure>
+    <div><h3>Two notes from June and July</h3>
+<p class="t">Bipod. Sleeve. <em>(Bren gun parts)</em>
+Owen Leathers. Killed 21 June 1941.
+Syrian armistice concluded July 11th at 2101 hrs.</p>
+<p class="note"><em>21 June 1941 was the day the Australians took Damascus in the Syria campaign. The ceasefire in Syria took effect just after midnight on 12 July 1941.</em></p></div>
+  </article>
+
+  <article class="page" id="p09">
+    <figure><a href="pages/p09.jpg" target="_blank"><img src="thumbs/p09.jpg" alt="Ship's daily routine" loading="lazy"></a><figcaption>IMG_0907, right</figcaption></figure>
+    <div><h3>Ship's daily routine</h3>
+<p class="t">Mess parade quarter to 6. <span class="unc">[?]</span> M and D. O. D/C <span class="unc">[?]</span>. Lights out.
+Morning: raise men at 6 am. Breakfast quarter to 8. Fatigue 9 am.
+(Fall in NCOs and Cpls in alleyway. Report to Sgt Drayton at entrance to Men's Mess.)
+(Sweeping and cleaning quarters. Inspection at 11.00 hrs.)
+Lunch quarter to 1. Parades.</p></div>
+  </article>
+
+  <article class="page" id="p35">
+    <figure><a href="pages/p35.jpg" target="_blank"><img src="thumbs/p35.jpg" alt="Orders for 1.5.1941, blankets" loading="lazy"></a><figcaption>IMG_0930</figcaption></figure>
+    <div><h3>Orders, 1 May 1941</h3>
+<p class="t">1.5.1941.
+1100 hrs on 1.5.1941. 18 OR. Cpl Biddle, Cpl Hollingsworth.
+At Group Orderly Room to carry blankets bundled. At 10' from Group O/R to Q.M. at R Deck Square. Tell every man where he has to take the blankets etc. Careful not to lose blankets. Receipt for all blankets returned. <span class="unc">[?]</span> 330.</p></div>
+  </article>
+
+  <article class="page" id="p39">
+    <figure><a href="pages/p39.jpg" target="_blank"><img src="thumbs/p39.jpg" alt="Ship notes: transport, A deck saloon, cinema" loading="lazy"></a><figcaption>IMG_0933, left</figcaption></figure>
+    <div><h3>Notes on board</h3>
+<p class="t">Ord. Transport. Pte Lewis.
+Emergency <span class="unc">[?]</span> 15.
+<span class="strike">O/C troops</span>
+A Deck Saloon, mid. 2/c Survey <span class="unc">[?]</span>.
+2/9th. Cinema. 2/18th. Main deck. Off 85 <span class="unc">[?]</span>.</p></div>
+  </article>
+
+  <article class="page" id="p40">
+    <figure><a href="pages/p40.jpg" target="_blank"><img src="thumbs/p40.jpg" alt="Broom lockers, starboard side, berthing deck; ship's runners" loading="lazy"></a><figcaption>IMG_0933, right</figcaption></figure>
+    <div><h3>Broom lockers and ship's runners</h3>
+<p class="t">Broom lockers. Starboard side, berthing deck.
+<span class="unc">[5?]</span>784 L/Cpl Rabe G.L.
+51879 Pte Kelly J.J.
+41347 " Aitken J.T.
+46785 " Gillespie M.P.
+Ship's runners: Broughton 90 <span class="unc">[?]</span>, McKay 51 <span class="unc">[?]</span>.</p></div>
+  </article>
+
+  <article class="page" id="p41">
+    <figure><a href="pages/p41.jpg" target="_blank"><img src="thumbs/p41.jpg" alt="Sergeants and corporals on board; day counts" loading="lazy"></a><figcaption>IMG_0934, left</figcaption></figure>
+    <div><h3>Ship's orderly NCOs, and counting the days</h3>
+<p class="t">Signal <span class="unc">[?]</span> Old Sgts 10. 3.
+Shambrook B.E.
+Evans A.S.
+Norcott H.E.
+Ship's Ord. Cpls: Cpl Jensen, Campbell, Hayes, Hodges, Brady <span class="unc">[?]</span>, Gordon.
+Meet at ship's office room 3 <span class="unc">[?]</span>.
+<em>Right column:</em> Ap 21 <span class="unc">[?]</span>, May 31, June 30, July 31, Aug 31. 15. 7. 288. <em>Below:</em> 31 + 51, 31, 31, 30, 31, 21.
+<em>Also:</em> 0.8.4.</p>
+<p class="note"><em>The column of month lengths looks like a tally of days since embarkation. Signal Sgts may be a reading of "Senior Sgts".</em></p></div>
+  </article>
+
+  <article class="page" id="p42">
+    <figure><a href="pages/p42.jpg" target="_blank"><img src="thumbs/p42.jpg" alt="Sgt Robertson, A deck 110 cabin; Mrs J. Kelaher; Mrs M. Allen" loading="lazy"></a><figcaption>IMG_0934, right</figcaption></figure>
+    <div><h3>Cabin and addresses</h3>
+<p class="t">Sgt Robertson <span class="unc">[?]</span>. A deck 110 cabin.
+Ord. Room and doors, 1st Survey Regt.
+Mrs J. Kelaher, Tarpoly, Upper Manilla, N.S.W., Australia.
+Mrs M. Allen, 299 Queen St, Concord West, N.S.W. From Private L. H. <span class="unc">[?]</span>...</p>
+<p class="note"><em>Tarpoly is a property near Upper Manilla, north of Tamworth. The same family appears again on the Gaza graves page.</em></p></div>
+  </article>
+
+  <article class="page" id="p43">
+    <figure><a href="pages/p43.jpg" target="_blank"><img src="thumbs/p43.jpg" alt="Back cover of the notebook" loading="lazy"></a><figcaption>Back cover (IMG_0935)</figcaption></figure>
+    <div><h3>Back cover</h3><p class="t">Worn black cloth. No writing.</p></div>
+  </article>
+</div></section>
+
+<section id="lists"><div class="wrap">
+  <h2>Lists and notes</h2>
+  <p class="lead">The working pages of a sergeant: rolls of the men he was responsible for, weapon notes, guard rosters, phrases and sums.</p>
+
+  <article class="page" id="p04">
+    <figure><a href="pages/p04.jpg" target="_blank"><img src="thumbs/p04.jpg" alt="Nominal roll in ink, columns numbered 15 to 24" loading="lazy"></a><figcaption>IMG_0905, left</figcaption></figure>
+    <div><h3>Nominal roll, in ink</h3>
+<p><em>Columns ruled and headed 15 to 24, probably days of the month, with marks against some names.</em></p>
+<table class="roll">
+<tr><td>40234</td><td>Cpl Cameron E.E.</td><td></td></tr>
+<tr><td>55298</td><td>Pte Arnold B.</td><td>"Evacuated" written across the columns</td></tr>
+<tr><td>59234</td><td>Pte Smith A.G.</td><td>ND <span class="unc">[?]</span>, later P <span class="unc">[?]</span></td></tr>
+<tr><td>50918</td><td>Pte Stephenson R.J.</td><td>P, later P</td></tr>
+<tr><td>50512</td><td>Dovey J.</td><td></td></tr>
+<tr><td>41340</td><td>Reeves H.</td><td></td></tr>
+<tr><td>41246</td><td>Wheeler L.</td><td></td></tr>
+<tr><td>40225</td><td>Tedyman R.M. <span class="unc">[?]</span></td><td>MO, later MO</td></tr>
+<tr><td>40196</td><td>Dunn A.W.</td><td>MO, later MO</td></tr>
+<tr><td>41224</td><td>Ritter R.D.</td><td></td></tr>
+<tr><td>41175</td><td>McCormack R.V.</td><td></td></tr>
+<tr><td>41121</td><td>Luxford S. <span class="unc">[?]</span></td><td></td></tr>
+<tr><td>34596</td><td>Hourigan</td><td>P, later P</td></tr>
+</table>
+<p class="note"><em>P is probably "parade" or "present"; MO is the medical officer's sick parade. The numbers are NX service numbers with the prefix left off.</em></p></div>
+  </article>
+
+  <article class="page" id="p06">
+    <figure><a href="pages/p06.jpg" target="_blank"><img src="thumbs/p06.jpg" alt="Nominal roll continued" loading="lazy"></a><figcaption>IMG_0906, left</figcaption></figure>
+    <div><h3>Nominal roll, continued</h3>
+<table class="roll">
+<tr><td>40467</td><td>Cpl Gordon J.M.</td><td></td></tr>
+<tr><td>40676</td><td>Pte Walker C.</td><td>D (boxed)</td></tr>
+<tr><td>40628</td><td>Pte Coyne F.A.</td><td>H</td></tr>
+<tr><td>40741</td><td>Pte McCanna G.</td><td></td></tr>
+<tr><td>41330</td><td>Jackson G.</td><td></td></tr>
+<tr><td>41316</td><td>Walters D.</td><td></td></tr>
+<tr><td>41286</td><td>Spencer R.B.</td><td></td></tr>
+<tr><td>53436</td><td>Rutherford E.S.</td><td></td></tr>
+<tr><td>51879</td><td>L/Cpl Rabe G.L.</td><td></td></tr>
+<tr><td>57713</td><td>Pte Birmingham W.</td><td>W</td></tr>
+<tr><td>58321</td><td>L/Cpl Lemming R.A.</td><td></td></tr>
+<tr><td>58789</td><td>Pte Kelly J.J.</td><td>W</td></tr>
+<tr><td>56059</td><td>Pte Casey J.</td><td>W</td></tr>
+</table></div>
+  </article>
+
+  <article class="page" id="p05">
+    <figure><a href="pages/p05.jpg" target="_blank"><img src="thumbs/p05.jpg" alt="Guard turnout and Bren gun notes" loading="lazy"></a><figcaption>IMG_0905, right</figcaption></figure>
+    <div><h3>Guard, and the Bren gun</h3>
+<p class="t">Guard turned out to Field Officer 9.30. Orderly Officer 9.35.
+Bren Gun.
+Total weight 23 lb. Barrel length 25". Magazine weight 2 3/4 lb <span class="unc">[?]</span>. Holds 28 but 30 according to spring <span class="unc">[?]</span>.
+Groups: Piston, Barrel, Butt, Body. <span class="strike">Barrel, Body, Butt.</span>
+Fire: <span class="strike">observe</span>. Fire, observe, re-aim.
+(1) Gas operated. Gas ports, forward and backward action.
+Parts: butt strap, butt plate, butt. Rear drum sight. Magazine.
+Rapid rate of fire 120 per minute.</p></div>
+  </article>
+
+  <article class="page" id="p07">
+    <figure><a href="pages/p07.jpg" target="_blank"><img src="thumbs/p07.jpg" alt="Roll columns 19 to 26 and Bren stoppages" loading="lazy"></a><figcaption>IMG_0906, right</figcaption></figure>
+    <div><h3>Roll columns, and Bren stoppages</h3>
+<p class="t"><em>Columns headed 19 to 26 continue from the roll opposite. Key:</em> P1 <span class="unc">[?]</span>, D (boxed).
+Bren stoppages: empty magazine, misfire, extraction, insufficient gas, separated case.
+1) <span class="unc">[illegible]</span></p></div>
+  </article>
+
+  <article class="page" id="p08">
+    <figure><a href="pages/p08.jpg" target="_blank"><img src="thumbs/p08.jpg" alt="Communication in the Field, lecture notes" loading="lazy"></a><figcaption>IMG_0907, left</figcaption></figure>
+    <div><h3>Lecture notes: Communication in the Field</h3>
+<p class="t">Communication in the Field.
+Methods: mobile, <span class="unc">[?]</span>, controlling station, <span class="unc">[?]</span>, cable, co-operation, all arms <span class="unc">[?]</span>, SOS, rockets, rifle (cradle <span class="unc">[?]</span>), pigeon, flag, messengers, <span class="unc">[?]</span>, runner, armoured, aeroplane, signal, T. <span class="unc">[?]</span>.
+1. Telephone, E and M.H. <span class="unc">[?]</span>
+2. Wireless, long, short range.
+3. Visual: lamp, flag, helio, <span class="unc">[?]</span> etc.
+Anti-tank. Control <span class="unc">[?]</span> ... Group command.
+In advance: selection of Sig HQ, consolidation, care, <span class="unc">[?]</span>, parties, lines of Sig posts, keep clear, lot wires <span class="unc">[?]</span>.</p>
+<p class="note"><em>Very faint pencil. Enough survives to show it is a standard infantry signals lecture.</em></p></div>
+  </article>
+
+  <article class="page" id="p10">
+    <figure><a href="pages/p10.jpg" target="_blank"><img src="thumbs/p10.jpg" alt="Faint pencil doodles" loading="lazy"></a><figcaption>IMG_0908, left</figcaption></figure>
+    <div><h3>Doodles</h3><p class="t">Faint pencil marks only: a looped line and a zigzag. No text.</p></div>
+  </article>
+
+  <article class="page" id="p11">
+    <figure><a href="pages/p11.jpg" target="_blank"><img src="thumbs/p11.jpg" alt="Addresses: Sgt Callow, Sgt Dempsey" loading="lazy"></a><figcaption>IMG_0908, right</figcaption></figure>
+    <div><h3>Two sergeants</h3>
+<p class="t">NX 18154 Sgt T. L. Callow, Canteen Services, H.Q. A.I.F.
+NX 28624 <span class="unc">[?]</span> Sgt J. Dempsey, 2/1 Survey Regt, A.I.F.
+East meets west. Diamond Jim <span class="unc">[?]</span>.</p></div>
+  </article>
+
+  <article class="page" id="p17">
+    <figure><a href="pages/p17.jpg" target="_blank"><img src="thumbs/p17.jpg" alt="List of names" loading="lazy"></a><figcaption>IMG_0912, right</figcaption></figure>
+    <div><h3>A list of names</h3>
+<p class="t">Turner, Walker, Casey, Bull, Dovey, <span class="strike">Arnold</span>, Walker, Chambers G.A., D.H., Vealey <span class="unc">[?]</span>.</p></div>
+  </article>
+
+  <article class="page" id="p30">
+    <figure><a href="pages/p30.jpg" target="_blank"><img src="thumbs/p30.jpg" alt="Tent 17 with service numbers and rifle numbers" loading="lazy"></a><figcaption>IMG_0926</figcaption></figure>
+    <div><h3>Tent 17, with service and rifle numbers</h3>
+<table class="roll">
+<tr><td>NX 40242</td><td>A/Sgt Shambrook B.E.</td><td>rifle D75270</td></tr>
+<tr><td>NX 47889</td><td>Pte Brennan E.J.</td><td>C23496</td></tr>
+<tr><td>NX 47704</td><td>Pte Duroux C.A.</td><td>O5991</td></tr>
+<tr><td>NX 47813</td><td>Pte Godwin H.V.</td><td>135688 / A50983</td></tr>
+<tr><td>NX 41401</td><td>Pte Maloney N.K.</td><td>T6622</td></tr>
+<tr><td>NX 41371</td><td>Pte Jackson F.F.</td><td>C3224</td></tr>
+<tr><td>NX 47703</td><td>Pte Burns E.</td><td>Z7285</td></tr>
+<tr><td>NX 41379</td><td>Pte Dale J.E.</td><td>Q5741</td></tr>
+<tr><td>NX 41390</td><td>Pte White A.E.</td><td>61133</td></tr>
+<tr><td>NX 41285</td><td>Pte Faddy C.J.</td><td>W40410</td></tr>
+<tr><td>NX 47817</td><td>Pte Pearson C.R.</td><td>R2885</td></tr>
+<tr><td>NX 47927</td><td>Pte Strong N.E.</td><td>B7487</td></tr>
+<tr><td>NX 47772</td><td>Pte Dillon L.G.</td><td>O3554</td></tr>
+</table>
+<p class="note"><em>This is the clearest statement of Bernard's own number, NX40242, and his rank at the time, Acting Sergeant.</em></p></div>
+  </article>
+
+  <article class="page" id="p28">
+    <figure><a href="pages/p28.jpg" target="_blank"><img src="thumbs/p28.jpg" alt="Checklist of the tent party" loading="lazy"></a><figcaption>IMG_0924</figcaption></figure>
+    <div><h3>Tent party checklist</h3>
+<p class="t"><em>Heading unclear, possibly</em> Pioneer <span class="unc">[?]</span>.
+Shambrook ✓, S. Herrington ✓, G. Konza ✓, L.J. Dillon ✓, H. Strong ✓, C.A. Duroux ✓, E. Burns ✓, H.V. Godwin ✓, A.E. White ✓, <span class="strike">H.A. Maloney</span> Cole, J.E. Dale ✓, F.N. Jackson ✓, E.J. Brennan.
+<em>Right column:</em> J.E. Dale, C.A. Duroux, L. Dillon, W.E. Strong, E. Burns, H.V. Godwin, Jackson F.F., Brennan E.J.</p></div>
+  </article>
+
+  <article class="page" id="p32">
+    <figure><a href="pages/p32.jpg" target="_blank"><img src="thumbs/p32.jpg" alt="Brigade Guard orders and roll" loading="lazy"></a><figcaption>IMG_0928</figcaption></figure>
+    <div><h3>Brigade Guard</h3>
+<p class="t">Guard. Company parade ground at 17.15, 5.15. Mount 1800.
+S.D. uniform. Gaiters. Hats. Web equipment. Pack on back. Water bottle. Summer dress. Blankets. Haversack to be worn, shaving gear and towel.
+Brigade Guard.</p>
+<table class="roll">
+<tr><td>NX 40242</td><td>Cpl/Sgt Shambrook B.E.</td><td></td></tr>
+<tr><td>41304</td><td>A/Cpl Carey L.V.</td><td>✓</td></tr>
+<tr><td>41356</td><td>Pte Wright A.J.</td><td>✓</td></tr>
+<tr><td>47650</td><td>Pte Gilles D.</td><td>✓</td></tr>
+<tr><td>41308</td><td>Pte Paget F.G.</td><td>✓</td></tr>
+<tr><td>41406</td><td>Pte Kennedy J.M.</td><td>✓</td></tr>
+<tr><td>47491</td><td>Pte Kelly J.</td><td>✓</td></tr>
+<tr><td>47689</td><td>Pte Manusu P.B.</td><td>✓</td></tr>
+<tr><td>47786</td><td>Pte Fory J.</td><td>✓</td></tr>
+<tr><td>41335</td><td>Pte Philip R.G.</td><td>✓</td></tr>
+<tr><td>47767</td><td>Pte Ingleman F.M.</td><td>✓</td></tr>
+<tr><td>47831</td><td>Pte Rose F.</td><td>✓</td></tr>
+<tr><td>47849 <span class="unc">[?]</span></td><td>Pte Watts T.H.</td><td>✓</td></tr>
+<tr><td>41345</td><td>Pte Johnson R.W.</td><td>✓</td></tr>
+</table>
+<p class="t">(1 Sgt, 1 Cpl, 12 OR.)</p></div>
+  </article>
+
+  <article class="page" id="p33">
+    <figure><a href="pages/p33.jpg" target="_blank"><img src="thumbs/p33.jpg" alt="Tent groupings and sentry pairs" loading="lazy"></a><figcaption>IMG_0929, left</figcaption></figure>
+    <div><h3>Tents and sentry pairs</h3>
+<p class="t">17: <span class="strike">Duroux</span> Burns E. ✓, Godwin H.V. ✓ | Brennan, Strong.
+16: Watts T.A., Manusu | Konza, Johnson.
+15: Donaldson, Cole | Williams, Costello.
+6 to 8: No 1 Rose and Fory ✓; No 2 Paget and Gilles ✓.
+8 to 10: Ingleman, Philip ✓; No 2 Watts and Kelly ✓.
+10 to 12: Wright and Manusu ✓; No 2 Johnson, Kennedy ✓.</p></div>
+  </article>
+
+  <article class="page" id="p34">
+    <figure><a href="pages/p34.jpg" target="_blank"><img src="thumbs/p34.jpg" alt="Guard roster" loading="lazy"></a><figcaption>IMG_0929, right</figcaption></figure>
+    <div><h3>Guard roster</h3>
+<p class="t">6 to 7.30: Paget, Fory <span class="unc">[?]</span>, Gilles | 9 to 10.30 <span class="unc">[?]</span>: Watts, Wright, Kelly.
+7.30 to 9: Paget, Philip, Ingleman | Manusu, Johnson, Kennedy.
+10.30 to 12 <span class="unc">[?]</span> ...</p></div>
+  </article>
+
+  <article class="page" id="p27">
+    <figure><a href="pages/p27.jpg" target="_blank"><img src="thumbs/p27.jpg" alt="Arabic phrases" loading="lazy"></a><figcaption>IMG_0923</figcaption></figure>
+    <div><h3>Arabic words, as he heard them</h3>
+<table class="roll">
+<tr><td>Iawa</td><td>yes</td><td><em>aiwa</em></td></tr>
+<tr><td>Hanna <span class="unc">[?]</span></td><td>here</td><td><em>hena</em></td></tr>
+<tr><td>Enack</td><td>there, or over there</td><td><em>hinak</em></td></tr>
+<tr><td>Jenna</td><td>here</td><td><em>hena</em></td></tr>
+<tr><td>Stanna</td><td>stop</td><td><em>istanna, wait</em></td></tr>
+<tr><td>Enter</td><td>you</td><td><em>enta</em></td></tr>
+<tr><td>Enter mac nom <span class="unc">[?]</span></td><td>you and <span class="unc">[?]</span></td><td></td></tr>
+<tr><td>Ana</td><td>I</td><td><em>ana</em></td></tr>
+<tr><td>Saeeum <span class="unc">[?]</span></td><td>what time</td><td><em>sa'a kam</em></td></tr>
+<tr><td>Cam</td><td>how much</td><td><em>kam</em></td></tr>
+<tr><td>Fedda</td><td><span class="unc">[?]</span></td><td><em>fedda, silver</em></td></tr>
+<tr><td>Chay</td><td>tea</td><td><em>shai</em></td></tr>
+<tr><td>Moaseen</td><td>poor</td><td><em>maskeen</em></td></tr>
+<tr><td>Langh</td><td>no</td><td><em>la'</em></td></tr>
+<tr><td>Tereefa</td><td>half</td><td><em>ta'rifa, a half-piastre coin</em></td></tr>
+<tr><td><span class="strike">[struck]</span></td><td>don't understand</td><td></td></tr>
+<tr><td>Qwis</td><td>good</td><td><em>kwayyis</em></td></tr>
+<tr><td>Wallad</td><td>boy</td><td><em>walad</em></td></tr>
+<tr><td>Moya</td><td>water</td><td><em>moya</em></td></tr>
+<tr><td>Allah</td><td></td><td></td></tr>
+<tr><td>Est... <span class="unc">[?]</span></td><td><em>cut off at the foot of the page</em></td><td></td></tr>
+</table></div>
+  </article>
+
+  <article class="page" id="p29">
+    <figure><a href="pages/p29.jpg" target="_blank"><img src="thumbs/p29.jpg" alt="Tel Aviv addresses" loading="lazy"></a><figcaption>IMG_0925</figcaption></figure>
+    <div><h3>Tel Aviv</h3>
+<p class="t">Montefiore Str. 27, 2nd floor. M.L. Thursday 15 or Wednesday 14.
+Café Al-Razon <span class="unc">[?]</span>, 98 Allenby Rd, for Max Walfish.</p>
+<p class="note"><em>Montefiore Street and Allenby Road are in central Tel Aviv, the usual leave town for the AIF in Palestine. Thursday 15 and Wednesday 14 fit May 1941.</em></p></div>
+  </article>
+
+  <article class="page" id="p31">
+    <figure><a href="pages/p31.jpg" target="_blank"><img src="thumbs/p31.jpg" alt="Names and a Tenterfield address" loading="lazy"></a><figcaption>IMG_0927</figcaption></figure>
+    <div><h3>Names, and a Tenterfield address</h3>
+<p class="t">Hui Gove <span class="unc">[?]</span>, Lee Cooper, Leo Fenn <span class="unc">[?]</span> <em>(bracketed together)</em>.
+Mrs H. Davidson, Logan St, Tenterfield, N.S.W.</p></div>
+  </article>
+
+  <article class="page" id="p36">
+    <figure><a href="pages/p36.jpg" target="_blank"><img src="thumbs/p36.jpg" alt="A knot is one sea mile per hour" loading="lazy"></a><figcaption>IMG_0931</figcaption></figure>
+    <div><h3>A knot</h3>
+<p class="t">A knot is 1 sea mile per hour.
+A sea mile is 6080 feet = 2026 <em>yards</em>, or 1 and 1/3 miles <span class="unc">[?]</span>.</p></div>
+  </article>
+
+  <article class="page" id="p37">
+    <figure><a href="pages/p37.jpg" target="_blank"><img src="thumbs/p37.jpg" alt="Currency sums" loading="lazy"></a><figcaption>IMG_0932, left</figcaption></figure>
+    <div><h3>Money sums</h3>
+<p class="t">100 - 50 - Cornd <span class="unc">[?]</span> O...
+100 piastres = £1.
+800 mils = <span class="unc">[?]</span>.
+1000 = 500 <span class="unc">[?]</span>.
+<span class="strike">0800</span> 0830. 09<span class="unc">[?]</span>. (18 1/4).</p>
+<p class="note"><em>Working out the money: 100 piastres to the Egyptian pound, 1000 mils to the Palestine pound.</em></p></div>
+  </article>
+
+  <article class="page" id="p38">
+    <figure><a href="pages/p38.jpg" target="_blank"><img src="thumbs/p38.jpg" alt="Money notes continued" loading="lazy"></a><figcaption>IMG_0932, right</figcaption></figure>
+    <div><h3>Money, continued</h3>
+<p class="t">D. S. <span class="unc">[?]</span> 1/4 <span class="unc">[?]</span>.
+... in Egypt.
+Just £1 <span class="unc">[?]</span>.
+Silver 100 - 50 - 10 - 5.
+Blankets. 00.</p></div>
+  </article>
+</div></section>
+
+<section id="cemeteries"><div class="wrap">
+  <h2>The cemeteries</h2>
+  <p class="lead">In June 1941 Bernard walked the Gaza War Cemetery and copied the headstones of Light Horsemen who fell there in 1917 and 1918, with the home towns of their families. He sketched the memorials at Gaza and at Jerusalem. These pages take up more of the notebook than anything else.</p>
+
+  <article class="page" id="p22">
+    <figure><a href="pages/p22.jpg" target="_blank"><img src="thumbs/p22.jpg" alt="Gaza War Cemetery, list of graves" loading="lazy"></a><figcaption>IMG_0915, left</figcaption></figure>
+    <div><h3>Gaza War Cemetery, 23 June 1941</h3>
+<p class="t">Gaza 23/6/41 <span class="unc">[?]</span>
+1529 Trooper A.C. Gentle, 9th ALH.
+1808 Trooper G. Young, 8th ALH.
+3021 Trooper Neville Murray Johnson, 6th ALH.
+1241 Gwynne F.K., 2nd Regt, 16/10 <span class="unc">[?]</span>.
+1100 Sgt Larkin S.C., 2nd Regt, 2/10/18, 28/10/18.
+2083 Tpr H.B. Watt, 5th Regt, 28/10/18.
+2202 L.A. Fairhall, 12th Regt, August 28 1918, son of E. and M. Fairhall, Branxton, N.S.W.
+1291 Sgt C.T. Grove, 11th, 23 May 1918.
+3867 G.F. Melt, 1st Battalion Camel Corps, 15 April 1917.
+5040 W.J. O'Neill, 8th Regt, 8 Aug 1918.
+Capt QM J.B. Moulton MC, 15th ALH, 28 Sept 1918.
+57077 J. Auger, 8th Regt, Sept 1918.
+1889 A. Baxter, 7th ALH, May 1917.
+1169 Thomas M. Harvey, 7th ALH (May 17), R. and M. Harvey, Yass, N.S.W.
+1152 Sgt T.A. Rankin, 11th Regt, Nov 1<span class="unc">[?]</span>.
+295 Sgt Todd C.J., 3rd ALH <span class="unc">[?]</span>, April 1917.</p>
+<p class="note"><em>ALH is Australian Light Horse. The April 1917 dates are the Second Battle of Gaza. Branxton and Yass are Hunter Valley and Southern Tablelands towns, which may be why he noted them.</em></p></div>
+  </article>
+
+  <article class="page" id="p23">
+    <figure><a href="pages/p23.jpg" target="_blank"><img src="thumbs/p23.jpg" alt="Gaza War Cemetery list continued" loading="lazy"></a><figcaption>IMG_0915, right</figcaption></figure>
+    <div><h3>Gaza War Cemetery, continued</h3>
+<p class="t">Major A.F. Chambers, 2nd Regt, 20 April 1917, son of O. and A. Chambers, Warwick, Qld.
+108 Sgt R.S. Edgar, 19 April 1917.
+Lt Brennan W.K., 12th Regt, 20 April 1917.
+1102 G.E. Rathjen <span class="unc">[?]</span>, 11th Regt.
+229 Sgt Barrow P.C.
+104/A L/Cpl W.E. Allison <span class="unc">[?]</span>, Machine Gun Squadron.
+708 Cpl Perkins H.J., Imperial Camel Corps.
+1026 L/Cpl Parker C.J., 7th, 1917.
+2323 J.T. Campbell, 7th.
+1517 W.N. Smith, 7th.
+2375 P. Poidevin, 7th.
+1352 Cpl Ryan J.P., 7th.
+1344 R.A. Watson, 7th.
+2817 Shoeing Smith Woods H.W. (M.G. Squadron).
+2806 F.P. Knowling, 7th.
+501 C. Crittenden, 12th Regt.
+1893 J.J. Kenny, 11th.
+1634 R.A. McNamara, 10th Regt, April 1917.</p></div>
+  </article>
+
+  <article class="page" id="p20">
+    <figure><a href="pages/p20.jpg" target="_blank"><img src="thumbs/p20.jpg" alt="Graves and next of kin" loading="lazy"></a><figcaption>IMG_0914, left</figcaption></figure>
+    <div><h3>More graves, and next of kin</h3>
+<p class="t">2681 <span class="unc">[?]</span> Hoeldense <span class="unc">[?]</span> H.A., 8th Regt, Nov 17.
+638 Marshall J., Nov 17.
+557 Freestone <span class="unc">[?]</span> F.W., M.G. Squadron.
+2467 Graham <span class="unc">[?]</span> T., 7th Regt, Nov 17.
+A. Mrs G.E.H. Kelaher, Tarpoly, Upper Manilla, N.S.W.
+B. Mrs C.M. Innes, Bompa <span class="unc">[?]</span>, Currabubula, N.S.W.
+C. Mrs C.J.S. Dunbar, Allnut St, Armidale <span class="unc">[?]</span>.
+D. Mrs J.E.M. Reeves, 512 Peel St, Tamworth.</p>
+<p class="note"><em>November 1917 is the Third Battle of Gaza and the Beersheba advance. The four addresses are all in the Tamworth and New England district of New South Wales. They may be the families of mates, or of the men buried here. Compare the Kelaher address on the last page.</em></p></div>
+  </article>
+
+  <article class="page" id="p21">
+    <figure><a href="pages/p21.jpg" target="_blank"><img src="thumbs/p21.jpg" alt="Clements 1917, addresses, Iron Camel" loading="lazy"></a><figcaption>IMG_0914, right</figcaption></figure>
+    <div><h3>Addresses and a weekend in August</h3>
+<p class="t">999 <span class="unc">[?]</span> 83 Clements, 19 ... 1917 <em>(circled)</em>.
+Mrs Eth. Olives <span class="unc">[?]</span>, 67 Cambera <span class="unc">[?]</span> St, Randwick, Sydney, N.S.W.
+Malouf. Doumar.
+Austin Reid, Regent St.
+Saturday and Sunday 9/10 Aug 1941 at Iron Camele <span class="unc">[?]</span>.
+S.R. (Andy), 8 Laing St, Mont Albert E10, Vic.</p>
+<p class="note"><em>Malouf and Doumar are Lebanese family names, probably shopkeepers. The "Iron Camel" line is the last date in the book, a weekend after he left Port Tewfik on 4 August.</em></p></div>
+  </article>
+
+  <article class="page" id="p24">
+    <figure><a href="pages/p24.jpg" target="_blank"><img src="thumbs/p24.jpg" alt="Sketch of the Gaza cemetery memorial and entrance" loading="lazy"></a><figcaption>IMG_0916</figcaption></figure>
+    <div><h3>Gaza Cemetery, sketch</h3>
+<p class="t">Gaza Cemetery. <em>[sketch of a cross on a stepped base]</em> LIV Div.
+In memory of the officers and men of the LIV East Anglian Division ... 1914-1918.
+22/6/41 <span class="unc">[?]</span>. <em>[sketch of the cemetery entrance]</em>
+Monument this in line of entrance to cemetery.</p>
+<p class="note"><em>The 54th (East Anglian) Division fought at Gaza in 1917 alongside the Australians.</em></p></div>
+  </article>
+
+  <article class="page" id="p25">
+    <figure><a href="pages/p25.jpg" target="_blank"><img src="thumbs/p25.jpg" alt="Jerusalem War Cemetery inscription and sketch" loading="lazy"></a><figcaption>IMG_0917</figcaption></figure>
+    <div><h3>Jerusalem War Cemetery</h3>
+<p class="t">Jerusalem War Cemetery.
+The land on which this cemetery stands is the free gift of the people of Palestine for the perpetual resting place of those of the allied armies who fell in the war of 1914-1918 and are honoured here.
+<em>[sketch of the cemetery entrance and memorial]</em></p>
+<p class="note"><em>This is the standard inscription on the entrance of Commonwealth war cemeteries in Palestine. The cemetery is on Mount Scopus. The visit is undated.</em></p></div>
+  </article>
+
+  <article class="page" id="p26">
+    <figure><a href="pages/p26.jpg" target="_blank"><img src="thumbs/p26.jpg" alt="Sketch of the coast at Suez and Port Tewfik" loading="lazy"></a><figcaption>IMG_0922</figcaption></figure>
+    <div><h3>The shore at Suez, sketch</h3>
+<p class="t"><em>A pencil profile of the hills behind the port, drawn from the anchorage, labelled</em> Suez <em>and</em> Port Tewfik.</p></div>
+  </article>
+</div></section>
+
+<section id="people"><div class="wrap">
+  <h2>People in the notebook</h2>
+  <p class="lead">Men Bernard served with, as he wrote their names. Service numbers are NX unless stated. A name may appear more than once with small differences in initials.</p>
+  <h3>Tent 17 at Kilo 89</h3>
+  <ul class="names">
+    <li>Brennan E.J., 47889</li><li>Burns E., 47703</li><li>Dale J.E., 41379</li><li>Dillon L.G., 47772</li><li>Duroux C.A., 47704</li><li>Faddy C.J. (or C.S.), 41285</li><li>Godwin H.V., 47813</li><li>Jackson F.F., 41371</li><li>Maloney N.K., 41401</li><li>Pearson C.R., 47817</li><li>Strong N.E. (or H., W.E.), 47927</li><li>White A.E., 41390</li>
+  </ul>
+  <h3>Brigade Guard</h3>
+  <ul class="names">
+    <li>Carey L.V., A/Cpl, 41304</li><li>Fory J., 47786</li><li>Gilles D., 47650</li><li>Ingleman F.M., 47767</li><li>Johnson R.W., 41345</li><li>Kelly J., 47491</li><li>Kennedy J.M., 41406</li><li>Manusu P.B., 47689</li><li>Paget F.G., 41308</li><li>Philip R.G., 41335</li><li>Rose F., 47831</li><li>Watts T.H., 47849</li><li>Wright A.J., 41356</li>
+  </ul>
+  <h3>Nominal roll in ink</h3>
+  <ul class="names">
+    <li>Arnold B., 55298</li><li>Birmingham W., 57713</li><li>Cameron E.E., Cpl, 40234</li><li>Casey J., 56059</li><li>Coyne F.A., 40628</li><li>Dovey J., 50512</li><li>Dunn A.W., 40196</li><li>Gordon J.M., Cpl, 40467</li><li>Hourigan, 34596</li><li>Jackson G., 41330</li><li>Kelly J.J., 58789</li><li>Lemming R.A., L/Cpl, 58321</li><li>Luxford S., 41121</li><li>McCanna G., 40741</li><li>McCormack R.V., 41175</li><li>Rabe G.L., L/Cpl, 51879</li><li>Reeves H., 41340</li><li>Ritter R.D., 41224</li><li>Rutherford E.S., 53436</li><li>Smith A.G., 59234</li><li>Spencer R.B., 41286</li><li>Stephenson R.J., 50918</li><li>Tedyman R.M., 40225</li><li>Walker C., 40676</li><li>Walters D., 41316</li><li>Wheeler L., 41246</li>
+  </ul>
+  <h3>Others</h3>
+  <ul class="names">
+    <li>Aitken J.T., 41347</li><li>Biddle, Cpl</li><li>Broughton, ship's runner</li><li>Callow T.L., Sgt, 18154, Canteen Services</li><li>Dempsey J., Sgt, 2/1 Survey Regt</li><li>Drayton, Sgt</li><li>Evans A.S.</li><li>Gillespie M.P., 46785</li><li>Herrington S.</li><li>Hollingsworth, Cpl</li><li>Jensen, Campbell, Hayes, Hodges, Gordon, ship's orderly corporals</li><li>Konza G.</li><li>Leathers, Owen, killed 21 June 1941</li><li>Lewis, Pte</li><li>Lowe, Cpl</li><li>McKay, ship's runner</li><li>Norcott H.E.</li><li>Richardson, Pte, 4th Battalion</li><li>Robertson, Sgt</li>
+  </ul>
+</div></section>
+
+<section id="background"><div class="wrap">
+  <h2>Background</h2>
+  <h3>The ship and the convoy</h3>
+  <p>The <i>Queen Elizabeth</i> had never carried a paying passenger. She was finished in secret in 1940 and this April 1941 sailing from Sydney was her first voyage as a troopship. With the <i>Queen Mary</i>, <i>Mauretania</i>, <i>Ile de France</i> and <i>Nieuw Amsterdam</i> she formed convoy US.10, escorted out of Sydney by HMAS <i>Australia</i> and from Ceylon by HMAS <i>Canberra</i>. The two Queens were too big for the Canal, which is why the men were ferried down to Kantara in small ships and put on the train.</p>
+  <h3>Where he was</h3>
+  <p>Kilo 89, Julis and Gaza Ridge were the AIF's base camps in southern Palestine, strung along the railway and the coast road north of Gaza. Kilo 89 held the training battalions where reinforcements like Bernard's 16th Infantry Training Battalion waited for a posting. The 7th Australian General Hospital was at Rehovot, nearer Tel Aviv. The 1st Australian Corps Guard Battalion, which Bernard joined on 17 May 1941, guarded Corps headquarters and base installations and was made up of older men not fit for the front line. The Light Horse graves he copied at Gaza, and the attention he paid to their home towns, suggest he belonged to that older generation himself.</p>
+  <h3>Looking further</h3>
+  <p>Bernard's full service record can be requested from the National Archives of Australia, series B883, under NX40242. The Department of Veterans' Affairs World War Two Nominal Roll at nominal-rolls.dva.gov.au gives his enlistment, next of kin and unit at discharge. The Australian War Memorial holds the war diary of the Australian Headquarters Guard Battalion (AWM52).</p>
+</div></section>
+
+<footer><div class="wrap">
+  <p>Transcribed from the original notebook, photographed in October 2026. Readings marked [?] are open to correction. The notebook remains in the family.</p>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const stops = [
+  {n:"Sydney", d:"9 to 11 April 1941", ll:[-33.86,151.21], t:"Embarked on the Queen Elizabeth on 9 April. Sailed on Good Friday, 11 April, with the Queen Mary, Mauretania, Ile de France and Nieuw Amsterdam.", p:"p03"},
+  {n:"Fremantle", d:"16 to 19 April 1941", ll:[-32.05,115.74], t:"Three days in port. Sailed 19 April. Anzac Day at sea: ten minutes' silence and the burial of a crew member.", p:"p03"},
+  {n:"Trincomalee, Ceylon", d:"26 to 27 April 1941", ll:[8.57,81.23], t:"Arrived 6.30 am Saturday. \"Very pretty harbour, surrounded by green hills.\" No shore leave. HMAS Canberra led the two Queens out at 4 pm Sunday.", p:"p03"},
+  {n:"Aden", d:"2 May 1941", ll:[12.79,45.03], t:"Passed Aden at about 9 pm, the lighthouse in sight.", p:"p15"},
+  {n:"Port Tewfik, Suez", d:"3 to 6 May 1941", ll:[29.94,32.55], t:"Arrived 4 pm Saturday 3 May. At anchor until Tuesday while the ship was unloaded onto punts. \"Not eager to leave the good ship.\"", p:"p12"},
+  {n:"El Kantara", d:"6 May 1941", ll:[30.86,32.31], t:"Down the Canal on the small ship Ethiopia. Landed about 4 pm. \"A feed of sausages, spuds and peas.\" Train at 5.30 next morning.", p:"p13"},
+  {n:"Romani and El Arish", d:"7 May 1941", ll:[31.13,33.80], t:"Passed through by train. \"Many old wire entanglements still visible\" from 1916 and 1917.", p:"p13"},
+  {n:"Kilo 89, Gaza", d:"7 to 17 May 1941", ll:[31.45,34.38], t:"Arrived about 3 pm. Ten days in Tent 17 with the 16th Infantry Training Battalion.", p:"p14"},
+  {n:"Julis", d:"17 May 1941", ll:[31.68,34.70], t:"Marched in to the 1st Australian Corps Guard Battalion.", p:"p18"},
+  {n:"Tel Aviv", d:"May 1941", ll:[32.07,34.78], t:"Addresses in Montefiore Street and Allenby Road, with a Thursday 15 or Wednesday 14 appointment.", p:"p29"},
+  {n:"Rehovot, 7th AGH", d:"25 May 1941", ll:[31.89,34.81], t:"Left for the 7th Australian General Hospital.", p:"p14"},
+  {n:"Gaza War Cemetery", d:"22 to 23 June 1941", ll:[31.52,34.46], t:"Copied the Light Horse headstones of 1917 and 1918 and sketched the East Anglian memorial.", p:"p22"},
+  {n:"Jerusalem War Cemetery", d:"1941, undated", ll:[31.80,35.24], t:"Sketched the entrance and copied the dedication.", p:"p25"},
+  {n:"Gaza Ridge", d:"20 to 21 July 1941", ll:[31.50,34.44], t:"At Gaza Ridge on 20 July. A funeral cortege from Gaza hospital on 21 July.", p:"p18"},
+  {n:"Port Tewfik", d:"4 August 1941", ll:[29.94,32.55], t:"\"Left Port Tewfik 4/8/41.\" The last dated movement in the notebook.", p:"p18"},
+];
+const sea = [[-33.86,151.21],[-37.6,150.4],[-39.4,147.0],[-39.6,141.0],[-36.6,133.0],[-35.4,124.0],[-35.1,117.0],[-32.05,115.74],[-20,100],[-5,88],[6,81.9],[8.57,81.23],[8.5,78.5],[12.2,52.0],[12.79,45.03],[12.6,43.5],[15.5,41.5],[21,38.5],[27.6,34.2],[29.94,32.55]];
+const land = [[29.94,32.55],[30.86,32.31],[30.98,32.63],[31.13,33.80],[31.45,34.38],[31.68,34.70],[31.89,34.81],[32.07,34.78]];
+const map = L.map('map',{scrollWheelZoom:false}).setView([5,80],3);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+L.polyline(sea,{color:'#7a3b2e',weight:2.5,dashArray:'6 6'}).addTo(map);
+L.polyline(land,{color:'#3f5a4a',weight:3}).addTo(map);
+const markers = stops.map((s,i)=>{
+  const m = L.circleMarker(s.ll,{radius:7,color:'#fff',weight:1.5,fillColor:i<7?'#7a3b2e':'#3f5a4a',fillOpacity:1}).addTo(map);
+  m.bindPopup(`<b>${s.n}</b><br><small>${s.d}</small><p style="margin:6px 0 4px">${s.t}</p><a href="#${s.p}">Read the page</a>`);
+  return m;
+});
+const tl = document.getElementById('timeline');
+stops.forEach((s,i)=>{
+  const li = document.createElement('li');
+  li.innerHTML = `<b>${s.n}</b><small>${s.d}</small>`;
+  li.onclick = ()=>{ map.flyTo(s.ll, i<4?5:9,{duration:1.2}); setTimeout(()=>markers[i].openPopup(),1300); document.getElementById('map').scrollIntoView({behavior:'smooth',block:'center'}); };
+  tl.appendChild(li);
+});
+</script>
+</body>
+</html>

@@ -27,6 +27,15 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowa
 a{color:var(--link)}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
 header.hero{padding:56px 0 28px;border-bottom:1px solid var(--rule)}
+header.hero .wrap{display:grid;grid-template-columns:1fr minmax(160px,230px);gap:32px;align-items:end}
+header.hero figure{margin:0}
+header.hero img{width:100%;height:auto;border:1px solid var(--rule);border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+header.hero figcaption{font-size:.82rem;color:var(--ink-soft);margin-top:6px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;list-style:none;padding:0;margin:16px 0 0}
+.gallery li{background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;overflow:hidden;font-size:.8rem;color:var(--ink-soft)}
+.gallery a{display:block;color:inherit;text-decoration:none}
+.gallery img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+.gallery span{display:block;padding:6px 8px}
 header.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 8px;line-height:1.1;font-weight:normal;letter-spacing:.3px}
 header.hero .sub{color:var(--ink-soft);font-size:1.05rem;margin:0}
 nav.toc{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--rule);z-index:50}
@@ -68,6 +77,8 @@ table.roll td:first-child{font-variant-numeric:tabular-nums;color:var(--ink-soft
 .names li{break-inside:avoid}
 footer{padding:36px 0 60px;color:var(--ink-soft);font-size:.9rem}
 @media (max-width:720px){
+  header.hero .wrap{grid-template-columns:1fr;align-items:start}
+  header.hero figure{max-width:240px}
   .page{grid-template-columns:1fr}
   .page figure{max-width:420px}
   .names{columns:1}
@@ -79,8 +90,11 @@ footer{padding:36px 0 60px;color:var(--ink-soft);font-size:.9rem}
 
 <header class="hero">
   <div class="wrap">
-    <h1>Bernard Shambrook's Notebook, 1941</h1>
-    <p class="sub">Sgt B. E. Shambrook, NX40242, 2nd Australian Imperial Force. Sydney to Palestine, April to August 1941. A reading transcription of his pocket notebook.</p>
+    <div>
+      <h1>Bernard Shambrook's Notebook, 1941</h1>
+      <p class="sub">Sgt B. E. Shambrook, NX40242, 2nd Australian Imperial Force. Sydney to Palestine, April to August 1941. A reading transcription of his pocket notebook.</p>
+    </div>
+    <figure><a href="originals/bernard.jpg" target="_blank"><img src="bernard.jpg" alt="Bernard Shambrook in Light Horse uniform, emu plumes in his slouch hat, bandolier and rifle"></a><figcaption>Bernard in the uniform of the Australian Light Horse. Family photograph.</figcaption></figure>
   </div>
 </header>
 
@@ -91,6 +105,7 @@ footer{padding:36px 0 60px;color:var(--ink-soft);font-size:.9rem}
   <li><a href="#lists">Lists and notes</a></li>
   <li><a href="#cemeteries">The cemeteries</a></li>
   <li><a href="#people">People</a></li>
+  <li><a href="#originals">Original photos</a></li>
   <li><a href="#background">Background</a></li>
 </ul></div></nav>
 
@@ -657,8 +672,16 @@ The land on which this cemetery stands is the free gift of the people of Palesti
   </ul>
 </div></section>
 
+<section id="originals"><div class="wrap">
+  <h2>The original photographs</h2>
+  <p class="lead">The notebook as photographed, before any cropping or enhancement, in the order the photos were taken. Click any one to open it at full size. These are the images to check against if a reading in the transcription looks doubtful.</p>
+  <ul class="gallery" id="gallery"></ul>
+</div></section>
+
 <section id="background"><div class="wrap">
   <h2>Background</h2>
+  <h3>The man</h3>
+  <p>The photograph at the top of this page shows Bernard in the uniform of the Australian Light Horse, with the emu plumes in his slouch hat and a bandolier across his chest. The print appears to date from the First World War. If so, he had already been to Egypt and Palestine once, which would explain why in June 1941 he spent his free time at Gaza War Cemetery copying the names of Light Horsemen and their home towns, and why at the age he must have been he was posted to a guard battalion of older men rather than an infantry battalion.</p>
   <h3>The ship and the convoy</h3>
   <p>The <i>Queen Elizabeth</i> had never carried a paying passenger. She was finished in secret in 1940 and this April 1941 sailing from Sydney was her first voyage as a troopship. With the <i>Queen Mary</i>, <i>Mauretania</i>, <i>Ile de France</i> and <i>Nieuw Amsterdam</i> she formed convoy US.10, escorted out of Sydney by HMAS <i>Australia</i> and from Ceylon by HMAS <i>Canberra</i>. The two Queens were too big for the Canal, which is why the men were ferried down to Kantara in small ships and put on the train.</p>
   <h3>Where he was</h3>
@@ -700,6 +723,13 @@ const markers = stops.map((s,i)=>{
   const m = L.circleMarker(s.ll,{radius:7,color:'#fff',weight:1.5,fillColor:i<7?'#7a3b2e':'#3f5a4a',fillOpacity:1}).addTo(map);
   m.bindPopup(`<b>${s.n}</b><br><small>${s.d}</small><p style="margin:6px 0 4px">${s.t}</p><a href="#${s.p}">Read the page</a>`);
   return m;
+});
+const originals = ["0903","0904","0905","0906","0907","0908","0910","0911","0912","0913","0914","0915","0916","0917","0922","0923","0924","0925","0926","0927","0928","0929","0930","0931","0932","0933","0934","0935"];
+const gal = document.getElementById('gallery');
+originals.forEach((n,i)=>{
+  const li = document.createElement('li');
+  li.innerHTML = `<a href="originals/IMG_${n}.jpg" target="_blank"><img src="originals/thumbs/IMG_${n}.jpg" alt="Original photo IMG_${n}" loading="lazy"><span>${i+1}. IMG_${n}</span></a>`;
+  gal.appendChild(li);
 });
 const tl = document.getElementById('timeline');
 stops.forEach((s,i)=>{

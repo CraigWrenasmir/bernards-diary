@@ -99,7 +99,7 @@
     "diary-cemetery": "Names, dates and a memorial sketch; the Gaza heading’s month is disputed.",
     "dva": "Official service index. HERTS is expanded to Hertfordshire in the reading text.",
     "awm-embark": "Catalogue entry: 2076, 5th Light Horse reinforcement roll; Brisbane and HMAT Wandilla A62.",
-    "awm-roll": "Printed page 33, row 2076: age 19, butcher, Pimlico, Townsville, mother Elizabeth, joined 18 October 1915. The date 30 January 1916 appears in the pay column.",
+    "awm-roll": "Printed page 33, row 2076: private, age 19, butcher, Pimlico, Townsville, mother Elizabeth, joined 18 October 1915. The heading places the 14th Reinforcements of the 5th Light Horse Regiment within the 2nd Light Horse Brigade. The date 30 January 1916 appears in the pay column.",
     "vwma": "Secondary profile linking 2076 and NX40242. Its birth details differ from DVA, and its WWI discharge row uses the WWII number.",
     "awm-queen": "Photograph 303826: Queen Elizabeth departing Sydney for the Middle East, April 1941, convoy US.10.",
     "awm-hospital": "Photograph 022693: 7th Australian General Hospital at Kafr Balu near Rehovot.",
@@ -111,7 +111,8 @@
     "family-portrait": "Family photograph supplied by Craig; date unknown.",
     "awm-mauretania": "Photograph 302831: Mauretania departing Sydney in US.10, with Île de France and Nieuw Amsterdam.",
     "awm-us10": "Chapter 12, printed page 434, footnote 5 lists US.10’s five troop transports. The page also describes the convoy route via Ceylon to Suez.",
-    "pioneer-ethiopia": "Retrospective association history: SS Ethiopia carried the 2/2 Pioneers from Port Tewfik to Kantara in May 1941. It corroborates a ship and route, rather than Bernard’s personal embarkation."
+    "pioneer-ethiopia": "Retrospective association history: SS Ethiopia carried the 2/2 Pioneers from Port Tewfik to Kantara in May 1941. It corroborates a ship and route, rather than Bernard’s personal embarkation.",
+    "awm-5lhr": "The regiment belonged to the 2nd Light Horse Brigade, which became part of the ANZAC Mounted Division in Egypt in 1916. This describes the unit’s organisation; it does not establish Bernard’s individual postings or participation in particular campaigns or battles."
   },
   "additionalSources": [
     {
@@ -150,6 +151,37 @@
       ],
       "accessed": "2026-10-10",
       "status": "Association history examined"
+    },
+    {
+      "id": "awm-5lhr",
+      "title": "5th Australian Light Horse Regiment",
+      "institution": "Australian War Memorial",
+      "url": "https://www.awm.gov.au/collection/U51039",
+      "recordIds": [
+        "U51039"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Official unit history examined"
+    }
+  ],
+  "overviewBiography": [
+    {
+      "text": "The First World War record linked to Bernard lists him as Private 2076, 5th Light Horse Regiment, 14th Reinforcements, joining on 18 October 1915.",
+      "refs": [
+        "awm-roll"
+      ]
+    },
+    {
+      "text": "The regiment belonged to the 2nd Light Horse Brigade, part of the ANZAC Mounted Division from 1916.",
+      "refs": [
+        "awm-5lhr"
+      ]
+    },
+    {
+      "text": "Virtual War Memorial Australia links this record to NX40242; that connection awaits confirmation from his service files.",
+      "refs": [
+        "vwma"
+      ]
     }
   ]
 }

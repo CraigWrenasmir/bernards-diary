@@ -18,7 +18,7 @@ For local HTTP preview, run `python3 -m http.server 8765` from this folder and o
 
 The gallery contains all 28 complete photographs, with keyboard browsing, zoom and HEIC downloads with location metadata removed. Each image links back to its place in the scrolling diary. The portrait has its own full-resolution image and original download. No-JavaScript image links still open the full JPEGs.
 
-`history.html` has the service record comparison and 20 numbered references. `people.html` expands the surname finding aid with exact source lines. `corrections.html` preserves the earlier faithful-text revisions and the 18 later reading-copy clarifications. `data/reading-revisions.json` records each reading change and its image or published-source evidence; these changes leave the faithful master unchanged.
+`history.html` has the service record comparison and 21 numbered references. `people.html` expands the surname finding aid with exact source lines. `corrections.html` preserves the earlier faithful-text revisions and the 18 later reading-copy clarifications. `data/reading-revisions.json` records each reading change and its image or published-source evidence; these changes leave the faithful master unchanged.
 
 ## Put it on GitHub Pages
 

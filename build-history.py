@@ -86,7 +86,7 @@ def build():
 <html lang="en-AU">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Service records and references for Bernard Edward Shambrook, NX40242, and the First World War service-number lead 2076.">
+<meta name="description" content="Service records and references for Bernard Edward Shambrook: 2076 in the First World War and NX40242 in the Second World War.">
 <meta name="theme-color" content="#ffffff"><title>Records — Bernard Shambrook</title>
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="enhancements.css"><link rel="stylesheet" href="history.css"><link rel="stylesheet" href="monochrome.css">
 <script src="preferences.js" defer></script>
@@ -101,7 +101,7 @@ def build():
 <section class="history-section" id="service-timeline"><h2>Service</h2><ol class="history-timeline">{timeline}</ol></section>
 <section class="history-section" id="open-questions"><h2>Birth details</h2>{paragraph(SUMMARY['birth'])}</section>
 <section class="history-section" id="wartime-context"><h2>Wartime context</h2>{render_war_context(source_page='')}<div class="history-context-grid">{contexts}</div></section>
-<section class="history-section" id="service-files"><h2>Service files</h2><p>The complete personnel files would help resolve the birth details, the link between the two service numbers, and his rank history. Neither individual dossier has yet been retrieved.</p><div class="history-archive-grid">{archives}</div></section>
+<section class="history-section" id="service-files"><h2>Service files</h2><p>The complete personnel files would help resolve the birth details and his rank history. Neither individual dossier has yet been retrieved.</p><div class="history-archive-grid">{archives}</div></section>
 <section class="history-section history-bibliography" id="sources"><h2>Sources</h2><p class="history-data-link"><a href="data/history.json" download>Research notes (JSON)</a> · <a href="data/history-summary.json" download>Reading summary and additional sources (JSON)</a> · <a href="references.html">Other sources</a></p>{render_bibliography()}</section>
 </main>
 <footer><p>Bernard Shambrook’s diary</p><p>Research checked 10 October 2026.</p><a href="index.html">Diary</a></footer>

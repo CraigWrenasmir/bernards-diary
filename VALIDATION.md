@@ -12,7 +12,7 @@ Checked 10 October 2026, after the brief review.
 
 ## Records and journey
 
-- The records page has 24 numbered references, with stable source anchors and record identifiers. The DVA identification is separated from the strong but unconfirmed link to WWI number 2076. The complete service files have not been compared; conflicting birth details remain unresolved.
+- The records page has 24 numbered references, with stable source anchors and record identifiers. Craig confirmed that WWI number 2076 and WWII number NX40242 identify the same Bernard Shambrook after reviewing VWMA. This confirmation is recorded in data/history.json. Conflicting birth details remain unresolved.
 - The AWM roll image, not only its catalogue, was inspected. The pay-through date was not used as an embarkation date. New convoy references corroborate the transport names. The Ethiopia spelling is supported by the notebook and a retrospective Pioneer Battalions Association history.
 - Owen Leathers is a visual reading of the diary. No independently matching casualty record was found in this review.
 - All 25 journey entries retain exact faithful source excerpts. Ten selected map quotations use exact excerpts from the reading copy and are labelled accordingly. Map labels follow the documented reading revisions.

@@ -12,7 +12,7 @@
       ]
     },
     {
-      "text": "The First World War connection remains provisional: the names and secondary cross-reference are strong leads, but the two complete service files have not yet been compared.",
+      "text": "Bernard served under number 2076 in the First World War and NX40242 in the Second World War.",
       "refs": [
         "awm-embark",
         "vwma"
@@ -50,7 +50,20 @@
           "family-portrait"
         ]
       }
-    ]
+    ],
+    "confirmation": {
+      "date": "2026-10-10",
+      "text": "Craig confirmed that the First World War and Second World War records concern his great-grandfather, after reviewing the Virtual War Memorial Australia profile.",
+      "serviceNumbers": [
+        "2076",
+        "NX40242"
+      ],
+      "refs": [
+        "vwma",
+        "awm-embark",
+        "dva"
+      ]
+    }
   },
   "timeline": [
     {
@@ -60,7 +73,7 @@
       "refs": [
         "awm-roll"
       ],
-      "status": "WWI record; link to diarist provisional"
+      "status": "First World War service record"
     },
     {
       "date": "18 June 1940",
@@ -117,16 +130,6 @@
     ]
   },
   "questions": [
-    {
-      "title": "WWI service number 2076",
-      "text": "Virtual War Memorial Australia explicitly links 2076 and NX40242. AWM confirms the full name and 2076 in the 5th Light Horse embarkation roll, with Brisbane and HMAT Wandilla A62 in its catalogue. This is persuasive corroboration, but a primary document connecting the two numbers has not been seen.",
-      "refs": [
-        "vwma",
-        "awm-embark",
-        "awm-roll"
-      ],
-      "note": "This edition does not yet attribute the whole 5th Light Horse campaign history to the diarist."
-    },
     {
       "title": "Birth details",
       "text": "DVA records 1 September 1900, Herts, England. VWMA gives 1 September 1896, Herefordshire. The WWI roll records age 19 in 1915, without a complete birth date.",
@@ -199,7 +202,7 @@
   ],
   "archives": {
     "title": "Service files",
-    "intro": "The full personnel dossiers are the next step in resolving the birth details, the First World War connection and the rank history. RecordSearch returned session and access errors during this research on 10 October 2026. No personal item identifier has been guessed.",
+    "intro": "The full personnel dossiers are the next step in resolving the birth details and the rank history. RecordSearch returned session and access errors during this research on 10 October 2026. No personal item identifier has been guessed.",
     "records": [
       {
         "title": "First World War dossier",
@@ -232,7 +235,7 @@
         ]
       },
       {
-        "text": "Compare the attestation details and service/casualty forms across both periods. Record the item IDs, page numbers, signatures, next-of-kin details and any previous-service declaration before resolving the identity link.",
+        "text": "Compare the attestation details and service/casualty forms across both periods to document the birth details and rank history. Record the item IDs, page numbers, signatures, next-of-kin details and any previous-service declaration.",
         "refs": [
           "naa-ww1",
           "naa-ww2"

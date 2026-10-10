@@ -36,6 +36,10 @@ def render_summary(source_page='history.html'):
     return ''.join(paragraph(record, source_page=source_page) for record in SUMMARY['summary'])
 
 
+def render_war_context(source_page='history.html'):
+    return ''.join(paragraph(record, source_page=source_page) for record in SUMMARY['warContext'])
+
+
 def diary_links(ids):
     return '<p class="history-entry-links">' + ' · '.join(
         f'<a href="index.html#{e(ident)}">Photograph {e(ident)}</a>' for ident in ids) + '</p>'
@@ -96,7 +100,7 @@ def build():
 <section class="history-section" id="identity"><h2>In the notebook</h2><blockquote>{e(D['identity']['quote'])}</blockquote><p>Tent 17 roster · IMG_0926 {refs(['diary-roster'])}</p><p>A/Sgt means acting sergeant. The DVA rank field records substantive rank at discharge, excluding acting and temporary appointments. {refs(['dva'])}</p>{diary_links(['IMG_0926'])}</section>
 <section class="history-section" id="service-timeline"><h2>Service</h2><ol class="history-timeline">{timeline}</ol></section>
 <section class="history-section" id="open-questions"><h2>Birth details</h2>{paragraph(SUMMARY['birth'])}</section>
-<section class="history-section" id="wartime-context"><h2>Context</h2><div class="history-context-grid">{contexts}</div></section>
+<section class="history-section" id="wartime-context"><h2>Wartime context</h2>{render_war_context(source_page='')}<div class="history-context-grid">{contexts}</div></section>
 <section class="history-section" id="service-files"><h2>Service files</h2><p>The complete personnel files would help resolve the birth details, the link between the two service numbers, and his rank history. Neither individual dossier has yet been retrieved.</p><div class="history-archive-grid">{archives}</div></section>
 <section class="history-section history-bibliography" id="sources"><h2>Sources</h2><p class="history-data-link"><a href="data/history.json" download>Research notes (JSON)</a> · <a href="data/history-summary.json" download>Reading summary and additional sources (JSON)</a> · <a href="references.html">Other sources</a></p>{render_bibliography()}</section>
 </main>

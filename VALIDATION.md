@@ -12,7 +12,7 @@ Checked 10 October 2026, after the brief review.
 
 ## Records and journey
 
-- The records page has 21 numbered references, with stable source anchors and record identifiers. The DVA identification is separated from the strong but unconfirmed link to WWI number 2076. The complete service files have not been compared; conflicting birth details remain unresolved.
+- The records page has 24 numbered references, with stable source anchors and record identifiers. The DVA identification is separated from the strong but unconfirmed link to WWI number 2076. The complete service files have not been compared; conflicting birth details remain unresolved.
 - The AWM roll image, not only its catalogue, was inspected. The pay-through date was not used as an embarkation date. New convoy references corroborate the transport names. The Ethiopia spelling is supported by the notebook and a retrospective Pioneer Battalions Association history.
 - Owen Leathers is a visual reading of the diary. No independently matching casualty record was found in this review.
 - All 25 journey entries retain exact faithful source excerpts. Ten selected map quotations use exact excerpts from the reading copy and are labelled accordingly. Map labels follow the documented reading revisions.
@@ -20,6 +20,7 @@ Checked 10 October 2026, after the brief review.
 
 ## Website checks
 
+- The Middle East service summary and wartime context share the same editable source on the home and records pages. The overview link, all new citation targets, 24 bibliography entries and six responsive widths passed; the text distinguishes campaign context from Bernard’s recorded duties.
 - The opening service biography cites the embarkation roll, AWM regimental history and the secondary link between service numbers. All three source links, six layout widths (320–1440 pixels), and desktop/mobile rendering passed after this addition. Unit formations are distinguished from individually verified postings.
 - The main page combines the portrait, journey, diary pages, lists, cemetery references, people, gallery and records. The detailed photograph inspector and complete faithful transcription remain available separately.
 - Search, empty results, theme filtering, edition switching, reset, photograph jumps and source-section links passed. Direct links reveal diary pages hidden by a filter. Name/number search opens matching name details.

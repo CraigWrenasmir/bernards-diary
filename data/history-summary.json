@@ -112,7 +112,10 @@
     "awm-mauretania": "Photograph 302831: Mauretania departing Sydney in US.10, with Île de France and Nieuw Amsterdam.",
     "awm-us10": "Chapter 12, printed page 434, footnote 5 lists US.10’s five troop transports. The page also describes the convoy route via Ceylon to Suez.",
     "pioneer-ethiopia": "Retrospective association history: SS Ethiopia carried the 2/2 Pioneers from Port Tewfik to Kantara in May 1941. It corroborates a ship and route, rather than Bernard’s personal embarkation.",
-    "awm-5lhr": "The regiment belonged to the 2nd Light Horse Brigade, which became part of the ANZAC Mounted Division in Egypt in 1916. This describes the unit’s organisation; it does not establish Bernard’s individual postings or participation in particular campaigns or battles."
+    "awm-5lhr": "The regiment belonged to the 2nd Light Horse Brigade, which became part of the ANZAC Mounted Division in Egypt in 1916. This describes the unit’s organisation; it does not establish Bernard’s individual postings or participation in particular campaigns or battles.",
+    "diary-brigade-guard": "Undated Brigade Guard roster, left page: A/Sgt Shambrook B.E., NX40242, followed by a corporal and twelve other ranks. The surrounding instructions and duty times describe guard organisation.",
+    "awm-tobruk": "Places the siege in the North African fighting and the defence of Egypt and the Suez Canal. Its timeline dates the start to 10–11 April 1941. This supplies campaign context, not evidence of Bernard’s presence at Tobruk.",
+    "awm-syria": "Describes the June–July 1941 Allied campaign against Vichy French forces and its strategic purpose. The article distinguishes the ceasefire on 12 July from the armistice signed on 14 July; Bernard’s own July 11 note remains unchanged in the transcription. This source does not establish his participation."
   },
   "additionalSources": [
     {
@@ -162,6 +165,37 @@
       ],
       "accessed": "2026-10-10",
       "status": "Official unit history examined"
+    },
+    {
+      "id": "diary-brigade-guard",
+      "title": "Bernard Shambrook’s notebook: Brigade Guard roster",
+      "institution": "Family collection; photograph supplied by Craig",
+      "url": "index.html#IMG_0929",
+      "recordIds": [
+        "IMG_0929"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Photograph and transcription examined"
+    },
+    {
+      "id": "awm-tobruk",
+      "title": "Siege of Tobruk: 80 years on",
+      "institution": "Australian War Memorial",
+      "url": "https://www.awm.gov.au/tobruk",
+      "recordIds": [],
+      "accessed": "2026-10-10",
+      "status": "Historical account examined"
+    },
+    {
+      "id": "awm-syria",
+      "title": "Syrian Campaign",
+      "institution": "Australian War Memorial",
+      "url": "https://www.awm.gov.au/collection/E84669",
+      "recordIds": [
+        "E84669"
+      ],
+      "accessed": "2026-10-10",
+      "status": "Historical campaign account examined"
     }
   ],
   "overviewBiography": [
@@ -181,6 +215,44 @@
       "text": "Virtual War Memorial Australia links this record to NX40242.",
       "refs": [
         "vwma"
+      ]
+    }
+  ],
+  "overviewService": {
+    "text": "His notes place him in the 1st Australian Corps Guard Battalion and list him as an acting sergeant on a brigade guard. They record guard duties and camp life within the Australian force in Egypt and Palestine.",
+    "refs": [
+      "diary-unit",
+      "diary-brigade-guard"
+    ]
+  },
+  "warContext": [
+    {
+      "text": "The diary belongs to the Middle East theatre of the Second World War in 1941. Bernard travelled from Australia to Egypt and then into Palestine. His notebook names the 1st Australian Corps Guard Battalion and lists him as an acting sergeant on a brigade guard. These entries provide evidence of guard duties and camp service.",
+      "refs": [
+        "diary-voyage",
+        "diary-unit",
+        "diary-brigade-guard"
+      ]
+    },
+    {
+      "text": "In North Africa, British and Commonwealth forces were fighting German and Italian forces and defending the approaches to Egypt and the Suez Canal. The siege of Tobruk began in April 1941, as Bernard was leaving Australia.",
+      "refs": [
+        "awm-tobruk",
+        "diary-voyage"
+      ]
+    },
+    {
+      "text": "In June–July 1941, Allied forces, including Australia’s 7th Division, fought Vichy French forces in Syria and Lebanon, north of Palestine. The campaign aimed to prevent Germany establishing a presence that could threaten Allied bases in the region. Bernard mentions the Syrian armistice in his notebook. The pages transcribed here do not establish his personal participation in the fighting at Tobruk or in Syria.",
+      "refs": [
+        "awm-syria",
+        "diary-unit"
+      ]
+    },
+    {
+      "text": "The 5th Light Horse Regiment and ANZAC Mounted Division in the biographical entry relate to the separate First World War record. That regiment fought Ottoman forces in Sinai and Palestine. Its unit history describes the wider setting of that earlier service; it does not establish Bernard’s individual battle history.",
+      "refs": [
+        "awm-embark",
+        "awm-5lhr"
       ]
     }
   ]

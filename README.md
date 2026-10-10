@@ -7,6 +7,7 @@ The site is a single page: `index.html`. It shows each page of the notebook besi
 - `pages/` holds the enhanced page images (contrast-flattened, cropped, spreads split into left and right pages), numbered in notebook order.
 - `thumbs/` holds the small versions used in the page layout.
 - `originals/` holds the 28 photographs as taken, unenhanced, plus `bernard.jpg`, the family portrait of Bernard in Light Horse uniform.
+- `social/` holds ten 1080 x 1080 squares for Instagram: a cover, quote cards pairing his handwriting with the transcription, the Arabic word list, and two maps of the journey.
 
 Readings marked [?] are best guesses at difficult handwriting and are open to correction. Edit the text in `index.html` directly.
 
